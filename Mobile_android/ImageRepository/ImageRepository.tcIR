@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{E7C36009-4A66-4899-99AE-DEFC5C22C057}" version="1140" key="{61932759-CC62-47B4-8BA4-2A8E2319B704}" type="Image Repository" typeId="{E7C36009-4A66-4899-99AE-DEFC5C22C057}">
+	<config nodeName="ImageRepository" />
+	<testData />
+	<data />
+	<children>
+		<child key="{A8DD3E44-1FFC-472F-AF2F-20DF7DA5F548}" type="Image Set" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+			<data path="camera.tcIRIS" />
+		</child>
+	</children>
+	<folders />
+</Root>

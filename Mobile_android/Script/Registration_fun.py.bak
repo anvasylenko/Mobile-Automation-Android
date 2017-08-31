@@ -1,0 +1,35 @@
+﻿import Mobile_main
+
+def Registration():
+    oApp.btnSkipContinue.Touch()
+    Delay(500)
+    oApp.sreenChooseLicenceType.spinnerLicenceType.Touch()
+    oApp.Select.Business.Touch()
+    oApp.sreenChooseLicenceType.spinnerSector.Touch()
+    oApp.Select.Finance.Touch()
+    oApp.btnSkipContinue.Touch()
+    
+    oRegPage = Mobile.Device("*").Process("*").RootLayout("").ScrollView("NO_ID")
+    
+    #Check Verification that data should no be empty
+    #    oApp.btnSkip.Touch()
+    #    if oApp.WarningPopUp.Exists:
+    #        oApp.btnClose
+    #        Log.Message("Warning message Shown")
+    #    else:
+    #        Log.Message("Warning message that organization not entered NOT Shown")
+    #	   
+    oRegPage.EditText("txt_org_name").Keys("TestSectorgalaxy")
+    oRegPage.EditText("txt_postcode").Keys("NE15 7GT")
+    oRegPage.EditText("txt_email").Keys("TestSectorgalaxy@cla.co.uk")
+    oApp.btnSkipContinue.Touch()
+    
+    
+    
+def netest():
+    oApp = Aliases.Mobile.Device.App
+   
+    oApp.sreenChooseLicenceType.spinnerLicenceType.Touch()
+    spinner = Mobile.Device("emulator-5554").Process("com.eman.clatitlesearchs").RootLayout("", 2).Layout("content").Layout("parentPanel").Layout("NO_ID").ListView("list_items")
+    i = spinner.Child(1)
+    i.touch()

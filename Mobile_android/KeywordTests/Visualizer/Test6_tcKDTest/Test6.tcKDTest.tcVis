@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{D585AD01-8EE1-478E-8780-D6AB3CFAE8F5}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="42963.6094212963" objectName="Aliases.Device.App.ScreenWhatToDo.btnLogCopying.ScrollView_NO_ID.Layout_linear.Layout_NO_ID.Button_btn_take_photo_first" objectLeft="60" objectTop="248" objectRight="568" objectBottom="340" clickPointX="259" clickPointY="285" imageFileName="AndroidRecVisualData0.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="3" kind="1" dateTime="42963.6511668056" objectName="" objectLeft="293" objectTop="1005" objectRight="427" objectBottom="1139" clickPointX="354" clickPointY="1081" imageFileName="AndroidVisualizer0.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="1" dateTime="42963.6512185764" objectName="" objectLeft="580" objectTop="997" objectRight="680" objectBottom="1147" clickPointX="623" clickPointY="1074" imageFileName="AndroidVisualizer1.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="42963.6096180556" objectName="Aliases.Device.App.ScreenWhatToDo.Layout_action_bar_root.Layout_content.View_drawer_layout.Layout_NO_ID.ScrollView_NO_ID.Layout_linear.Layout_first_page_picture_taken_layout.ImageView_remove_first_page_image" objectLeft="620" objectTop="268" objectRight="660" objectBottom="308" clickPointX="637" clickPointY="282" imageFileName="AndroidRecVisualData1.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

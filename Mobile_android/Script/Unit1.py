@@ -1,0 +1,83 @@
+﻿# This example demonstrates how to work with an Android application.
+# Before running the example, make sure that the Android mobile device 
+# is connected to your computer and Android Agent is installed on the device.
+# For more information, see the About Android Agent topic. 
+
+def setDate(ordersProcess, month, day, year):
+  pickerContent = ordersProcess.WaitRootLayout("", 2, 10000).Layout("content")
+  datePicker = pickerContent.DatePicker("datePicker")
+  datePicker.wDate = aqDateTime.SetDateElements(year, month, day)
+  pickerContent.Layout("buttonPanel").Layout("NO_ID").Button("button1").TouchButton()
+
+def selectItem(listView, customerName):
+  for i in range(listView.wItemCount):
+    if listView.getItemAtPosition(i).containsValue(customerName): 
+      listView.TouchItem(i)
+      return True
+
+  return False    
+
+def addNewOrder(ordersProcess):
+  newButton = ordersProcess.FindChild("ViewID", "newButton", 3, True)
+  newButton.TouchButton()
+  ordersProcess.WaitActivity("EditOrderActivity", 10000)
+  scrollView = ordersProcess.RootLayout("").ScrollView("NO_ID")
+  scrollView.EditText("cust_name").SetText("John Black")
+  scrollView.Spinner("select_product").TouchItem("FamilyAlbum")
+  scrollView.EditText("edit_quant").SetText("15")
+  scrollView.EditText("street").SetText("Light street")
+  scrollView.EditText("city").SetText("Rain city")
+  scrollView.EditText("state").SetText("US")
+  scrollView.EditText("card_number").SetText("1324354657")
+  scrollView.RadioGroup("radioGroup_card").TouchItem("American Express")
+  scrollView.Layout("setdate_layout").Layout("NO_ID", 2).Button("button_setdata").TouchButton()
+  setDate(ordersProcess, 11, 25, 2016)
+  scrollView = ordersProcess.RootLayout("").ScrollView("NO_ID")
+  scrollView.Button("button_ok").TouchButton()
+
+def editOrder(ordersProcess, customerName):
+  ordersProcess.WaitActivity("MainActivity", 10000)
+  Delay(2000)
+  listView = ordersProcess.RootLayout("").ListView("listView1")
+  if selectItem(listView, customerName):
+    editButton = ordersProcess.FindChild("ViewID", "editButton", 3, True)
+    editButton.TouchButton()
+    ordersProcess.WaitActivity("EditOrderActivity", 10000)
+    scrollView = ordersProcess.RootLayout("").ScrollView("NO_ID")
+    scrollView.Spinner("select_product").TouchItem("MyMoney")
+    scrollView.EditText("edit_quant").SetText("12")
+    scrollView.RadioGroup("radioGroup_card").TouchItem("VISA")
+    scrollView.EditText("card_number").SetText("7654342134")
+    scrollView.Button("button_ok").TouchButton()
+  else: 
+    Log.Error("The list view item '{0}' not found.".format(customerName))
+
+def deleteOrder(ordersProcess, customerName):
+  ordersProcess.WaitActivity("MainActivity", 10000)
+  Delay(2000)
+  listView = ordersProcess.RootLayout("").ListView("listView1")
+  if selectItem(listView, customerName):
+    deleteButton = ordersProcess.FindChild("ViewID", "deleteButton", 3, True)
+    deleteButton.TouchButton()
+    buttonsPanel = ordersProcess.WaitRootLayout("", 2, 10000).Layout("content").Layout("buttonPanel").Layout("NO_ID")
+    buttonsPanel.Button("button1").TouchButton()
+  else: 
+    Log.Error("The list view item '{0}' not found.".format(customerName))
+
+def main():
+  for i in range(Mobile.ChildCount):
+    if Mobile.Child(i).OSType == "Android": 
+      Log.AppendFolder(Mobile.Child(i).DeviceName)
+      Mobile.SetCurrent(Mobile.Child(i).DeviceName, Mobile.Child(i).Index)
+      TestedApps.Orders.Run()
+      ordersProcess = Mobile.Device().WaitProcess("smartbear.example.orders", 10000)
+      addNewOrder(ordersProcess)
+      editOrder(ordersProcess, "John Black")
+      deleteOrder(ordersProcess, "John Black")
+      Mobile.Device().PressButton(mbkHome, aptDownUp)
+      ordersPackage = Mobile.Device().PackageManager.GetInstalledPackageByName("smartbear.example.orders")
+      Mobile.Device().PackageManager.RemovePackage(ordersPackage)
+      Log.PopLogFolder()
+	  
+	  
+	

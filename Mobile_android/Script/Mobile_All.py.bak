@@ -1,0 +1,228 @@
+﻿def test():
+    Mobile.SetCurrent("emulator-5554")
+    TestedApps.CLA.Run()
+    Delay(500)
+    oApp = Aliases.Mobile.Device.App
+    oApp.btnSkipContinue.Touch()
+    Delay(500)
+    oApp.sreenChooseLicenceType.spinnerLicenceType.Touch()
+    oApp.Select.Business.Touch()
+    oApp.sreenChooseLicenceType.spinnerSector.Touch()
+    oApp.Select.Finance.Touch()
+    oApp.btnSkipContinue.Touch()
+    
+    oRegPage = Mobile.Device("*").Process("*").RootLayout("").ScrollView("NO_ID")
+    
+    #Check Verification that data should no be empty
+#    oApp.btnSkip.Touch()
+#    if oApp.WarningPopUp.Exists:
+#        oApp.btnClose
+#        Log.Message("Warning message Shown")
+#    else:
+#        Log.Message("Warning message that organization not entered NOT Shown")
+#	   
+    oRegPage.EditText("txt_org_name").Keys("TestSectorgalaxy")
+    oRegPage.EditText("txt_postcode").Keys("NE15 7GT")
+    oRegPage.EditText("txt_email").Keys("TestSectorgalaxy@cla.co.uk")
+    oApp.btnSkipContinue.Touch()
+    
+    checkPermissionTest()
+    LogCopyingPubl()
+    LogCopyingMusic()
+    
+    
+    
+def checkPermissionTest():
+    oApp = Aliases.Mobile.Device.App
+    
+    btnLogCopying = oApp.ScreenWhatToDo.btnLogCopying
+    btnLogCopying.Touch()
+    
+    #Check Verification that some data should be set for searching
+    # -> implement
+    
+    oApp.ScreenWhatToDo.txtSearch.Keys("new")
+    btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
+    btnContinue.Touch()
+
+#    oApp.btnSkipContinue.Touch()
+    
+    #Search results are shown
+    oApp.ScreenSearchResults.firstResult.Touch()
+    
+    #Look Digital info
+    obtnViewDigital = oApp.Find("ViewID", "help_icon" , 20)
+    obtnViewDigital.Touch()
+    oApp.btnScreenClose.Touch()
+    
+    #Go to Log Copying
+    obtnLogCopying = oApp.Find("ViewID", "btn_log" , 20)
+    obtnLogCopying.Touch()
+    
+    
+
+    
+def LogCopyingPubl():
+    oDevice = Aliases.Mobile.Device
+    oApp = Aliases.Mobile.Device.App
+    oISBN = oApp.Find("ViewID", "txt_isbn_title" , 20)
+    oUsage = oApp.Find("ViewID", "spinner_usage" , 20)
+    oNumCopies = oApp.Find("ViewID", "txt_copies_made" , 20)
+    oFrom1 = oApp.Find("ViewID", "txt_from" , 20)
+    oTo1 = oApp.Find("ViewID", "txt_to" , 20)
+    btnAddpageRange = oApp.Find("ViewID", "btn_add_page_range" , 20)
+    oFrom1 = oApp.Find("ViewID", "txt_from" , 20)
+    oTo1 = oApp.Find("ViewID", "txt_to" , 20)
+    
+    oPageRange = oApp.Find("ViewID", "container_page_range" , 10)
+#    oSecondPageRange = oPageRange.Layout("NO_ID", 2).Layout("NO_ID").Layout("NO_ID")
+#    oThirdPageRange = oPageRange.Layout("NO_ID", 3).Layout("NO_ID").Layout("NO_ID")
+#    
+#    oFrom2 = oThirdPageRange.EditText("txt_from")
+#    oto2 = oThirdPageRange.EditText("txt_to")
+    
+    btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
+    
+    oNumCopies.Keys("10")
+    oFrom1.Keys("10")
+    oTo1.Keys("111")
+#    btnAddpageRange.Touch()
+#    
+#    oFrom2.Keys("10")
+#    oto2.Keys("110")
+  
+    btnContinue.Touch()
+    
+#    if
+#   chech message and Log.Message("Data was loogged") 
+    
+    Delay(200)
+    obtBack = oApp.ScreenWhatToDo.btnLogCopying.ScreenLogCopyingFinish.btnBack
+    obtnClose = oApp.ScreenWhatToDo.btnLogCopying.ScreenLogCopyingFinish.btnClose
+    
+    obtBack.Touch()
+    
+    oSingleResult = oApp.ScreenWhatToDo.btnLogCopying.allSearchResults.SingleResult
+    
+    if oSingleResult.Exists:
+        Log.Message("back works")
+
+    oDevice.PressBack()
+    oDevice.PressBack()
+    oDevice.PressBack()
+
+    
+def LogCopyingMusic():
+    oDevice = Aliases.Mobile.Device
+    oApp = Aliases.Mobile.Device.App
+    
+    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music" , 20)
+    btnLogCopyingMusic.Touch()
+    
+    btnTakePhotoFirst = oApp.Find("ViewID", "btn_take_photo_first" , 20)
+    btnTakePhotoFirstImg = oApp.Find("ViewID", "btn_take_photo_first_img" , 20)
+    btnTakePhoto = oApp.Find("ViewID", "btn_take_photo" , 20)
+    btnTakePhotoImg = oApp.Find("ViewID", "btn_take_photo_img" , 20)
+    btnScan = oApp.Find("btn_scan", "" , 20)
+    btnScanImg = oApp.Find("ViewID", "btn_scan_img" , 20)
+    btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
+    
+    btnTakePhotoFirst.Touch()
+    #Take a photo of first page
+    ImageRepository.camera.ImageView_UnnamedCtrl.Touch(61, 76)
+    ImageRepository.camera.ImageView_UnnamedCtrl1.Touch(43, 77)
+    Delay(200)
+  
+    btnTakePhoto.Touch()
+    #Take a photo
+    ImageRepository.camera.ImageView_UnnamedCtrl.Touch(61, 76)
+    ImageRepository.camera.ImageView_UnnamedCtrl1.Touch(43, 77)
+    Delay(200)
+    
+    oApp.ScreenWhatToDo.txtSearch.Keys("the best music")
+    btnContinue.Touch()
+    
+    LogCopyingPubl()
+    
+#    oDevice.PressBack()
+
+
+def ListPublicutoions():
+    oDevice = Aliases.Mobile.Device
+    oApp = Aliases.Mobile.Device.App
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
+    
+    btnListPublications.Touch()
+    
+    btnContinue = oApp.Find("ViewID", "btn_continue" , 20)
+    oApp.ScreenWhatToDo.txtSearch.Keys("some")
+    btnContinue.Touch()
+    
+    btnSaveContinue = oApp.Find("ViewID", "btn_save_continue" , 20)
+    btnFinishSend = oApp.Find("ViewID", "btn_finish_send" , 20)
+    
+    btnSaveContinue.Tuoch()
+    oApp.ScreenWhatToDo.txtSearch.Keys("some")
+    btnContinue.Touch()
+    
+    btnFinishSend.Touch()
+    btnNo = oApp.Find("ViewID", "no_button" , 20)
+    
+    btnFinishSend.Touch()
+    btnYes = oApp.Find("ViewID", "yes_button" , 20)
+    
+    popUp = oApp.ScreenWhatToDo.screenThankyou
+    
+    if popUp.Exists:
+        btnBack = oApp.Find("ViewID", "btn_finish_button" , 20)
+        btnBack.Touch()
+    
+#    Log.Message("Done")
+#    
+#    if btnContinue.Exists:
+#        Log.Message("Done")
+#          
+	    
+
+
+
+
+
+def netest():
+    oApp = Aliases.Mobile.Device.App
+   
+    oApp.sreenChooseLicenceType.spinnerLicenceType.Touch()
+    spinner = Mobile.Device("emulator-5554").Process("com.eman.clatitlesearchs").RootLayout("", 2).Layout("content").Layout("parentPanel").Layout("NO_ID").ListView("list_items")
+    i = spinner.Child(1)
+    i.touch()
+	
+
+def restart():
+    Mobile.SetCurrent("emulator-5554")
+    TestedApps.CLA.Run()
+    Delay(500)
+    oApp = Aliases.Mobile.Device.App
+    oApp.Restart()
+  
+   
+	
+ 	
+
+
+
+    
+    
+
+
+
+
+
+
+    
+    
+    
+
+    
+    
+
+	

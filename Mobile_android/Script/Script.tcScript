@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{EB821DEB-071E-4030-AD9F-300E886A2E95}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.py" />
+		</child>
+		<child name="Mobile_main" key="{D03A5E1F-2E3B-4942-9159-720B897A946C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Mobile_main.py" />
+		</child>
+		<child name="Registration" key="{DEC145F6-5097-4AB3-8772-5D1F463BBDBB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Registration.py" />
+		</child>
+		<child name="Change_details" key="{4D245D83-E6B2-407B-A229-9621567D10BB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Change_details.py" />
+		</child>
+		<child name="Check_permissions" key="{3F690451-6C63-4D31-B825-69BD78E26931}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Check_permissions.py" />
+		</child>
+		<child name="Log_copying_publications" key="{D2282AD9-4397-4EDE-9C22-FE58EECFFF59}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Log_copying_publications.py" />
+		</child>
+		<child name="Log_copying_music" key="{35EAFD56-6665-4CE4-9431-2A405B81021A}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Log_copying_music.py" />
+		</child>
+		<child name="List_publications" key="{01110265-874A-4694-B78E-48870A55B562}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="List_publications.py" />
+		</child>
+		<child name="General_function" key="{AFBF0570-B06F-47B4-972D-9BBBDD6019D1}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="General_function.py" />
+		</child>
+		<child name="Read_Test_Data_From_Excel" key="{C556A89F-2C7F-43A5-940B-0A0D74EC48EF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Read_Test_Data_From_Excel.py" />
+		</child>
+		<child name="Unit2" key="{291920E7-0538-4C2F-93D7-1332B41748DA}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit2.py" />
+		</child>
+		<child name="Side_Menu" key="{8143627D-3069-4E4B-AE6B-6A1758728A09}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Side_Menu.py" />
+		</child>
+		<child name="Select_Sector" key="{8B9D94D0-E140-45B5-94E1-04E568B41740}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Select_Sector.py" />
+		</child>
+	</children>
+	<folders />
+</Root>

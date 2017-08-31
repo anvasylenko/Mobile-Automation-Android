@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1140" key="{A8DD3E44-1FFC-472F-AF2F-20DF7DA5F548}" type="Image Set" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="camera" />
+	<testData />
+	<data>
+		<item caption="ImageView_UnnamedCtrl" moniker="{35C85898-992C-4D56-8BEA-2E9F67EFF03E}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ImageView_UnnamedCtrl.png" initialHash="5F4C95EE" selectionLeft="293" selectionTop="1005" selectionWidth="134" selectionHeight="134" initialLeft="293" initialTop="1005" initialWidth="134" initialHeight="134" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+		<item caption="ImageView_UnnamedCtrl1" moniker="{73CC71AB-40CF-46E3-A908-19FFD6283AFF}" isComposite="True" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\ImageView_UnnamedCtrl1.png" initialHash="D3E71AA8" selectionLeft="580" selectionTop="997" selectionWidth="100" selectionHeight="150" initialLeft="580" initialTop="997" initialWidth="100" initialHeight="150" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+	</data>
+</Root>
