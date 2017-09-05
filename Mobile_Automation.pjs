@@ -4,22 +4,18 @@
 		<child name="Mobile_android" key="{EC3441FA-6679-411A-8400-A6B3FC778C3B}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
 			<data path="Mobile_android\Mobile_android.mds" />
 		</child>
-		<child name="TestProject1" key="{527E7FBC-0B6F-4EC9-A810-0E32B1F64B12}" type="Project" typeId="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" pluginName="">
-			<data path="TestProject1\TestProject1.mds" />
-		</child>
 	</children>
 	<folders />
 	<testItems key="{38D1DEAF-9811-466B-8FE8-DF909A736E3C}">
 		<children>
 			<testItem key="{EC3441FA-6679-411A-8400-A6B3FC778C3B}" enabled="True" timeout="0" stopOnError="True" description="" />
-			<testItem key="{527E7FBC-0B6F-4EC9-A810-0E32B1F64B12}" enabled="True" timeout="0" stopOnError="True" description="" />
 		</children>
 	</testItems>
 	<variables key="{6C37291C-26CF-4CE3-B5A9-DABF91A0B08A}">
 		<data Version="3" />
 	</variables>
 	<analysis key="{D5B63805-A797-41AE-8E01-43CC5EE4AF46}" />
-	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
 		<data />
 	</scc>
 	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}" />

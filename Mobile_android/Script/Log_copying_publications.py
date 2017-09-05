@@ -1,7 +1,7 @@
 ﻿from Read_Test_Data_From_Excel import *
 from General_function import *
 
-def LogCopyingPublish():
+def LogCopyingPublish(TestCaseNumber):
     Log.AppendFolder("LogCopyingPublish")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
@@ -15,7 +15,7 @@ def LogCopyingPublish():
 	   
     # Get parameters
     newMap = {}
-    newMap = ReadTestDataFromExcel("Log_copying_publications", 2)
+    newMap = ReadTestDataFromExcel("Log_copying_publications", TestCaseNumber)
     
     if int(newMap['take_photo']) == 1:
         TakePhoto("ideftifier_page")
@@ -31,14 +31,14 @@ def LogCopyingPublish():
     oPageRange = oApp.Find("ViewID", "container_page_range" , 10)
     ISBN = oApp.Find("ViewID", "txt_isbn_title" , 10)
 
-    
 
 #    #Check ISBN
 #    if ISBN.getText().toString() == newMap['isbn']:
 #        Log.Message ("ISBN is correct")
 #    else:
 #        Log.Message("ISBN is NOT correct")
-#	   
+
+
 	# Set data
     Delay(500)   
     oUsage.TouchItem(newMap['usage'])
@@ -53,8 +53,8 @@ def LogCopyingPublish():
 #        oThirdPageRange = oPageRange.Layout("NO_ID", 3).Layout("NO_ID").Layout("NO_ID")
 #        oFourthPageRange = oPageRange.Layout("NO_ID", 4).Layout("NO_ID").Layout("NO_ID")
 #        oFifthPageRange = oPageRange.Layout("NO_ID", 5).Layout("NO_ID").Layout("NO_ID")
-#     
-#    
+#
+
 #        oFrom2 = oSecondPageRange.EditText("txt_from")
 #        oTo2 = oSecondPageRange.EditText("txt_to")
     #    oFrom2.Keys("11")
@@ -68,21 +68,32 @@ def LogCopyingPublish():
 #    
 #        oFrom5 = oFifthPageRange.EditText("txt_from")
 #        oTo5 = oFifthPageRange.EditText("txt_to")
-
+    
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
+    Delay(500)
     
-    # Chech message and Log.Message("Data was loogged") 
-    oMessageScreen = oApp.Find("ViewID", "log_finished_view", 20)
-    oMessage = oMessageScreen.Layout("NO_ID").Layout("relativeLayout").TextView("NO_ID").getText().toString()
-    
-    if oMessage == "Your data has been submitted.":
-        Log.Message(oMessage)
+    if int(newMap['tc_fail']) == 1:
+        if oUsage.Exists:
+            Log.Message("PASS. Test failed as expected")
+            Delay(500)
+            oDevice.PressBack()
+            oDevice.PressBack()
+            oDevice.PressBack()
+        else:
+            Log.Warning("Test did not failed as expected")
     else:
-        Log.Warning("Successful Message does not appared")
+        oMessageScreen = oApp.Find("ViewID", "log_finished_view", 20)
+        oMessage = oMessageScreen.Layout("NO_ID").Layout("relativeLayout").TextView("NO_ID").getText().toString()
+    
+        if oMessage == "Your data has been submitted.":
+            Log.Message(oMessage)
+        else:
+            Log.Warning("Successful Message does not appared")
 
-    btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 10)
-    btnLogAnoterTitle.Touch()	   
+        btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 10)
+        btnLogAnoterTitle.Touch()	   
+        Delay(1000)
 
     
 #    Delay(200)
@@ -99,3 +110,10 @@ def LogCopyingPublish():
 #    oDevice.PressBack()
 
     Log.PopLogFolder()
+    
+    
+def tests():
+    LogCopyingPublish(2)
+    LogCopyingPublish(3)
+    LogCopyingPublish(4)
+    LogCopyingPublish(5)

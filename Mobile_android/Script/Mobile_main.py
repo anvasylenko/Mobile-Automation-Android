@@ -16,7 +16,6 @@ def main():
     Delay(500)
     
     TC_SkipRegisrtration()
-    
    
     SelectSector(0, "Schools")
     Registration("Registration", 7)

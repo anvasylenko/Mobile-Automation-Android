@@ -20,44 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42978.6952008681"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{5F6946CC-CDA5-4BA9-87FD-A9078D37649D}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Log_copying_publications\LogCopyingPublish]"/>
-				<Prp name="relpath" type="S" value="31_08_2017_16_41_05_355\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42978.6955940741"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{C0FAF2F5-6D31-42C6-A051-87641E773DA7}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Mobile_main\main]"/>
-				<Prp name="relpath" type="S" value="31_08_2017_16_41_39_328\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42978.6963690394"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{38E7ED46-F239-4CAC-9D66-AD9AD734D21F}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Mobile_main\main]"/>
-				<Prp name="relpath" type="S" value="31_08_2017_16_42_46_286\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="42978.7041602315"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{F5A2BC8E-79CF-4128-A365-BE389A9A99C0}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Mobile_main\main]"/>
-				<Prp name="relpath" type="S" value="31_08_2017_16_53_59_445\Description.tcLog"/>
-				<Prp name="status" type="I" value="2"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

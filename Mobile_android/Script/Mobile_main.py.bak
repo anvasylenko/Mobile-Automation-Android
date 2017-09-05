@@ -19,8 +19,8 @@ def main():
     
    
     SelectSector(0, "Schools")
-#    Registration("Registration", 7)
-    RegistrationAllTests()
+    Registration("Registration", 7)
+#    RegistrationAllTests()
     
 #    TC_RestartOnRePage()
 

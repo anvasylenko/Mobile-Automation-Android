@@ -49,12 +49,12 @@ def checkPermissionTest(TestCaseNumber):
 	    
     Delay(200)	    
     if newMap['type'] == "Web Domain":
-        if oISBN.getText().toString() ==  newMap['url']:
+        if oISBN.getText().toString() == newMap['url']:
              Log.Message ("url is correct")
         else:
              Log.Message("url is not correct")
     else:
-        if oISBN.getText().toString() ==  newMap['isbn']:
+        if oISBN.getText().toString() == newMap['isbn']:
             Log.Message ("oISBN is correct")
         else:
             Log.Message("oISBN is not correct")
@@ -66,7 +66,7 @@ def checkPermissionTest(TestCaseNumber):
         Log.Message("oType is not correct")
 	
     Delay(200)	   
-    if oForm.getText().toString() ==  newMap['form']:
+    if oForm.getText().toString() == newMap['form']:
         Log.Message ("oForm is correct")
     else:
         Log.Message("oForm is not correct")
@@ -79,7 +79,7 @@ def checkPermissionTest(TestCaseNumber):
         Log.Message("oCountry is not correct")
     
     Delay(200)	   	   
-    if oPublisher.getText().toString() ==  newMap['publisher']:
+    if oPublisher.getText().toString() == newMap['publisher']:
         Log.Message ("oPublisher is correct")
         Log.Message ("oPublisher is correct")
     else:

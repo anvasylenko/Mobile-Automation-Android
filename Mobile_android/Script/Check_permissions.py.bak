@@ -4,6 +4,7 @@ from Read_Test_Data_From_Excel import *
 def checkPermissionTest(TestCaseNumber):
     Log.AppendFolder("checkPermissionTest")
     oApp = Aliases.Mobile.Device.App
+    oDevice = Aliases.Mobile.Device
     
     btnLogCopying = oApp.ScreenWhatToDo.btnLogCopying
     btnLogCopying.Touch()
@@ -88,7 +89,8 @@ def checkPermissionTest(TestCaseNumber):
     Delay(200)	
     btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
     btnMenu.Touch()
-    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()   
+    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()     
+    oDevice.PressBack()
     if oLicence.getText().toString() == txtLicence:
         Log.Message ("oLicence is correct")
     else:
