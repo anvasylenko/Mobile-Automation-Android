@@ -30,7 +30,7 @@ def Registration(nameSheet, TestCaseNumber):
     oPostcode.Keys(newMap['postcode'])
     oEmail.Keys(newMap['email'])
     btnSave.Touch()
-    Delay(300)
+    Delay(1000)
 
     
     if newMap['warning_message'] != "pass":

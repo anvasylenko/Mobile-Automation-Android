@@ -18,8 +18,8 @@ def main():
     TC_SkipRegisrtration()
    
     SelectSector(0, "Schools")
-    Registration("Registration", 7)
-#    RegistrationAllTests()
+#    Registration("Registration", 7)
+    RegistrationAllTests() 
     
 #    TC_RestartOnRePage()
 
@@ -30,7 +30,7 @@ def main():
     SideMenu()
     checkPermissionTestAllCases()
     
-    LogCopyingPublish()
+    LogCopyingPublishAll
     LogCopyingMusic()
     
     

@@ -54,7 +54,7 @@ def Registration(nameSheet, TestCaseNumber):
     
 
 def RegistrationAllTests():
-    SelectSector(0, "Schools")
+#    SelectSector(0, "Schools")
     Registration("Registration", 2)
     Registration("Registration", 3)
     Registration("Registration", 4)

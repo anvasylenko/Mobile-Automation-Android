@@ -16,11 +16,10 @@ def main():
     Delay(500)
     
     TC_SkipRegisrtration()
-    
    
-    SelectSector(0, "Schools")
-    Registration("Registration", 7)
-#    RegistrationAllTests()
+#    SelectSector(0, "Schools")
+#    Registration("Registration", 7)
+    RegistrationAllTests()
     
 #    TC_RestartOnRePage()
 
@@ -31,7 +30,7 @@ def main():
     SideMenu()
     checkPermissionTestAllCases()
     
-    LogCopyingPublish()
+    LogCopyingPublishAll
     LogCopyingMusic()
     
     
