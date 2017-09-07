@@ -15,12 +15,22 @@ def ListPublicutoions(TestCaseNumber):
     Log.AppendFolder("ListPublicutoions")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
-    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
     
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("List_Publicutoions", TestCaseNumber)
     
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
+    if btnListPublications.Exists:
+        btnListPublications.Touch()
+	   
+    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
+    Log.Message(screenTitle.getText().toString())
+    if screenTitle.getText().toString() != "List Publications":
+       oDevice.PressBack()
+       Delay(500)
+	
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)  
     if btnListPublications.Exists:
         btnListPublications.Touch()
     

@@ -7,7 +7,7 @@ def ListPublicutoionsAllTestCases():
     ListPublicutoions(2)
     ListPublicutoions(3)
     ListPublicutoions(4)
-    ListPublicutoions(5)
+
      
     
 def ListPublicutoions(TestCaseNumber):
@@ -21,6 +21,16 @@ def ListPublicutoions(TestCaseNumber):
     newMap = {}
     newMap = ReadTestDataFromExcel("List_Publicutoions", TestCaseNumber)
     
+    
+    if btnListPublications.Exists:
+        btnListPublications.Touch()
+	   
+    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
+    Log.Message(screenTitle.getText().toString())
+    if screenTitle.getText().toString() != "List Publications":
+       oDevice.PressBack()
+       Delay(500)
+	  
     if btnListPublications.Exists:
         btnListPublications.Touch()
     

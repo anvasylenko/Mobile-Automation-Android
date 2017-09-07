@@ -3,19 +3,19 @@ from General_function import *
 
 
 def LogCopyingMusicAllTestCases():
-#    LogCopyingMusic(1)
-#    LogCopyingMusic(2)
-#    LogCopyingMusic(3)
-#    LogCopyingMusic(4)
-#    LogCopyingMusic(5)
-#    LogCopyingMusic(6)
-#    LogCopyingMusic(7)
-#    LogCopyingMusic(8)
-#    LogCopyingMusic(9)
-#    LogCopyingMusic(10)
-#    LogCopyingMusic(11)
-#    LogCopyingMusic(12)
-#    LogCopyingMusic(13)
+    LogCopyingMusic(1)
+    LogCopyingMusic(2)
+    LogCopyingMusic(3)
+    LogCopyingMusic(4)
+    LogCopyingMusic(5)
+    LogCopyingMusic(6)
+    LogCopyingMusic(7)
+    LogCopyingMusic(8)
+    LogCopyingMusic(9)
+    LogCopyingMusic(10)
+    LogCopyingMusic(11)
+    LogCopyingMusic(12)
+    LogCopyingMusic(13)
     LogCopyingMusic(14)
     
     
@@ -26,20 +26,27 @@ def LogCopyingMusic(TestCaseNumber):
     Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingMusic")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
-    
+
+    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
+    if btnLogCopyingMusic.Exists:
+        btnLogCopyingMusic.Touch()
+	   
+		 
     screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
-    if screenTitle.getText().toString() == "Log copying of music":
+    Log.Message(screenTitle.getText().toString())
+    if screenTitle.getText().toString() != "Log copying of music":
        oDevice.PressBack()
-    
+       Delay(500)
+	
+    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
+    if btnLogCopyingMusic.Exists:
+        btnLogCopyingMusic.Touch()
+
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Log_Copying_Music", TestCaseNumber)
     
     Log.Message(newMap['tc_name'])
-
-    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
-    if btnLogCopyingMusic.Exists:
-        btnLogCopyingMusic.Touch()
     
     btnTakePhotoFirst = oApp.Find("ViewID", "btn_take_photo_first", 20)
     btnTakePhotoFirstImg = oApp.Find("ViewID", "btn_take_photo_first_img", 20)

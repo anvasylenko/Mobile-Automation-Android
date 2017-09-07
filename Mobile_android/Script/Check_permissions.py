@@ -26,6 +26,7 @@ def checkPermissionTest(TestCaseNumber):
     btnContinue.Touch()
     Delay(3000)
     
+    
     # if searched results more than 1
     if int(newMap['results_count']) != 1:
         oForSearch = oApp.Find("ViewID", "layout_multiple_results" , 40)

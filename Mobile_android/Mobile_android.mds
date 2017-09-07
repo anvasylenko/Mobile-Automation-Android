@@ -49,7 +49,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="True" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="False" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>

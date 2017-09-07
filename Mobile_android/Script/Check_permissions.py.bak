@@ -24,7 +24,7 @@ def checkPermissionTest(TestCaseNumber):
     oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
-    Delay(4000)
+    Delay(3000)
     
     # if searched results more than 1
     if int(newMap['results_count']) != 1:
@@ -41,7 +41,6 @@ def checkPermissionTest(TestCaseNumber):
             Log.Warning("Single result is not shown")
 
     #Check data
-    Delay(1000)
     oTitle = oApp.Find("ViewID", "txt_book_title" , 20)
     oISBN = oApp.Find("ViewID", "txt_isbn_issn" , 20)
     oType = oApp.Find("ViewID", "txt_type" , 20)

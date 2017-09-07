@@ -14,8 +14,17 @@ def LogCopyingPublish(TestCaseNumber):
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     
-    btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 10)
-
+    btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 20)
+    if btnLogCopying.Exists:
+           btnLogCopying.Touch()
+		 
+    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
+    Log.Message(screenTitle.getText().toString())
+    if screenTitle.getText().toString() != "Log copying":
+       oDevice.PressBack()
+       Delay(500)
+	  
+    btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications", 20)
     if btnLogCopying.Exists:
         btnLogCopying.Touch()
 	   

@@ -31,16 +31,28 @@ def LogCopyingMusic(TestCaseNumber):
     Log.Message(screenTitle.getText().toString())
     if screenTitle.getText().toString() == "Log copying of music":
        oDevice.PressBack()
-    
+       Delay(500)
+
+    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
+    if btnLogCopyingMusic.Exists:
+        btnLogCopyingMusic.Touch()
+	   
+		 
+    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
+    Log.Message(screenTitle.getText().toString())
+    if screenTitle.getText().toString() != "Log copying of music":
+       oDevice.PressBack()
+       Delay(500)
+	
+    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
+    if btnLogCopyingMusic.Exists:
+        btnLogCopyingMusic.Touch()
+
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Log_Copying_Music", TestCaseNumber)
     
     Log.Message(newMap['tc_name'])
-
-    btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
-    if btnLogCopyingMusic.Exists:
-        btnLogCopyingMusic.Touch()
     
     btnTakePhotoFirst = oApp.Find("ViewID", "btn_take_photo_first", 20)
     btnTakePhotoFirstImg = oApp.Find("ViewID", "btn_take_photo_first_img", 20)
