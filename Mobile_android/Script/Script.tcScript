@@ -10,9 +10,6 @@
 		<child name="Registration" key="{DEC145F6-5097-4AB3-8772-5D1F463BBDBB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Registration.py" />
 		</child>
-		<child name="Change_details" key="{4D245D83-E6B2-407B-A229-9621567D10BB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Change_details.py" />
-		</child>
 		<child name="Check_permissions" key="{3F690451-6C63-4D31-B825-69BD78E26931}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Check_permissions.py" />
 		</child>
@@ -31,15 +28,48 @@
 		<child name="Read_Test_Data_From_Excel" key="{C556A89F-2C7F-43A5-940B-0A0D74EC48EF}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Read_Test_Data_From_Excel.py" />
 		</child>
-		<child name="Unit2" key="{291920E7-0538-4C2F-93D7-1332B41748DA}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Unit2.py" />
-		</child>
 		<child name="Side_Menu" key="{8143627D-3069-4E4B-AE6B-6A1758728A09}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Side_Menu.py" />
 		</child>
 		<child name="Select_Sector" key="{8B9D94D0-E140-45B5-94E1-04E568B41740}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Select_Sector.py" />
 		</child>
+		<child name="All_tests" key="{793A7C44-7FF1-4E07-883C-CE0394E38DC9}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="All_tests.py" />
+		</child>
+		<child name="Smoke_test" key="{1749742B-794A-4A96-A49B-F27ED501DD0D}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Smoke_test.py" />
+		</child>
+		<child name="Before" key="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Before.py" />
+		</child>
 	</children>
-	<folders />
+	<folders>
+		<folder caption="Functions_for_screen" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{3F690451-6C63-4D31-B825-69BD78E26931}" />
+				<ref key="{01110265-874A-4694-B78E-48870A55B562}" />
+				<ref key="{35EAFD56-6665-4CE4-9431-2A405B81021A}" />
+				<ref key="{D2282AD9-4397-4EDE-9C22-FE58EECFFF59}" />
+				<ref key="{DEC145F6-5097-4AB3-8772-5D1F463BBDBB}" />
+				<ref key="{8B9D94D0-E140-45B5-94E1-04E568B41740}" />
+				<ref key="{8143627D-3069-4E4B-AE6B-6A1758728A09}" />
+				<ref key="{EB821DEB-071E-4030-AD9F-300E886A2E95}" />
+			</references>
+		</folder>
+		<folder caption="Test_scenario" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{793A7C44-7FF1-4E07-883C-CE0394E38DC9}" />
+				<ref key="{1749742B-794A-4A96-A49B-F27ED501DD0D}" />
+				<ref key="{D03A5E1F-2E3B-4942-9159-720B897A946C}" />
+				<ref key="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}" />
+			</references>
+		</folder>
+		<folder caption="Other_functions" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{C556A89F-2C7F-43A5-940B-0A0D74EC48EF}" />
+				<ref key="{AFBF0570-B06F-47B4-972D-9BBBDD6019D1}" />
+			</references>
+		</folder>
+	</folders>
 </Root>

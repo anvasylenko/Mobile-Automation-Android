@@ -2,17 +2,17 @@
 from Registration import *
 
 def SideMenu():
-    Log.AppendFolder("Settings")
+    Log.AppendFolder("SideMenu")
     oApp = Aliases.Mobile.Device.App
+    oDevice = Aliases.Mobile.Device
     
     btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
     btnMenu.Touch()
+    Delay(400)
     
-    btnChangeSector = oApp.Find("ViewID", "btn_change" , 10)
-    btnChangeYourDetails = oApp.Find("ViewID", "btn_change_details" , 10)
-    btnAboutUs = oApp.Find("ViewID", "btn_about_us" , 10)
-    btnContact = oApp.Find("ViewID", "btn_contact" , 10)
-    btnHelp = oApp.Find("ViewID", "btn_help" , 10)
+    btnChangeSector = oApp.Find("ViewID", "btn_change" , 20)
+    btnAboutUs = oApp.Find("ViewID", "btn_about_us" , 20)
+    btnHelp = oApp.Find("ViewID", "btn_help" , 20)
     
     txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()
     txtOrganisation = oApp.Find("ViewID", "txt_your_organisation_value" , 10).getText().toString()
@@ -21,64 +21,86 @@ def SideMenu():
     
 	# Check 'About us'
     btnAboutUs.Touch()
-    Delay(200)
-    text = oApp.Layout("NO_ID").Layout("action_bar_root").Layout("content").View("drawer_layout").Layout("NO_ID").Layout("NO_ID").TextView("NO_ID")
+    Delay(500)
+    text = oApp.Find("ViewID", "txt_title" , 10)
     btnBack = oApp.Find("ViewID", "back_button" , 20)
-    text.Touch()
     
-    if text.getText().toString() == "*CLA services*":
+    
+    if text.getText().toString() == "About CLA":
         Log.Message("'About us' screen is displayed")
     btnBack.Touch()
+    Delay(500)
+  
     
     # Check 'Contact'
+    btnContact = oApp.Find("ViewID", "btn_contact" , 20)
+    if not btnContact.Exists:
+         Log.Message("Yes")
+         btnMenu.Touch()
+    
     btnContact.Touch()
-    Delay(200)
+    Delay(500)
     text = oApp.Layout("NO_ID").Layout("action_bar_root").Layout("content").View("drawer_layout").Layout("NO_ID").ScrollView("NO_ID").TextView("NO_ID", 8)
     
     if text.getText().toString() == "cla@cla.co.uk":
         Log.Message("'Contact' screen is displayed")
     btnBack.Touch()
-	
-    # Check 'Help'
-    btnHelp.Touch()
     Delay(200)
-    
-    text = oApp.Find("ViewID", "help_text" , 20)
 	
-    if text.getText().toString() == "*mobileroyalties*":
-        Log.Message("'Help' screen is displayed")
-    btnBack.Touch()
+    
+    # Check 'Help'
+#    if not btnHelp.Exists:
+#         btnMenu.Touch()
+#
+#    btnHelp.Touch()
+#    Delay(200)
+#    
+#    text = oApp.Find("ViewID", "help_text" , 20)
+#	
+#    if text.getText().toString() == "*mobileroyalties*":
+#        Log.Message("'Help' screen is displayed")
+#    btnBack.Touch()
 	   
+
+
     # Check 'Your details' which were set durring registration
     # Get parameters
     newMap = {}
-    newMap = ReadTestDataFromExcel("Side_Menu", 2)
+    newMap = ReadTestDataFromExcel("Side_Menu", 1)
 	    
 #    Log.Message(newMap['tc_name'])
-#    btnBack.Touch()
-#    btnMenu.Touch()
+
     Delay(200)
     if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == ewMap['email']:
        Log.message("User details which were set durring registration are displayed")
 	  
-    # Change 'Your details' -. same Test cases as durring registration 
+	  
+    # Change 'Your details' - same Test cases as durring registration
+    btnChangeYourDetails = oApp.Find("ViewID", "btn_change_details" , 20)
+    Delay(200)
+    if not btnChangeYourDetails.Exists:
+         btnMenu.Touch()
+	    
     btnChangeYourDetails.Touch()
+    Registration("Side_Menu", 2)
     Registration("Side_Menu", 3)    
     Registration("Side_Menu", 4)
     Registration("Side_Menu", 5)
     Registration("Side_Menu", 6)
     Registration("Side_Menu", 7)
-    Registration("Side_Menu", 8)
+   
     
-   # Get parameters
+    # Get parameters
     newMap = {}
-    newMap = ReadTestDataFromExcel("Side_Menu", 8)
+    newMap = ReadTestDataFromExcel("Side_Menu", 7)
     
-#    Log.Message(newMap['tc_name'])
+    # Log.Message(newMap['tc_name'])
     btnMenu.Touch()
-    Delay(200)
-    if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == ewMap['email']:
+    Delay(500)
+    if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == newMap['email']:
        Log.message("User details were changed successful")
+	
+    oDevice.PressBack()
 	  
     Log.PopLogFolder()
 	

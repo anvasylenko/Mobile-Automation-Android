@@ -1,4 +1,4 @@
-﻿from Change_details import *
+﻿
 from Check_permissions import *
 from General_function import *
 from List_publications import *
@@ -18,8 +18,8 @@ def main():
     TC_SkipRegisrtration()
    
     SelectSector(0, "Schools")
-#    Registration("Registration", 7)
-    RegistrationAllTests() 
+    Registration("Registration", 6)
+#    RegistrationAllTests() 
     
 #    TC_RestartOnRePage()
 

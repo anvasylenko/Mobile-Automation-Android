@@ -1,8 +1,16 @@
 ﻿from Read_Test_Data_From_Excel import *
 from General_function import *
 
+def LogCopyingPublishAllTestCases():
+    LogCopyingPublish(1)
+    LogCopyingPublish(2)
+    LogCopyingPublish(3)
+    LogCopyingPublish(3)
+    LogCopyingPublish(4)
+    LogCopyingPublish(5)
+    
 def LogCopyingPublish(TestCaseNumber):
-    Log.AppendFolder("LogCopyingPublish")
+    Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingPublish")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     
@@ -32,8 +40,7 @@ def LogCopyingPublish(TestCaseNumber):
             btnRemove.Touch()
             delay(500)
             btnTakePhotoIdentPage = oApp.Find("ViewID", "btn_take_photo" , 20)
-            if btnTakePhotoIdentPage.Exists:
-		   
+            if btnTakePhotoIdentPage.Exists: 
                 Log.Message("Photo was removed successful")
             else:
                 Log.Warning("Photo was not removed")
@@ -41,7 +48,8 @@ def LogCopyingPublish(TestCaseNumber):
     btnContinue.Touch()
     delay(1000)
     
-    if int(newMap['tc_fail']) == 1:
+    if int(newMap['tc_fail_search']) == 1:
+        txtSearch = oApp.Find("ViewID", "txt_search" , 20)
         if txtSearch.Exists:
             Log.Message("PASS. Test failed as expected")
             Log.PopLogFolder()
@@ -56,8 +64,3 @@ def LogCopyingPublish(TestCaseNumber):
     Log.PopLogFolder()
     
     
-def LogCopyingPublishAll():
-    LogCopyingPublish(3)
-    LogCopyingPublish(3)
-    LogCopyingPublish(4)
-    LogCopyingPublish(5)

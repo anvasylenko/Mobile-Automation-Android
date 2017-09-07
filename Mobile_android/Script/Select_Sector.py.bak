@@ -47,7 +47,7 @@ def CheckOptionsToSector():
     btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
     btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 10)
 
-    Delay(500)
+    Delay(1000)
     btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
     btnMenu.Touch()
     txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()

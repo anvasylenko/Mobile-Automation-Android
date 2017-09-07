@@ -7,7 +7,7 @@
 		<child key="{FF1E414B-F014-400B-8F5F-A4ED421D325E}" type="Tested Application" typeId="{FD30A383-63C2-4C25-948C-2595C0F81320}">
 			<config nodeName="CLA" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
 				<runModeParams activeRunMode="Android">
-					<param name="Android" parameters="" workFolder="" apkFileName="D:\Android_APK_from_dev\05.09\cla-release (3).apk" deploy="True" keepDataAndCache="False" storeBackup="True" backupFileName="D:\Android_APK_from_dev\05.09\cla-release (3)_ORIGINAL_BACKUP.apk" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
+					<param name="Android" parameters="" workFolder="" apkFileName="D:\Android_APK_from_dev\06.09\cla-release (4).apk" deploy="True" keepDataAndCache="False" storeBackup="True" backupFileName="D:\Android_APK_from_dev\06.09\cla-release (4)_ORIGINAL_BACKUP.apk" signAPKWithCustom="False" keystorePath="" alias="" keystorePassword="" keyPassword="" />
 				</runModeParams>
 			</config>
 			<testData />

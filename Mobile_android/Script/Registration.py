@@ -1,6 +1,21 @@
 ﻿from Read_Test_Data_From_Excel import *
 from Select_Sector import *
 
+
+def RegistrationAllTestCases():
+    SelectSector(0, "Schools")
+    Registration("Registration", 1)  
+    Registration("Registration", 2)
+    Registration("Registration", 3)
+    Registration("Registration", 4)
+    Registration("Registration", 5)
+    Registration("Registration", 6)
+    
+    
+def RegPass():
+    Registration("Registration", 7)    
+    
+
 def Registration(nameSheet, TestCaseNumber):
     Log.AppendFolder("Registration")
     
@@ -34,7 +49,9 @@ def Registration(nameSheet, TestCaseNumber):
 
     
     if newMap['warning_message'] != "pass":
-        oWarningMess = Aliases.Device.App.ScreenWhatToDo.btnLogCopying.TextView("lbl_validation").getText().toString()
+        oWarning = Aliases.Device.App.Find("ViewID", "lbl_validation", 20)
+	   
+        oWarningMess = oWarning.getText().toString()
         Log.Message(oWarningMess)
         if oWarningMess == newMap['warning_message']:
             oApp.btnClose.Touch()
@@ -53,14 +70,3 @@ def Registration(nameSheet, TestCaseNumber):
     Log.PopLogFolder()
     
 
-def RegistrationAllTests():
-#    SelectSector(0, "Schools")
-    Registration("Registration", 2)
-    Registration("Registration", 3)
-    Registration("Registration", 4)
-    Registration("Registration", 5)
-    Registration("Registration", 6)
-    Registration("Registration", 7)  
-    
-def RegPass():
-    Registration("Registration", 7)    

@@ -82,6 +82,8 @@ def CheckOptionsToSector():
         Log.Message("Pass. List Publications is shown")
     else:
         Log.Warning("Fail. List Publications is not shown")
+	   
+    Delay(500)
 
 	   
     Log.PopLogFolder()

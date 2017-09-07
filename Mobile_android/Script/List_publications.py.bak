@@ -1,6 +1,14 @@
 ﻿from Read_Test_Data_From_Excel import *
 from General_function import *
 
+
+def ListPublicutoionsAllTestCases():
+    ListPublicutoions(2)
+    ListPublicutoions(3)
+    ListPublicutoions(4)
+    ListPublicutoions(5)
+     
+    
 def ListPublicutoions(TestCaseNumber):
      
     Log.AppendFolder("ListPublicutoions")
@@ -46,6 +54,8 @@ def ListPublicutoions(TestCaseNumber):
 #       Log.Message ("Counter is correct")
 #    else:
 #       Log.Warning("Counter is not correct")
+    
+    Log.Message(counter.getText().toString())
 
 	  
     if int(newMap['save_and_continue']) == 1:
@@ -91,9 +101,3 @@ def ListPublicutoions(TestCaseNumber):
 
     Log.PopLogFolder()
     
-def test1():
-    ListPublicutoions(2)
-    ListPublicutoions(3)
-    ListPublicutoions(4)
-    ListPublicutoions(5)
-     

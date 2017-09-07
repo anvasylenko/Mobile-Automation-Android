@@ -1,6 +1,15 @@
 ﻿from Read_Test_Data_From_Excel import *
 from General_function import *
 
+
+def ListPublicutoionsAllTestCases():
+    ListPublicutoions(1)
+    ListPublicutoions(2)
+    ListPublicutoions(3)
+    ListPublicutoions(4)
+    ListPublicutoions(5)
+     
+    
 def ListPublicutoions(TestCaseNumber):
      
     Log.AppendFolder("ListPublicutoions")
@@ -93,9 +102,3 @@ def ListPublicutoions(TestCaseNumber):
 
     Log.PopLogFolder()
     
-def test1():
-    ListPublicutoions(2)
-    ListPublicutoions(3)
-    ListPublicutoions(4)
-    ListPublicutoions(5)
-     

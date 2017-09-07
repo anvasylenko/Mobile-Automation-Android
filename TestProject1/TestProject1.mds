@@ -21,7 +21,12 @@
 	</folders>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{98F731D9-754B-4ADC-848A-73058BA01815}">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{1AB451AA-2F4A-49F8-80B3-1108DFF62137}" group="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{7AD9A727-5CF4-4725-875E-4F68B5B08516}">
 		<data Version="3" />

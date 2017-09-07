@@ -1,6 +1,13 @@
 ﻿from Log_copying_publications import *
 from Read_Test_Data_From_Excel import *
 
+def checkPermissionAllTestCases():
+    checkPermissionTest(1) 
+    checkPermissionTest(2)
+    checkPermissionTest(3)
+    checkPermissionTest(4)
+    
+    
 def checkPermissionTest(TestCaseNumber):
     Log.AppendFolder("checkPermissionTest")
     oApp = Aliases.Mobile.Device.App
@@ -17,23 +24,23 @@ def checkPermissionTest(TestCaseNumber):
     oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
-    Delay(2000)
+    Delay(3000)
     
     # if searched results more than 1
     if int(newMap['results_count']) != 1:
-        oForSearch = oApp.Find("Layout", "layout_multiple_results" , 40)
+        oForSearch = oApp.Find("ViewID", "layout_multiple_results" , 40)
         oResult = oForSearch.ListView("list_results").Layout("NO_ID", 2).Layout("root_view").TextView("txt_book_title")
         Log.Message("Searching showns more than one results")
         oResult.Touch()
     else:
-        oSingleResult = oApp.Find("Layout", "layout_single_results" , 40)
+        oResult = oApp.Find("ViewID", "layout_single_results", 40)
+        oSingleResult = oResult.ScrollView("NO_ID")
         if oSingleResult.Exists:
             Log.Message("Single result is shown")
         else:
             Log.Warning("Single result is not shown")
 
     #Check data
-    Delay(2000)
     oTitle = oApp.Find("ViewID", "txt_book_title" , 20)
     oISBN = oApp.Find("ViewID", "txt_isbn_issn" , 20)
     oType = oApp.Find("ViewID", "txt_type" , 20)
@@ -135,11 +142,6 @@ def checkPermissionTest(TestCaseNumber):
 
     Log.PopLogFolder()
     
-def checkPermissionTestAllCases():
-    checkPermissionTest(2)
-    checkPermissionTest(3)
-    checkPermissionTest(4)
-    checkPermissionTest(5)
- 
+
 
 

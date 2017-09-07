@@ -5,6 +5,7 @@
     Log.Message(projPath)
     testDataPath = projPath + "Testing_Data.xlsx"
     Log.Message(testDataPath)
+    colunmTestData = colunmTestData + 1
     
     # Open Excel
     Excel = Sys.OleObject["Excel.Application"]
@@ -34,13 +35,7 @@
 
     Log.PopLogFolder()
     Excel.Quit()
-    
-#    VarToString
-    Log.Message(str(mapParameters.items()))
+
+#    Log.Message(str(mapParameters.items()))
     return mapParameters
 
-
-def test2():
-    newMap = {}
-    newMap = ReadTestDataFromExcel("Check_Permissions",2)
-    Log.Message((newMap["search"]))

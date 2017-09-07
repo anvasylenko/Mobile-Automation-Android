@@ -26,6 +26,9 @@
 			<Node name="{527e7fbc-0b6f-4ec9-a810-0e32b1f64b12}">
 				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
 			</Node>
+			<Node name="{aaa4d9d7-5759-432f-863e-98285d65c95b}">
+				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
 			<Node name="{ec3441fa-6679-411a-8400-a6b3fc778c3b}">
 				<Prp name="relpath" type="S" value="Mobile_android\Mobile_android.mds.tcLS"/>
 			</Node>

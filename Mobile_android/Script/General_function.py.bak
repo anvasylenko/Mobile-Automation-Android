@@ -63,6 +63,9 @@ def TakePhoto(whatPage):   # values: "first_page" and "ideftifier_page"
 	   
 def LogCopying(nameSheet, TestCaseNumber):
      
+    oDevice = Aliases.Mobile.Device
+    oApp = Aliases.Mobile.Device.App
+     
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
@@ -125,20 +128,22 @@ def LogCopying(nameSheet, TestCaseNumber):
     Delay(500)
     
     if int(newMap['tc_fail_log']) == 1:
+        oUsage = oApp.Find("ViewID", "spinner_usage" , 10)
         if oUsage.Exists:
             Log.Message("PASS. Test failed as expected")
             Delay(500)
             oDevice.PressBack()
             oDevice.PressBack()
-            oDevice.PressBack()
+            txtSearch = oApp.Find("ViewID", "txt_search" , 20)
+            if txtSearch.Exists:
+                oDevice.PressBack()
         else:
-            Log.Warning("Test did not failed as expected")
+            Log.Warning("Log Test did not failed as expected")
     else:
-        oMessageScreen = oApp.Find("ViewID", "log_finished_view", 20)
-        oMessage = oMessageScreen.Layout("NO_ID").Layout("relativeLayout").TextView("NO_ID").getText().toString()
-    
-        if oMessage == "Your data has been submitted.":
-            Log.Message(oMessage)
+        oMessageScreen = oApp.Find("ViewID", "data_submitted", 20)
+
+        if oMessageScreen.Exists:
+            Log.Message(oMessageScreen)
         else:
             Log.Warning("Successful Message does not appared")
 

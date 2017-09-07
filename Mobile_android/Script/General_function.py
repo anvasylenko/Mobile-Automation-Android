@@ -125,26 +125,28 @@ def LogCopying(nameSheet, TestCaseNumber):
     
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
-    Delay(500)
+    Delay(1000)
     
     if int(newMap['tc_fail_log']) == 1:
+        oUsage = oApp.Find("ViewID", "spinner_usage" , 10)
         if oUsage.Exists:
             Log.Message("PASS. Test failed as expected")
             Delay(500)
             oDevice.PressBack()
             oDevice.PressBack()
-            oDevice.PressBack()
+            txtSearch = oApp.Find("ViewID", "txt_search" , 20)
+            if txtSearch.Exists:
+                oDevice.PressBack()
         else:
-            Log.Warning("Test did not failed as expected")
+            Log.Warning("Log Test did not failed as expected")
     else:
-        oMessageScreen = oApp.Find("ViewID", "log_finished_view", 20)
-        oMessage = oMessageScreen.Layout("NO_ID").Layout("relativeLayout").TextView("NO_ID").getText().toString()
-    
-        if oMessage == "Your data has been submitted.":
-            Log.Message(oMessage)
+        oMessageScreen = oApp.Find("ViewID", "data_submitted", 20)
+
+        if oMessageScreen.Exists:
+            Log.Message(oMessageScreen)
         else:
             Log.Warning("Successful Message does not appared")
 
-        btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 10)
+        btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 20)
         btnLogAnoterTitle.Touch()	   
         Delay(1000)
