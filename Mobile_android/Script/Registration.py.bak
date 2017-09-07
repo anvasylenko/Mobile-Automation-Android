@@ -45,12 +45,13 @@ def Registration(nameSheet, TestCaseNumber):
     oPostcode.Keys(newMap['postcode'])
     oEmail.Keys(newMap['email'])
     btnSave.Touch()
-    Delay(2000)
+    Delay(1000)
 
     
     if newMap['warning_message'] != "pass":
-        oWarning = Aliases.Device.App.Find("ViewID", "lbl_validation" , 20)
-        oWarningMess = Aliases.Device.App.ScreenWhatToDo.btnLogCopying.TextView("lbl_validation").getText().toString()
+        oWarning = Aliases.Device.App.Find("ViewID", "lbl_validation", 20)
+	   
+        oWarningMess = oWarning.getText().toString()
         Log.Message(oWarningMess)
         if oWarningMess == newMap['warning_message']:
             oApp.btnClose.Touch()

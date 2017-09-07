@@ -141,12 +141,12 @@ def LogCopying(nameSheet, TestCaseNumber):
             Log.Warning("Log Test did not failed as expected")
     else:
         oMessageScreen = oApp.Find("ViewID", "data_submitted", 20)
-
         if oMessageScreen.Exists:
             Log.Message(oMessageScreen)
+            btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 20)
+            btnLogAnoterTitle.Touch()	   
+            Delay(1000)
         else:
             Log.Warning("Successful Message does not appared")
 
-        btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 20)
-        btnLogAnoterTitle.Touch()	   
-        Delay(1000)
+        

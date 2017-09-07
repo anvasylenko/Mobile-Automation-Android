@@ -3,6 +3,7 @@ from General_function import *
 
 
 def ListPublicutoionsAllTestCases():
+    ListPublicutoions(1)
     ListPublicutoions(2)
     ListPublicutoions(3)
     ListPublicutoions(4)

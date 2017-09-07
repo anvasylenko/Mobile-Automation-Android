@@ -10,27 +10,3 @@ from Read_Test_Data_From_Excel import *
 from Select_Sector import *
 
 
-def main():
-    Mobile.SetCurrent("emulator-5554")
-    TestedApps.CLA.Run()
-    Delay(500)
-    
-    TC_SkipRegisrtration()
-   
-    SelectSector(0, "Schools")
-#    Registration("Registration", 7)
-    RegistrationAllTests() 
-    
-#    TC_RestartOnRePage()
-
-    CheckOptionsToSector()
-    SelectSector(1, "other")
-    SelectSector(1, "Schools")
-    
-    SideMenu()
-    checkPermissionTestAllCases()
-    
-    LogCopyingPublishAll
-    LogCopyingMusic()
-    
-    

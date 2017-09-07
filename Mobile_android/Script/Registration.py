@@ -12,7 +12,8 @@ def RegistrationAllTestCases():
     Registration("Registration", 6)
     
     
-def RegPass():
+def RegistrationPass():
+    SelectSector(0, "Schools")
     Registration("Registration", 7)    
     
 

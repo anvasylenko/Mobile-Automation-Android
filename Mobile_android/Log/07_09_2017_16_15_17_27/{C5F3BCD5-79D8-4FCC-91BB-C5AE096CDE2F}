@@ -1,0 +1,3638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 62">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage30.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.636031169"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776979745"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="message" type="S" value="email : "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775083796"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 46">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage25.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359653704"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776339583"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 129">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage64.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363456597"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="129"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780126042"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 83">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage40.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.636130625"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="83"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777975347"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="message" type="S" value="warning_message : Please enter a valid postcode"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776861458"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 120">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\Testing_Data.xlsx"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="120"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779894676"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\Testing_Data.xlsx"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776783681"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="message" type="S" value="postcode : "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775076273"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 26">
+			<Prp name="message" type="S" value="Please enter an organisation name"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775583912"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 135">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage70.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6363838194"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="135"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780617824"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 34">
+			<Prp name="message" type="S" value="name : TestSectorgalaxy"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677583912"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 111">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage57.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362666551"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'SE12 7HU' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="111"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779334838"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="348"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="301"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="256"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6357639005"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;spinner_organization&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.sreenChooseLicenceType.spinnerLicenceType&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;spinner_organization&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774335185"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 29">
+			<Prp name="message" type="S" value="Registration"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775711458"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 18">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358523727"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775192245"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 67">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage35.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360534259"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777202778"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 124">
+			<Prp name="message" type="S" value="email : TestGalaxy@cla.co.uk"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="124"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779968982"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 90">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage47.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361770602"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy@cla.co.uk' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="90"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677843912"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 44">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359551852"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776222917"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 127">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage62.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363394097"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="127"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780062616"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 82">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage39.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361274884"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="82"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777943287"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 101">
+			<Prp name="message" type="S" value="postcode : SE12 7HU"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="101"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6778914468"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 47">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage26.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6359697685"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776393519"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 7">
+			<Prp name="message" type="S" value="Registration"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6774891898"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="message" type="S" value="tc_name : Postcode - inrorrect"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777846412"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 96">
+			<Prp name="message" type="S" value="Listening parameters"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="96"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677885162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 35">
+			<Prp name="message" type="S" value="postcode : SE12 7HU"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775847454"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="468"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="421"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="376"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6357906713"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;spinner_sector&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.sreenChooseLicenceType.spinnerSector&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;spinner_sector&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774600116"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358699884"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775368171"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 103">
+			<Prp name="message" type="S" value="warning_message : Please enter a valid email"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="103"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6778935185"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 109">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage55.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362490509"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="109"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779160301"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776783565"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 71">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="687"/>
+					<Prp name="image file name" type="S" value="visImage38.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="638"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="591"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="datetime" type="D" value="42985.6360960532"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="614"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnClose&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777644907"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="message" type="S" value="SelectSector"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774251389"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="message" type="S" value="email : TestSectorgalaxy@cla.co.uk"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776853819"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 88">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage45.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.636154375"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="88"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778212269"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 119">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="119"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779894444"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 42">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.635940081"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776069213"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 134">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage69.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363814699"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestGalaxy@cla.co.uk' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="134"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780482986"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 61">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage29.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360284375"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776952893"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 33">
+			<Prp name="message" type="S" value="tc_name : Check email validation - Empty"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775830903"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358650116"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775318287"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="message" type="S" value="PASS. Warning message Shown for"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775645602"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 123">
+			<Prp name="message" type="S" value="postcode : SE12 7HU"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="123"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779959028"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 107">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage53.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362428935"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="107"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677909919"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6774995602"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 65">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage33.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360395486"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777063542"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 81">
+			<Prp name="message" type="S" value="warning_message : Please enter a valid postcode"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="81"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777878704"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="message" type="S" value="tc_name : All fields are empty "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775061227"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 100">
+			<Prp name="message" type="S" value="name : TestSectorgalaxy"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="100"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6778905903"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 86">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361390509"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="86"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778061458"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 76">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\Testing_Data.xlsx"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777801389"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 95">
+			<Prp name="message" type="S" value="Registration"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="95"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778775926"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6358118634"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774884259"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="message" type="S" value="warning_message : Please enter an organisation name"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775091319"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 132">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage67.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363601157"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestGalaxy' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="132"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780270023"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 49">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="687"/>
+					<Prp name="image file name" type="S" value="visImage27.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="638"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="591"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="datetime" type="D" value="42985.6359931829"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="614"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnClose&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776616551"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\Testing_Data.xlsx"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6774995718"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 115">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="687"/>
+					<Prp name="image file name" type="S" value="visImage60.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="638"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="591"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="datetime" type="D" value="42985.6363058796"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="614"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="115"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnClose&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779743518"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="message" type="S" value="Listening parameters"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776783218"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 105">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage51.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362361111"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="105"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779030093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="message" type="S" value="Please enter a valid postcode"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677758125"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358587847"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775257755"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 40">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359334491"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776005093"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 57">
+			<Prp name="message" type="S" value="postcode : "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776846181"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358460185"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775128356"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 118">
+			<Prp name="message" type="S" value="Listening parameters"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="118"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779893519"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 63">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage31.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360341667"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777010532"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 84">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361333796"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="84"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778001852"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 32">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\Testing_Data.xlsx"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775784838"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="message" type="S" value="Listening parameters"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677499537"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 130">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage65.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363486574"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="130"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.678015463"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 136">
+			<Prp name="message" type="S" value="User registrated successfully"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="136"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780763657"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="63"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 112">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage58.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362812616"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy@claco' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="112"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779481829"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 68">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="45"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage36.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360706713"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy@cla.co.uk' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777375116"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="45"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="message" type="S" value="name : "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677506875"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 80">
+			<Prp name="message" type="S" value="email : TestSectorgalaxy@cla.co.uk"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="80"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777871181"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 99">
+			<Prp name="message" type="S" value="tc_name : Check email validation - Incorrect"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="99"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677889838"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 38">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.635927037"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775938657"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 91">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage48.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.636179294"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="91"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677848588"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777801157"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 94">
+			<Prp name="message" type="S" value="PASS. Warning message Shown for"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="94"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677870787"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 45">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage24.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359625347"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'SE12 7HU' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776294444"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 128">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage63.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363423727"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="128"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780091667"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="message" type="S" value="Please enter a valid email"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677655706"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{8B9D94D0-E140-45B5-94E1-04E568B41740}"/>
+			<Prp name="unit 1" type="S" value="{DEC145F6-5097-4AB3-8772-5D1F463BBDBB}"/>
+			<Prp name="unit 2" type="S" value="{C556A89F-2C7F-43A5-940B-0A0D74EC48EF}"/>
+		</Node>
+		<Node name="message 25">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6358720718"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775414815"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 114">
+			<Prp name="message" type="S" value="Please enter a valid email"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="114"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779691782"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="message" type="S" value="Registration"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776690741"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 110">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage56.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362602546"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="110"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779270718"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 122">
+			<Prp name="message" type="S" value="name : TestGalaxy"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="122"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677995162"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="message" type="S" value="name : TestSectorgalaxy"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776835995"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="178"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="133"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="90"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="42985.6357822801"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="684"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).ListView(&quot;list_items&quot;).Layout(&quot;NO_ID&quot;, 2)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).ListView(&quot;list_items&quot;).Layout(&quot;NO_ID&quot;, 2)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774512847"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 117">
+			<Prp name="message" type="S" value="Registration"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="117"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779817708"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="message" type="S" value="PASS. Warning message Shown for"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677765081"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775784722"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 89">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage46.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361612153"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'SE12 7IJ' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="89"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778281134"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 43">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359428009"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776098843"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 126">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage61.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363365625"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="126"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780033796"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358675116"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775343866"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 108">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage54.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362456713"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="108"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779125231"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 79">
+			<Prp name="message" type="S" value="postcode : SE12 7IJ"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="79"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777861574"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 98">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\Testing_Data.xlsx"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="98"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6778852662"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="message" type="S" value="warning_message : Please enter a valid email"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677587419"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="message" type="S" value="Listening parameters"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.677780081"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 66">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="43"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage34.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360503356"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'TestSectorgalaxy' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777173032"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="43"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="message" type="S" value="schools was choosen successfully"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774733333"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 87">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage44.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361427199"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="87"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778096181"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 93">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="687"/>
+					<Prp name="image file name" type="S" value="visImage49.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="638"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="591"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="datetime" type="D" value="42985.6362017708"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="614"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="93"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnClose&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778701968"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 133">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="44"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage68.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363675347"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes 'SE12 7HU' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="133"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780344329"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="44"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 60">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage28.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360255324"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.677692338"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="message" type="S" value="PASS. Warning message Shown for"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776622685"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 121">
+			<Prp name="message" type="S" value="tc_name : Correct"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="121"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779943981"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 21">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358612847"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775283681"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="message" type="S" value="tc_name : Postcode - empty"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6776828241"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="52"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="56"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="687"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="638"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="591"/>
+					<Prp name="object left" type="I" value="70"/>
+					<Prp name="datetime" type="D" value="42985.6358954861"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="614"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnClose&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;are_you_sure_view&quot;).Layout(&quot;NO_ID&quot;).Button(&quot;close_button&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775639699"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="56"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="42985.6780763657"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="columnindex" type="I" value="0"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="88"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="click point x" type="I" value="341"/>
+					<Prp name="click point y" type="I" value="43"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="42985.6358041319"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="684"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).ListView(&quot;list_items&quot;).Layout(&quot;NO_ID&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.ScreenWhatToDo.btnLogCopying&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;, 2).Layout(&quot;content&quot;).Layout(&quot;parentPanel&quot;).Layout(&quot;NO_ID&quot;).ListView(&quot;list_items&quot;).Layout(&quot;NO_ID&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="date" type="D" value="42985.6774727315"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 116">
+			<Prp name="message" type="S" value="PASS. Warning message Shown for"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="116"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779749421"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="57"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 106">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="36"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage52.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362394907"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="106"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779064931"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="36"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 41">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359369329"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6776037847"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="message" type="S" value="Listening parameters"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775784375"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 64">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="38"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage32.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6360369329"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777037732"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="38"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 125">
+			<Prp name="message" type="S" value="warning_message : pass"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="125"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6779976968"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="118"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 85">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6361358333"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="85"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778026505"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 131">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="39"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="837"/>
+					<Prp name="image file name" type="S" value="visImage66.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="749"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6363519329"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="131"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_email&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6780187963"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="117"/>
+			<Prp name="line no" type="I" value="39"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 102">
+			<Prp name="message" type="S" value="email : TestSectorgalaxy@claco"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="102"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6778924074"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 78">
+			<Prp name="message" type="S" value="name : TestSectorgalaxy"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="78"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6777853935"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="74"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 113">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage59.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6362837732"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="113"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6779532407"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 97">
+			<Prp name="message" type="S" value="D:\Automation\Mobile_Automation_Android\Mobile_android\"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="97"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6778852315"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="96"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 36">
+			<Prp name="message" type="S" value="email : "/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="2"/>
+			<Prp name="date" type="D" value="42985.6775857755"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="30"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 73">
+			<Prp name="message" type="S" value="Registration"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777722801"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 104">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage50.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6362327431"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="104"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778998264"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="95"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 69">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="46"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="1144"/>
+					<Prp name="image file name" type="S" value="visImage37.png"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="click point y" type="I" value="1097"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="1052"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="datetime" type="D" value="42985.6360728935"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnSkipContinue&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;btn_skip&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6777420833"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="51"/>
+			<Prp name="line no" type="I" value="46"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.635849375"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775161921"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 39">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="35"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="486"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="398"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6359299074"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_org_name&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775970949"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="29"/>
+			<Prp name="line no" type="I" value="35"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="line #" type="I" value="37"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object bottom" type="I" value="602"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object top" type="I" value="514"/>
+					<Prp name="object left" type="I" value="50"/>
+					<Prp name="datetime" type="D" value="42985.6358552662"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object right" type="I" value="670"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+				</Node>
+			</Node>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).ScrollView(&quot;NO_ID&quot;).EditText(&quot;txt_postcode&quot;)"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6775221991"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="37"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 92">
+			<Prp name="message" type="S" value="Please enter a valid postcode"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="id" type="I" value="92"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="date" type="D" value="42985.6778648958"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="73"/>
+			<Prp name="line no" type="I" value="54"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

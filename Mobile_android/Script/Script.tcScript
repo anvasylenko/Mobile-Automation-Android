@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{EB821DEB-071E-4030-AD9F-300E886A2E95}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Unit1.py" />
-		</child>
 		<child name="Mobile_main" key="{D03A5E1F-2E3B-4942-9159-720B897A946C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Mobile_main.py" />
 		</child>
@@ -45,7 +42,7 @@
 		</child>
 	</children>
 	<folders>
-		<folder caption="Functions_for_screen" description="A logical folder that is used to organize project items and elements." moniker="">
+		<folder caption="Functions_for_screens" description="A logical folder that is used to organize project items and elements." moniker="">
 			<references>
 				<ref key="{3F690451-6C63-4D31-B825-69BD78E26931}" />
 				<ref key="{01110265-874A-4694-B78E-48870A55B562}" />
@@ -54,7 +51,6 @@
 				<ref key="{DEC145F6-5097-4AB3-8772-5D1F463BBDBB}" />
 				<ref key="{8B9D94D0-E140-45B5-94E1-04E568B41740}" />
 				<ref key="{8143627D-3069-4E4B-AE6B-6A1758728A09}" />
-				<ref key="{EB821DEB-071E-4030-AD9F-300E886A2E95}" />
 			</references>
 		</folder>
 		<folder caption="Test_scenario" description="A logical folder that is used to organize project items and elements." moniker="">

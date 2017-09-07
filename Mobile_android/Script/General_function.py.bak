@@ -125,7 +125,7 @@ def LogCopying(nameSheet, TestCaseNumber):
     
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
-    Delay(500)
+    Delay(1000)
     
     if int(newMap['tc_fail_log']) == 1:
         oUsage = oApp.Find("ViewID", "spinner_usage" , 10)
@@ -147,6 +147,6 @@ def LogCopying(nameSheet, TestCaseNumber):
         else:
             Log.Warning("Successful Message does not appared")
 
-        btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 10)
+        btnLogAnoterTitle = oApp.Find("ViewID", "btn_finish_button", 20)
         btnLogAnoterTitle.Touch()	   
         Delay(1000)

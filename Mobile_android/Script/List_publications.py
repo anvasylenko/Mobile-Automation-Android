@@ -7,7 +7,7 @@ def ListPublicutoionsAllTestCases():
     ListPublicutoions(2)
     ListPublicutoions(3)
     ListPublicutoions(4)
-    ListPublicutoions(5)
+
      
     
 def ListPublicutoions(TestCaseNumber):

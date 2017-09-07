@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="1"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="2"/>
+			</Node>
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="8"/>
+			</Node>
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="1"/>
+			</Node>
+			<Prp name="host" type="S" value="CLA-1213-PC"/>
+			<Prp name="test" type="S" value="All_tests"/>
+			<Prp name="start date" type="D" value="42985.4486773495"/>
+			<Prp name="user" type="S" value="C4T"/>
+			<Prp name="log status" type="I" value="0"/>
+			<Prp name="stop date" type="D" value="42985.4500686574"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="42985.449992419"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42985.4500686574"/>
+				<Prp name="name" type="S" value="Log_copying_music"/>
+				<Prp name="details" type="S" value="{3B05F666-5926-41A5-B1F2-4F26E056F190}"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="42985.4486773495"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="42985.4499924074"/>
+				<Prp name="name" type="S" value="Log_copying_publications"/>
+				<Prp name="details" type="S" value="{DD5C224E-D588-4217-82D0-013170B9116E}"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>
