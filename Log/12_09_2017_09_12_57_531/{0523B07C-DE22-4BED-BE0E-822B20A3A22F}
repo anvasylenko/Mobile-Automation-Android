@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="Registaration"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{3435647B-433D-41F0-ACB9-99F3D1B593FA}"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="start time" type="D" value="42990.3841753588"/>
+				<Prp name="end time" type="D" value="42990.384826331"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="Check_Changing_Sector"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{007B40F4-5417-4409-973A-26815308E039}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="start time" type="D" value="42990.3848263426"/>
+				<Prp name="end time" type="D" value="42990.3848731366"/>
+			</Node>
+			<Node name="row6">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="List_publications"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="details" type="S" value="{68C452A9-47B8-4A01-8869-ED43B2259B39}"/>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="start time" type="D" value="42990.391756493"/>
+				<Prp name="end time" type="D" value="42990.3921610532"/>
+			</Node>
+			<Node name="row5">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="Log_copying_music"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="details" type="S" value="{A75197A7-CD0F-4A62-BF51-75EA54198855}"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="start time" type="D" value="42990.3869136921"/>
+				<Prp name="end time" type="D" value="42990.391756493"/>
+			</Node>
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="Check_permissions"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{DF43515D-A88A-44EA-BE6E-824A9A5A39DF}"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="start time" type="D" value="42990.3848731481"/>
+				<Prp name="end time" type="D" value="42990.3855236227"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="Install_App"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{F1C741D9-6CF4-4A5A-BA14-380B3BA508CA}"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="start time" type="D" value="42990.3840006134"/>
+				<Prp name="end time" type="D" value="42990.3841753472"/>
+			</Node>
+			<Node name="row4">
+				<Node name="messages"/>
+				<Prp name="name" type="S" value="Log_copying_publications"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="details" type="S" value="{32B80080-F600-47DB-A552-BBFFFF3FFE38}"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="start time" type="D" value="42990.3855236227"/>
+				<Prp name="end time" type="D" value="42990.386913588"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>

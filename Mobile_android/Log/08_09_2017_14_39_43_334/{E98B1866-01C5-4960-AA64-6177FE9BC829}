@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row5">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="42986.6135414815"/>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="details" type="S" value="{13AD3EB2-FE26-4F87-BB2F-9190B4B3CC03}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Log_copying_music"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="42986.6137096528"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="42986.611873831"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="details" type="S" value="{7DCB7A8E-FBB8-43F4-BFD4-AA0434779C06}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Check_Changing_Sector"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="42986.6119278704"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="42986.6109184491"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{6388BF4A-D108-430C-86C4-F4F4280BD861}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Install_App"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="42986.6110831944"/>
+			</Node>
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="42986.6119278819"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="details" type="S" value="{EA324036-FB25-4FE1-A38B-FBAE40B3D2AE}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Check_permissions"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="42986.612699838"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="42986.611083206"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="details" type="S" value="{C8DB1FC3-0374-4746-901E-ACB285533D05}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Registaration"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="42986.6118738194"/>
+			</Node>
+			<Node name="row4">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="42986.6126998495"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="details" type="S" value="{72DAE58C-4228-4CC1-BC3E-3D649913F8C3}"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="Log_copying_publications"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="end time" type="D" value="42986.6135414699"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="0"/>
+	</Node>
+</Nodes>

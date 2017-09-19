@@ -48,7 +48,7 @@ def TakePhoto(whatPage):   # values: "first_page" and "ideftifier_page"
     
     if whatPage == "first_page":
         btnTakePhotoFirstPage.Touch()
-        #Take a photo of first page
+       # Take a photo of first page
         ImageRepository.camera.ImageView_UnnamedCtrl.Touch(61, 76)
         ImageRepository.camera.ImageView_UnnamedCtrl1.Touch(43, 77)
         Delay(1000)

@@ -24,7 +24,7 @@ def LogCopyingPublish(TestCaseNumber):
        oDevice.PressBack()
        Delay(500)
 	  
-    btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 20)
+    btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications", 20)
     if btnLogCopying.Exists:
         btnLogCopying.Touch()
 	   
@@ -37,8 +37,8 @@ def LogCopyingPublish(TestCaseNumber):
     
     Log.Message((newMap['tc_name']))
     
-    if int(newMap['take_photo']) == 1:
-        TakePhoto("ideftifier_page")
+#    if int(newMap['take_photo']) == 1:
+#        TakePhoto("ideftifier_page")
 
 	   
     if int(newMap['photo_cancel']) == 1:
