@@ -18,7 +18,7 @@ def main():
     TC_SkipRegisrtration()
    
     SelectSector(0, "Schools")
-    Registration("Registration", 7)
+    Registration("Registration", 6)
 #    RegistrationAllTests() 
     
 #    TC_RestartOnRePage()

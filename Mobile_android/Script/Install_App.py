@@ -5,5 +5,5 @@ def before():
     TestedApps.CLA.Run()
     Delay(500)
     
-    TC_SkipRegisrtration()
+
    

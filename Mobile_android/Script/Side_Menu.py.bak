@@ -35,6 +35,7 @@ def SideMenu():
     # Check 'Contact'
     btnContact = oApp.Find("ViewID", "btn_contact" , 20)
     if not btnContact.Exists:
+         Log.Message("Yes")
          btnMenu.Touch()
     
     btnContact.Touch()
@@ -81,12 +82,13 @@ def SideMenu():
          btnMenu.Touch()
 	    
     btnChangeYourDetails.Touch()
+    Registration("Side_Menu", 1)
     Registration("Side_Menu", 2)
     Registration("Side_Menu", 3)    
     Registration("Side_Menu", 4)
     Registration("Side_Menu", 5)
     Registration("Side_Menu", 6)
-    Registration("Side_Menu", 7)
+  
    
     
     # Get parameters

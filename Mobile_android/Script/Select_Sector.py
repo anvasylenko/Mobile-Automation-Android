@@ -1,4 +1,4 @@
-﻿def SelectSector(changeSector, sector):
+﻿def SelectSector(changeSector, sector): # sector = "Schools" or "other"
     Log.AppendFolder("SelectSector")
     oApp = Aliases.Mobile.Device.App
     
@@ -30,6 +30,7 @@
         Log.Message("other was choosen successfully")
     
     oApp.btnSkipContinue.Touch()
+    Delay(500)
     
     if changeSector == 1:
         CheckOptionsToSector()
@@ -47,12 +48,14 @@ def CheckOptionsToSector():
     btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
     btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 10)
 
+    # Check Licence in the user details
     Delay(1000)
     btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
     btnMenu.Touch()
     txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()
     Log.Message(txtLicence)
     oDevice.PressBack()
+    
     
     if txtLicence == "Schools":
         if btnLogCopyingMusic.Exists:
@@ -64,7 +67,7 @@ def CheckOptionsToSector():
             Log.Warning("Fail. Log Copying Music is not shown")
         else:
             Log.Message("Pass. Log Copying Music is shown")
-
+		  
 		  
     if btnCheckPermission.Exists:
         Log.Message("Pass. Check Permission is shown")

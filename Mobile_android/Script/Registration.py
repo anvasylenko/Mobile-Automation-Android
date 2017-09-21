@@ -31,8 +31,10 @@ def Registration(nameSheet, TestCaseNumber):
     newMap = {}
     newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
     
+    Log.Message(newMap['tc_name'])
+    
+    
     # Clear data before test
-#    if newMap['warning_message'] != "pass":
     oName.Keys("^a")
     oName.Keys("[BS]")
     oPostcode.Keys("^a")
@@ -41,7 +43,6 @@ def Registration(nameSheet, TestCaseNumber):
     oEmail.Keys("[BS]")
 	    
     # test
-#    Log.Message(newMap['tc_name'])
     oName.Keys(newMap['name'])
     oPostcode.Keys(newMap['postcode'])
     oEmail.Keys(newMap['email'])
@@ -51,7 +52,6 @@ def Registration(nameSheet, TestCaseNumber):
     
     if newMap['warning_message'] != "pass":
         oWarning = Aliases.Device.App.Find("ViewID", "lbl_validation", 20)
-	   
         oWarningMess = oWarning.getText().toString()
         Log.Message(oWarningMess)
         if oWarningMess == newMap['warning_message']:

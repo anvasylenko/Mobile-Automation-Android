@@ -49,7 +49,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="False" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="True" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -57,7 +57,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Log_copying_publications" key="{021790CA-8C42-4833-AF2A-B86E278FAA88}" group="False" enabled="True" testMoniker="{D2282AD9-4397-4EDE-9C22-FE58EECFFF59}LogCopyingPublishAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Log_copying_publications" key="{021790CA-8C42-4833-AF2A-B86E278FAA88}" group="False" enabled="True" testMoniker="{D2282AD9-4397-4EDE-9C22-FE58EECFFF59}LogCopyingPublicationsAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -65,7 +65,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="List_publications" key="{F2CDDB21-8747-4B67-84EB-A4C5A5F6C30E}" group="False" enabled="True" testMoniker="{01110265-874A-4694-B78E-48870A55B562}ListPublicutoionsAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="List_publications" key="{F2CDDB21-8747-4B67-84EB-A4C5A5F6C30E}" group="False" enabled="True" testMoniker="{01110265-874A-4694-B78E-48870A55B562}ListPublicationsAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -84,6 +84,17 @@
 					</testItem>
 					<testItem name="Check_Changing_Sector" key="{A813D99F-C051-4DCA-90F9-80B1111BA01E}" group="False" enabled="True" testMoniker="{8B9D94D0-E140-45B5-94E1-04E568B41740}CheckOptionsToSector" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Group1" key="{89A10611-6F0D-4043-9A4D-F4021CB53634}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+				<testParameters />
+				<children>
+					<testItem name="Check_Permission_test" key="{983CB77C-3E42-4412-A2D2-7A5E4081D836}" group="False" enabled="True" testMoniker="{3F690451-6C63-4D31-B825-69BD78E26931}checkPermissionTest" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters>
+							<param0 name="TestCaseNumber" type="3" localVarName="" varType="3" value="3" />
+						</testParameters>
 						<children />
 					</testItem>
 				</children>

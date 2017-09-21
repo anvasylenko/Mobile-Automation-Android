@@ -14,7 +14,7 @@ def RegistrationAllTestCases():
     
 def RegistrationPass():
     SelectSector(0, "Schools")
-    Registration("Registration", 7)    
+    Registration("Registration", 6)    
     
 
 def Registration(nameSheet, TestCaseNumber):
@@ -32,7 +32,6 @@ def Registration(nameSheet, TestCaseNumber):
     newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
     
     # Clear data before test
-#    if newMap['warning_message'] != "pass":
     oName.Keys("^a")
     oName.Keys("[BS]")
     oPostcode.Keys("^a")

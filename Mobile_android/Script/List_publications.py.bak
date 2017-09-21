@@ -2,26 +2,22 @@
 from General_function import *
 
 
-def ListPublicutoionsAllTestCases():
+def ListPublicationsAllTestCases():
     ListPublicutoions(1)
     ListPublicutoions(2)
     ListPublicutoions(3)
     ListPublicutoions(4)
 
      
-    
-def ListPublicutoions(TestCaseNumber):
+def ListPublications(TestCaseNumber):
      
     Log.AppendFolder("ListPublicutoions")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
+    
+    
+    # All this code goes to the "Log copying" screen under diffirent condotions
     btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
-    
-    # Get parameters
-    newMap = {}
-    newMap = ReadTestDataFromExcel("List_Publicutoions", TestCaseNumber)
-    
-    
     if btnListPublications.Exists:
         btnListPublications.Touch()
 	   
@@ -30,16 +26,27 @@ def ListPublicutoions(TestCaseNumber):
     if screenTitle.getText().toString() != "List Publications":
        oDevice.PressBack()
        Delay(500)
-	  
+	
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)  
     if btnListPublications.Exists:
         btnListPublications.Touch()
+	   
+	   
+    # Get parameters
+    newMap = {}
+    newMap = ReadTestDataFromExcel("List_Publications", TestCaseNumber)
     
+    Log.Message((newMap['tc_name']))
+    
+	
+    # Set search data and press Continue button
     btnContinue = oApp.Find("ViewID", "btn_continue", 20)
     txtSearch = oApp.Find("ViewID", "txt_search", 20)
     
     txtSearch.Keys(newMap['search'])
     btnContinue.Touch()
     Delay(1000)
+    
     
     if int(newMap['tc_fail']) == 1:
         if txtSearch.Exists:
@@ -53,10 +60,10 @@ def ListPublicutoions(TestCaseNumber):
     
     btnSaveContinue = oApp.Find("ViewID", "btn_save_continue", 20)
     btnFinishSend = oApp.Find("ViewID", "btn_finish_send", 30)
-    searchResult = oApp.Find("ViewID", "txt_identifier", 20)
+    searchResultTitleIsbnIssn = oApp.Find("ViewID", "txt_identifier", 20)
     counter = oApp.Find("ViewID", "txt_totals", 20)
     
-    if searchResult.getText().toString() == newMap['search']:
+    if searchResultTitleIsbnIssn.getText().toString() == newMap['search']:
        Log.Message ("Title/ISBN/ISSN is correct")
     else:
        Log.Warning("Title/ISBN/ISSN is not correct")
@@ -78,7 +85,6 @@ def ListPublicutoions(TestCaseNumber):
         else:
             Log.Warning("Save and continue does not work")
            
-		  
 		  
     if int(newMap['finish_and_send_yes']) == 1:
         btnFinishSend.Touch()
@@ -102,10 +108,9 @@ def ListPublicutoions(TestCaseNumber):
         btnNo = oApp.Find("ViewID", "no_button" , 20)
         btnNo.Touch()
         Delay(200)
-        if searchResult.Exists:
+        if btnFinishSend.Exists:
             Log.Message("PASS. Finish and send No works")
             oDevice.PressBack()
-            
         else:
             Log.Warning("Finish and send No does not work")
             

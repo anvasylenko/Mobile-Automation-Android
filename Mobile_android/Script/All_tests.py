@@ -1,5 +1,4 @@
-﻿from Change_details import *
-from Check_permissions import *
+﻿from Check_permissions import *
 from General_function import *
 from List_publications import *
 from Log_copying_publications import *
@@ -10,3 +9,31 @@ from Read_Test_Data_From_Excel import *
 from Select_Sector import *
 
 
+def main():
+    Mobile.SetCurrent("emulator-5554")
+    TestedApps.CLA.Run()
+    Delay(500)
+    
+    TC_SkipRegisrtration()
+   
+    SelectSector(0, "Schools")
+    Registration("Registration", 6)
+#    RegistrationAllTests() 
+    
+#    TC_RestartOnRePage()
+
+    CheckOptionsToSector()
+    SelectSector(1, "other")
+    SelectSector(1, "Schools")
+
+    
+    SideMenu()
+    checkPermissionTestAllCases()
+    
+    LogCopyingPublishAll
+    LogCopyingMusic()
+    
+def test():
+    oDevice = Aliases.Mobile.Device
+    oDevice.Drag(5,5, 0, 500)
+    

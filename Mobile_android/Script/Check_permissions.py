@@ -1,11 +1,13 @@
 ﻿from Log_copying_publications import *
 from Read_Test_Data_From_Excel import *
 
+
 def checkPermissionAllTestCases():
     checkPermissionTest(1) 
     checkPermissionTest(2)
     checkPermissionTest(3)
     checkPermissionTest(4)
+    checkPermissionTest(5)
     
     
 def checkPermissionTest(TestCaseNumber):
@@ -20,11 +22,26 @@ def checkPermissionTest(TestCaseNumber):
     newMap = {}
     newMap = ReadTestDataFromExcel("Check_Permissions", TestCaseNumber)
     
-    #Set search data
-    oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
+    Log.Message(newMap['tc_name'])
+    
+    # Set search data
+    txtSearch = oApp.Find("ViewID", "txt_search", 20)
+    txtSearch.Keys(newMap['search'])
+#    oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
     Delay(3000)
+    
+    
+    if int(newMap['tc_fail']) == 1:
+        if txtSearch.Exists:
+            Log.Message("PASS. Test failed as expected")
+            Log.PopLogFolder()
+            return None
+        else:
+            Log.Warning("Test is not failed as expected")
+            Log.PopLogFolder()
+            return None
     
     
     # if searched results more than 1
@@ -41,7 +58,7 @@ def checkPermissionTest(TestCaseNumber):
         else:
             Log.Warning("Single result is not shown")
 
-    #Check data
+    # Check data
     oTitle = oApp.Find("ViewID", "txt_book_title" , 20)
     oISBN = oApp.Find("ViewID", "txt_isbn_issn" , 20)
     oType = oApp.Find("ViewID", "txt_type" , 20)
@@ -95,9 +112,9 @@ def checkPermissionTest(TestCaseNumber):
     
     # Check licence
     Delay(200)	
-    btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
+    btnMenu = oApp.Find("ViewID", "drawer_button", 10)
     btnMenu.Touch()
-    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()     
+    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite", 10).getText().toString()     
     oDevice.PressBack()
     if oLicence.getText().toString() == txtLicence:
         Log.Message ("oLicence is correct")
@@ -106,7 +123,7 @@ def checkPermissionTest(TestCaseNumber):
 	
     #Check Licence Usage
     if oForm.getText().toString() == "print":
-        oPerm = oApp.Find("ViewID", "permissions_container" , 20)
+        oPerm = oApp.Find("ViewID", "permissions_container", 20)
         oPhotocopying = oPerm.Layout("NO_ID").Layout("root_view").TextView("txt_name")
         oPhotocopying.Touch()
         oApp.btnScreenClose.Touch()
@@ -119,7 +136,7 @@ def checkPermissionTest(TestCaseNumber):
 #        oApp.btnScreenClose.Touch()
 #        Log.Message("Scaning screen is shown")
     elif oForm.getText().toString() == "digital":
-        oDigital = oApp.Find("ViewID", "help_icon" , 20)
+        oDigital = oApp.Find("ViewID", "help_icon", 20)
         oDigital.Touch()
         oApp.btnScreenClose.Touch()
         Log.Message("Digital screen is shown")
@@ -128,8 +145,8 @@ def checkPermissionTest(TestCaseNumber):
     
     #Go to Log Copying or Check another permission
     Delay(200)	
-    btnCheckAnotherPermission = oApp.Find("ViewID", "btn_check_another" , 40)
-    obtnLogCopying = oApp.Find("ViewID", "btn_log" , 20)
+    btnCheckAnotherPermission = oApp.Find("ViewID", "btn_check_another", 40)
+    obtnLogCopying = oApp.Find("ViewID", "btn_log", 20)
     
     if int(newMap['log_copying']) == 0:
         btnCheckAnotherPermission.Touch()
@@ -139,7 +156,7 @@ def checkPermissionTest(TestCaseNumber):
             Log.Message("Check permissions is NOT shown. CheckAnotherPermission button does not work")
     else:     
         obtnLogCopying.Touch()
-        LogCopyingPublish()
+        LogCopyingPublish(5)
 
     Log.PopLogFolder()
     

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Mobile_main" key="{D03A5E1F-2E3B-4942-9159-720B897A946C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Mobile_main.py" />
-		</child>
 		<child name="Registration" key="{DEC145F6-5097-4AB3-8772-5D1F463BBDBB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Registration.py" />
 		</child>
@@ -57,7 +54,6 @@
 			<references>
 				<ref key="{793A7C44-7FF1-4E07-883C-CE0394E38DC9}" />
 				<ref key="{1749742B-794A-4A96-A49B-F27ED501DD0D}" />
-				<ref key="{D03A5E1F-2E3B-4942-9159-720B897A946C}" />
 				<ref key="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}" />
 			</references>
 		</folder>

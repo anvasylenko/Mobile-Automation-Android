@@ -1,11 +1,13 @@
 ﻿from Log_copying_publications import *
 from Read_Test_Data_From_Excel import *
 
+
 def checkPermissionAllTestCases():
     checkPermissionTest(1) 
     checkPermissionTest(2)
     checkPermissionTest(3)
     checkPermissionTest(4)
+    checkPermissionTest(5)
     
     
 def checkPermissionTest(TestCaseNumber):
@@ -20,11 +22,27 @@ def checkPermissionTest(TestCaseNumber):
     newMap = {}
     newMap = ReadTestDataFromExcel("Check_Permissions", TestCaseNumber)
     
-    #Set search data
-    oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
+    Log.Message(newMap['tc_name'])
+    
+    # Set search data
+    txtSearch = oApp.Find("ViewID", "txt_search", 20)
+    txtSearch.Keys(newMap['search'])
+#    oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
     Delay(3000)
+    
+    
+    if int(newMap['tc_fail']) == 1:
+        if txtSearch.Exists:
+            Log.Message("PASS. Test failed as expected")
+            Log.PopLogFolder()
+            return None
+        else:
+            Log.Warning("Test is not failed as expected")
+            Log.PopLogFolder()
+            return None
+    
     
     # if searched results more than 1
     if int(newMap['results_count']) != 1:
@@ -40,7 +58,7 @@ def checkPermissionTest(TestCaseNumber):
         else:
             Log.Warning("Single result is not shown")
 
-    #Check data
+    # Check data
     oTitle = oApp.Find("ViewID", "txt_book_title" , 20)
     oISBN = oApp.Find("ViewID", "txt_isbn_issn" , 20)
     oType = oApp.Find("ViewID", "txt_type" , 20)
@@ -138,7 +156,7 @@ def checkPermissionTest(TestCaseNumber):
             Log.Message("Check permissions is NOT shown. CheckAnotherPermission button does not work")
     else:     
         obtnLogCopying.Touch()
-        LogCopyingPublish()
+        LogCopyingPublish(5)
 
     Log.PopLogFolder()
     

@@ -1,19 +1,22 @@
 ﻿from Read_Test_Data_From_Excel import *
 from General_function import *
 
-def LogCopyingPublishAllTestCases():
-    LogCopyingPublish(1)
-    LogCopyingPublish(2)
-    LogCopyingPublish(3)
-    LogCopyingPublish(3)
-    LogCopyingPublish(4)
-    LogCopyingPublish(5)
+def LogCopyingPublicationsAllTestCases():
+    LogCopyingPublications(1)
+    LogCopyingPublications(2)
+    LogCopyingPublications(3)
+    LogCopyingPublications(3)
+    LogCopyingPublications(4)
+    LogCopyingPublications(5)
     
-def LogCopyingPublish(TestCaseNumber):
+    
+def LogCopyingPublications(TestCaseNumber):
     Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingPublish")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     
+    
+     # All this code goes to the "Log copying" screen under diffirent condotions
     btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 20)
     if btnLogCopying.Exists:
            btnLogCopying.Touch()
@@ -30,15 +33,16 @@ def LogCopyingPublish(TestCaseNumber):
 	   
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     txtSearch = oApp.Find("ViewID", "txt_search" , 20)
-	   
+    
+    
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Log_copying_publications", TestCaseNumber)
     
     Log.Message((newMap['tc_name']))
     
-#    if int(newMap['take_photo']) == 1:
-#        TakePhoto("ideftifier_page")
+    if int(newMap['take_photo']) == 1:
+        TakePhoto("ideftifier_page")
 
 	   
     if int(newMap['photo_cancel']) == 1:

@@ -1,4 +1,4 @@
-﻿def ReadTestDataFromExcel(sSheetName, colunmTestData):
+﻿def ReadTestDataFromExcel(sSheetName, testCaseNumber):
     Log.AppendFolder("Listening parameters")
     
     projPath = Project.Path
@@ -35,8 +35,7 @@
 
     Log.PopLogFolder()
     Excel.Quit()
-    
-#    VarToString
-    Log.Message(str(mapParameters.items()))
+
+#    Log.Message(str(mapParameters.items()))
     return mapParameters
 

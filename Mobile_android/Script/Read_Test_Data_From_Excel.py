@@ -1,11 +1,11 @@
-﻿def ReadTestDataFromExcel(sSheetName, colunmTestData):
+﻿def ReadTestDataFromExcel(sSheetName, testCaseNumber):
     Log.AppendFolder("Listening parameters")
     
     projPath = Project.Path
     Log.Message(projPath)
     testDataPath = projPath + "Testing_Data.xlsx"
     Log.Message(testDataPath)
-    colunmTestData = colunmTestData + 1
+    testCaseNumber = testCaseNumber + 1
     
     # Open Excel
     Excel = Sys.OleObject["Excel.Application"]
@@ -22,7 +22,7 @@
 
     
     parameterNameColunm = 1
-    valueColumn = colunmTestData  # = 2 
+    valueColumn = testCaseNumber  # = 2 
     iRow = 2
     
     mapParameters = {}

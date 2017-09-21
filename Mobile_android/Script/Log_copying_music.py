@@ -20,12 +20,14 @@ def LogCopyingMusicAllTestCases():
     
     
     
-    
 def LogCopyingMusic(TestCaseNumber):
  
     Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingMusic")
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
+    
+    
+    # All this code goes to the "Log copying of music" screen under diffirent condotions
     
     screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
     Log.Message(screenTitle.getText().toString())
@@ -47,6 +49,7 @@ def LogCopyingMusic(TestCaseNumber):
     btnLogCopyingMusic = oApp.Find("ViewID", "dashboard_item_log_copying_printed_music", 20)
     if btnLogCopyingMusic.Exists:
         btnLogCopyingMusic.Touch()
+	   
 
     # Get parameters
     newMap = {}
