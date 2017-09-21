@@ -14,7 +14,7 @@ def main():
     TestedApps.CLA.Run()
     Delay(500)
     
-    TC_SkipRegisrtration()
+    viewTutorial()
    
     SelectSector(0, "Schools")
     Registration("Registration", 6)

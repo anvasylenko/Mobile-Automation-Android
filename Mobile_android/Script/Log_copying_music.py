@@ -1,5 +1,7 @@
 ﻿from Read_Test_Data_From_Excel import *
-from General_function import *
+from Log_copying import *
+from Take_Photo import *
+
 
 
 def LogCopyingMusicAllTestCases():
@@ -17,7 +19,6 @@ def LogCopyingMusicAllTestCases():
     LogCopyingMusic(12)
     LogCopyingMusic(13)
     LogCopyingMusic(14)
-    
     
     
 def LogCopyingMusic(TestCaseNumber):

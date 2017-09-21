@@ -35,5 +35,5 @@ def main():
     
 def test():
     oDevice = Aliases.Mobile.Device
-    oDevice.Move(0, 500)
+    oDevice.Drag(5,5, 0, 500)
     

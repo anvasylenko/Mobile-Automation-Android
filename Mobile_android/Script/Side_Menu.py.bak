@@ -19,12 +19,12 @@ def SideMenu():
     txtPostcode = oApp.Find("ViewID", "txt_your_postcode_value" , 10).getText().toString()
     txtEmail = oApp.Find("ViewID", "txt_your_email_address_value" , 10).getText().toString()
     
-	# Check 'About us'
+    
+    # Check 'About us'
     btnAboutUs.Touch()
     Delay(500)
     text = oApp.Find("ViewID", "txt_title" , 10)
     btnBack = oApp.Find("ViewID", "back_button" , 20)
-    
     
     if text.getText().toString() == "About CLA":
         Log.Message("'About us' screen is displayed")
@@ -49,31 +49,32 @@ def SideMenu():
 	
     
     # Check 'Help'
-#    if not btnHelp.Exists:
-#         btnMenu.Touch()
-#
-#    btnHelp.Touch()
-#    Delay(200)
-#    
-#    text = oApp.Find("ViewID", "help_text" , 20)
-#	
-#    if text.getText().toString() == "*mobileroyalties*":
-#        Log.Message("'Help' screen is displayed")
-#    btnBack.Touch()
+    oDevice.Move(27, 27)
+    if not btnHelp.Exists:
+         btnMenu.Touch()
+
+    btnHelp.Touch()
+    Delay(200)
+    
+    text = oApp.Find("ViewID", "help_text" , 20)
+	
+    if text.getText().toString() == "*mobileroyalties*":
+        Log.Message("'Help' screen is displayed")
+    btnBack.Touch()
 	   
 
 
-    # Check 'Your details' which were set durring registration
+    # Check 'Your details' which were set during registration
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Side_Menu", 1)
-	    
-#    Log.Message(newMap['tc_name'])
-
+	
     Delay(200)
     if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == ewMap['email']:
-       Log.message("User details which were set durring registration are displayed")
-	  
+        Log.message("User details which were set durring registration are displayed")
+    else:
+        Log.Warning("User details which were set durring registration are not mached") 
+	
 	  
     # Change 'Your details' - same Test cases as durring registration
     btnChangeYourDetails = oApp.Find("ViewID", "btn_change_details" , 20)
@@ -89,7 +90,6 @@ def SideMenu():
     Registration("Side_Menu", 5)
     Registration("Side_Menu", 6)
   
-   
     
     # Get parameters
     newMap = {}
@@ -100,6 +100,8 @@ def SideMenu():
     Delay(500)
     if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == newMap['email']:
        Log.message("User details were changed successful")
+    else:
+        Log.Warning("User details were not changed successful") 
 	
     oDevice.PressBack()
 	  

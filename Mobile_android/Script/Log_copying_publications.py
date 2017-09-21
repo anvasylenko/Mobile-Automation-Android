@@ -1,5 +1,7 @@
 ﻿from Read_Test_Data_From_Excel import *
-from General_function import *
+from Log_copying import *
+from Take_Photo import *
+
 
 def LogCopyingPublicationsAllTestCases():
     LogCopyingPublications(1)
@@ -40,6 +42,7 @@ def LogCopyingPublications(TestCaseNumber):
     newMap = ReadTestDataFromExcel("Log_copying_publications", TestCaseNumber)
     
     Log.Message((newMap['tc_name']))
+    
     
     if int(newMap['take_photo']) == 1:
         TakePhoto("ideftifier_page")

@@ -1,5 +1,6 @@
 ﻿from Read_Test_Data_From_Excel import *
-from General_function import *
+from Log_copying import *
+
 
 def LogCopyingPublicationsAllTestCases():
     LogCopyingPublications(1)
@@ -16,7 +17,7 @@ def LogCopyingPublications(TestCaseNumber):
     oApp = Aliases.Mobile.Device.App
     
     
-     # All this code goes to the "Log copying" screen under diffirent condotions
+    # All this code goes to the "Log copying" screen under diffirent condotions
     btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 20)
     if btnLogCopying.Exists:
            btnLogCopying.Touch()
@@ -40,6 +41,7 @@ def LogCopyingPublications(TestCaseNumber):
     newMap = ReadTestDataFromExcel("Log_copying_publications", TestCaseNumber)
     
     Log.Message((newMap['tc_name']))
+    
     
     if int(newMap['take_photo']) == 1:
         TakePhoto("ideftifier_page")

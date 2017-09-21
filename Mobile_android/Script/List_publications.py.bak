@@ -3,10 +3,10 @@ from General_function import *
 
 
 def ListPublicationsAllTestCases():
-    ListPublicutoions(1)
-    ListPublicutoions(2)
-    ListPublicutoions(3)
-    ListPublicutoions(4)
+    ListPublications(1)
+    ListPublications(2)
+    ListPublications(3)
+    ListPublications(4)
 
      
 def ListPublications(TestCaseNumber):
@@ -110,7 +110,7 @@ def ListPublications(TestCaseNumber):
         Delay(200)
         if btnFinishSend.Exists:
             Log.Message("PASS. Finish and send No works")
-            oDevice.PressBack()
+            btnSaveContinue.Touch()
         else:
             Log.Warning("Finish and send No does not work")
             

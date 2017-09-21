@@ -120,6 +120,96 @@
 				<Prp name="relpath" type="S" value="20_09_2017_17_24_34_131\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.4009550116"/>
+				<Prp name="description" type="S" value="Mobile_android"/>
+				<Prp name="key" type="S" value="{EEE939CD-2BFA-46DB-B0AE-F43CDB1F4734}"/>
+				<Prp name="nameofroot" type="S" value="Mobile_android"/>
+				<Prp name="relpath" type="S" value="21_09_2017_09_37_22_513\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.4016176736"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5EDC88DF-E786-4863-BCED-76818A8E13E3}"/>
+				<Prp name="nameofroot" type="S" value="Smoke_test"/>
+				<Prp name="relpath" type="S" value="21_09_2017_09_38_19_767\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.4030174653"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8E1C0A66-4C49-4EFA-9FCB-34532096EFAC}"/>
+				<Prp name="nameofroot" type="S" value="Smoke_test"/>
+				<Prp name="relpath" type="S" value="21_09_2017_09_40_20_709\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.4488885532"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7D1C69CC-EA14-47A3-8BA0-FCF37547C843}"/>
+				<Prp name="nameofroot" type="S" value="Smoke_test"/>
+				<Prp name="relpath" type="S" value="21_09_2017_10_46_23_971\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.4797627083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7C4AB6B7-5356-4BA1-AF4C-92C6BB5B0F7F}"/>
+				<Prp name="nameofroot" type="S" value="Install_App"/>
+				<Prp name="relpath" type="S" value="21_09_2017_11_30_51_498\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.4813002083"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{4BE7753D-47DB-4651-8287-684B121EDB10}"/>
+				<Prp name="nameofroot" type="S" value="Smoke_test"/>
+				<Prp name="relpath" type="S" value="21_09_2017_11_33_04_338\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.5415105208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{37DA1BD5-D71B-43CD-A24F-0C0270B4EEEC}"/>
+				<Prp name="nameofroot" type="S" value="Smoke_test"/>
+				<Prp name="relpath" type="S" value="21_09_2017_12_59_46_509\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.5422764352"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{361AA69E-C74F-4EA0-BCFD-407F0C3837C0}"/>
+				<Prp name="nameofroot" type="S" value="Smoke_test"/>
+				<Prp name="relpath" type="S" value="21_09_2017_13_00_52_684\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.6039876505"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{75FC2EEC-81B5-4D60-AB54-38064834E638}"/>
+				<Prp name="nameofroot" type="S" value="Side_Menu"/>
+				<Prp name="relpath" type="S" value="21_09_2017_14_29_44_533\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="42999.6042374537"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6447B072-51FA-4062-B159-9F42A12830F2}"/>
+				<Prp name="nameofroot" type="S" value="Side_Menu"/>
+				<Prp name="relpath" type="S" value="21_09_2017_14_30_06_116\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>

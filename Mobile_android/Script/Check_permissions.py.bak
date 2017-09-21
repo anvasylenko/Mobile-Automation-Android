@@ -112,9 +112,9 @@ def checkPermissionTest(TestCaseNumber):
     
     # Check licence
     Delay(200)	
-    btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
+    btnMenu = oApp.Find("ViewID", "drawer_button", 10)
     btnMenu.Touch()
-    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()     
+    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite", 10).getText().toString()     
     oDevice.PressBack()
     if oLicence.getText().toString() == txtLicence:
         Log.Message ("oLicence is correct")
@@ -123,7 +123,7 @@ def checkPermissionTest(TestCaseNumber):
 	
     #Check Licence Usage
     if oForm.getText().toString() == "print":
-        oPerm = oApp.Find("ViewID", "permissions_container" , 20)
+        oPerm = oApp.Find("ViewID", "permissions_container", 20)
         oPhotocopying = oPerm.Layout("NO_ID").Layout("root_view").TextView("txt_name")
         oPhotocopying.Touch()
         oApp.btnScreenClose.Touch()
@@ -136,7 +136,7 @@ def checkPermissionTest(TestCaseNumber):
 #        oApp.btnScreenClose.Touch()
 #        Log.Message("Scaning screen is shown")
     elif oForm.getText().toString() == "digital":
-        oDigital = oApp.Find("ViewID", "help_icon" , 20)
+        oDigital = oApp.Find("ViewID", "help_icon", 20)
         oDigital.Touch()
         oApp.btnScreenClose.Touch()
         Log.Message("Digital screen is shown")
@@ -145,8 +145,8 @@ def checkPermissionTest(TestCaseNumber):
     
     #Go to Log Copying or Check another permission
     Delay(200)	
-    btnCheckAnotherPermission = oApp.Find("ViewID", "btn_check_another" , 40)
-    obtnLogCopying = oApp.Find("ViewID", "btn_log" , 20)
+    btnCheckAnotherPermission = oApp.Find("ViewID", "btn_check_another", 40)
+    obtnLogCopying = oApp.Find("ViewID", "btn_log", 20)
     
     if int(newMap['log_copying']) == 0:
         btnCheckAnotherPermission.Touch()
