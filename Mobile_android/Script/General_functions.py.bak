@@ -10,8 +10,7 @@ def viewTutorial():
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     Delay(2000)
-#    oApp.Touch()
-    
+   
     Mobile.Device().Drag(50, 70, 30, 150, 500)
     Delay(500)
 #    oDevice.Drag(262, 378, -274, 9)
@@ -19,27 +18,5 @@ def viewTutorial():
 #    oDevice.Drag(84, 365, 243, 16)
    
     Delay(500)
-#    oApp.btnSkipContinue.Touch()
+    oApp.btnSkipContinue.Touch()
     Log.PopLogFolder()
-
-def Test22():
-    #Specifies the mobile device as current for the test commands working with mobile devices.
-    Mobile.SetCurrent("emulator-5554")
-    #Clicks at point (710, 14) of the 'MSTaskListWClass' object.
-    Aliases.explorer.wndShell_TrayWnd.ReBarWindow32.MSTaskSwWClass.MSTaskListWClass.Click(710, 14)
-    #Drags from point (259, 442) of the 'sub' object to offset (-242, -19).
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.Drag(259, 442, -242, -19)
-    #Double-clicks at point (37, 118) of the 'sub' object.
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.DblClick(37, 118)
-    #Runs the "CLA" tested application.
-    TestedApps.CLA.Run()
-    #Drags from point (262, 378) of the 'sub' object to offset (-274, 9).
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.Drag(262, 378, -274, 9)
-    #Drags from point (273, 377) of the 'sub' object to offset (-269, -29).
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.Drag(273, 377, -269, -29)
-    #Drags from point (82, 363) of the 'sub' object to offset (199, -2).
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.Drag(82, 363, 199, -2)
-    #Drags from point (84, 365) of the 'sub' object to offset (243, 16).
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.Drag(84, 365, 243, 16)
-    #Drags from point (58, 367) of the 'sub' object to offset (333, 7).
-    Aliases.qemu_system_i386.wndQt5QWindowIcon.sub.Drag(58, 367, 333, 7)

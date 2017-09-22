@@ -1,4 +1,5 @@
-﻿from Registration import *
+﻿from Select_Sector import *
+from Registration import *
 
 
 def RegistrationAllTestCases():

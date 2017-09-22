@@ -1,6 +1,7 @@
 ﻿from Read_Test_Data_From_Excel import *
 from Registration import *
 
+
 def SideMenu():
     Log.AppendFolder("SideMenu")
     oApp = Aliases.Mobile.Device.App
@@ -76,13 +77,15 @@ def SideMenu():
         Log.Warning("User details which were set durring registration are not mached") 
 	
 	  
-    # Change 'Your details' - same Test cases as durring registration
+    # Change 'Your details'
     btnChangeYourDetails = oApp.Find("ViewID", "btn_change_details" , 20)
     Delay(200)
     if not btnChangeYourDetails.Exists:
          btnMenu.Touch()
 	    
     btnChangeYourDetails.Touch()
+    
+    # All test cases for the Registration screen
     Registration("Side_Menu", 1)
     Registration("Side_Menu", 2)
     Registration("Side_Menu", 3)    
@@ -91,11 +94,12 @@ def SideMenu():
     Registration("Side_Menu", 6)
   
     
+    # Run and check positive test case 
+    
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Side_Menu", 7)
     
-    # Log.Message(newMap['tc_name'])
     btnMenu.Touch()
     Delay(500)
     if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == newMap['email']:

@@ -1,4 +1,6 @@
-﻿def LogCopying(nameSheet, TestCaseNumber):
+﻿from Read_Test_Data_From_Excel import *
+
+def LogCopying(nameSheet, TestCaseNumber):
      
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
@@ -37,32 +39,56 @@
     oFrom1.Keys(newMap['from'])
     oTo1.Keys(newMap['to'])
     
-#    if int(newMap['add_page_range']) == 1:
-#        btnAddpageRange.Touch()
-#	   
-#        oSecondPageRange = oPageRange.Layout("NO_ID", 2).Layout("NO_ID").Layout("NO_ID")
-#        oThirdPageRange = oPageRange.Layout("NO_ID", 3).Layout("NO_ID").Layout("NO_ID")
-#        oFourthPageRange = oPageRange.Layout("NO_ID", 4).Layout("NO_ID").Layout("NO_ID")
-#        oFifthPageRange = oPageRange.Layout("NO_ID", 5).Layout("NO_ID").Layout("NO_ID")
-#
-
-#        oFrom2 = oSecondPageRange.EditText("txt_from")
-#        oTo2 = oSecondPageRange.EditText("txt_to")
-    #    oFrom2.Keys("11")
-    #    oto2.Keys("12")
-#    
-#        oFrom3 = oThirdPageRange.EditText("txt_from")
-#        oTo3 = oThirdPageRange.EditText("txt_to")
-#    
-#        oFrom4 = oFourthPageRange.EditText("txt_from")
-#        oTo4 = oFourthPageRange.EditText("txt_to")
-#    
-#        oFrom5 = oFifthPageRange.EditText("txt_from")
-#        oTo5 = oFifthPageRange.EditText("txt_to")
     
+    if int(newMap['add_page_range']) == 1:
+        
+        btnAddpageRange.Touch()
+        oSecondPageRange = oPageRange.Layout("NO_ID", 2).Layout("NO_ID").Layout("NO_ID")
+        oFrom2 = oSecondPageRange.Find("ViewID", "txt_from", 10)
+        oFrom2.Keys("21")
+        oPageRange = oApp.Find("ViewID", "container_page_range" , 20)
+        oSecondPageRange = oPageRange.Layout("NO_ID", 2).Layout("NO_ID").Layout("NO_ID", 2)
+        oTo2 = oSecondPageRange.EditText("txt_to")
+        oTo2.Keys("22")
+	   
+	   
+        btnAddpageRange.Touch()
+        oThirdPageRange = oPageRange.Layout("NO_ID", 3).Layout("NO_ID").Layout("NO_ID")
+        oFrom3 = oThirdPageRange.Find("ViewID", "txt_from" , 10)
+        oPageRange = oApp.Find("ViewID", "container_page_range" , 20)
+        oThirdPageRange = oPageRange.Layout("NO_ID", 3).Layout("NO_ID").Layout("NO_ID", 2)
+        oTo3 = oThirdPageRange.EditText("txt_to")
+        oFrom3.Keys("31")
+        oTo3.Keys("32")
+	   
+	   
+        btnAddpageRange.Touch()
+        oFourthPageRange = oPageRange.Layout("NO_ID", 4).Layout("NO_ID").Layout("NO_ID")
+        oFrom4 = oFourthPageRange.EditText("txt_from")
+        oPageRange = oApp.Find("ViewID", "container_page_range" , 20)
+        oFourthPageRange = oPageRange.Layout("NO_ID", 4).Layout("NO_ID").Layout("NO_ID", 2)
+        oTo4 = oFourthPageRange.EditText("txt_to")
+        oFrom4.Keys("41")
+        oTo4.Keys("42")
+    
+	   
+        btnAddpageRange.Touch()
+        oFifthPageRange = oPageRange.Layout("NO_ID", 5).Layout("NO_ID").Layout("NO_ID")
+        oFrom5 = oFifthPageRange.EditText("txt_from")
+        oPageRange = oApp.Find("ViewID", "container_page_range" , 20)
+        oFifthPageRange = oPageRange.Layout("NO_ID", 5).Layout("NO_ID").Layout("NO_ID", 2)
+        oTo5 = oFifthPageRange.EditText("txt_to")
+        oFrom5.Keys("51")
+        oTo5.Keys("52")
+	
+    if btnAddpageRange.Exists:
+        Log.Warning("Fail. Add Page Range button exists")
+    else:
+        Log.Message("Pass. Add Page Range button does not exist")
+        
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     btnContinue.Touch()
-    Delay(1000)
+    Delay(7000)
     
     if int(newMap['tc_fail_log']) == 1:
         oUsage = oApp.Find("ViewID", "spinner_usage" , 10)
@@ -79,7 +105,7 @@
     else:
         oMessageScreen = oApp.Find("ViewID", "data_submitted", 20)
         if oMessageScreen.Exists:
-            Log.Message(oMessageScreen)
+            Log.Message((oMessageScreen))
             btnLogAnotherTitle = oApp.Find("ViewID", "btn_finish_button", 20)
             btnLogAnotherTitle.Touch()	   
             Delay(1000)

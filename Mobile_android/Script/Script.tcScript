@@ -61,6 +61,9 @@
 		<child name="Select_sector_tests" key="{6A778C5A-586E-4563-9151-FBE9E3A22BF5}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Select_sector_tests.py" />
 		</child>
+		<child name="Side_menu_tests" key="{A6779EAC-70D2-4EDF-879B-4C91B27C62E9}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Side_menu_tests.py" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Functions_for_screens" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -85,6 +88,7 @@
 				<ref key="{111CAA9E-CE51-4367-8ED7-1753BC3845FA}" />
 				<ref key="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}" />
 				<ref key="{6A778C5A-586E-4563-9151-FBE9E3A22BF5}" />
+				<ref key="{A6779EAC-70D2-4EDF-879B-4C91B27C62E9}" />
 			</references>
 		</folder>
 		<folder caption="Other_functions" description="A logical folder that is used to organize project items and elements." moniker="">

@@ -2,15 +2,6 @@
 from Log_copying import *
 from Take_Photo import *
 
-
-def LogCopyingPublicationsAllTestCases():
-    LogCopyingPublications(1)
-    LogCopyingPublications(2)
-    LogCopyingPublications(3)
-    LogCopyingPublications(3)
-    LogCopyingPublications(4)
-    LogCopyingPublications(5)
-    
     
 def LogCopyingPublications(TestCaseNumber):
     Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingPublish")
