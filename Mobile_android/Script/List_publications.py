@@ -1,13 +1,6 @@
 ﻿from Read_Test_Data_From_Excel import *
 from Take_Photo import *
 
-
-def ListPublicationsAllTestCases():
-    ListPublications(1)
-    ListPublications(2)
-    ListPublications(3)
-    ListPublications(4)
-
      
 def ListPublications(TestCaseNumber):
      

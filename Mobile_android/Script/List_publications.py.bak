@@ -1,5 +1,5 @@
 ﻿from Read_Test_Data_From_Excel import *
-from General_function import *
+from Take_Photo import *
 
 
 def ListPublicationsAllTestCases():

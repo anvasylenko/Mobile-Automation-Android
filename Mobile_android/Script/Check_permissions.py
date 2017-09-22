@@ -1,14 +1,6 @@
 ﻿from Log_copying_publications import *
 from Read_Test_Data_From_Excel import *
 
-
-def checkPermissionAllTestCases():
-    checkPermissionTest(1) 
-    checkPermissionTest(2)
-    checkPermissionTest(3)
-    checkPermissionTest(4)
-    checkPermissionTest(5)
-    
     
 def checkPermissionTest(TestCaseNumber):
     Log.AppendFolder("checkPermissionTest")

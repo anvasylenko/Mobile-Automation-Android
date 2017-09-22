@@ -62,6 +62,15 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="wndGhost2" Key="{4B3EF27F-CAB5-435E-BF98-4BFD0A58689A}" ParallelWalk="True">
+								<Image FileName="-678526560" Left="0" Top="0" Right="244" Bottom="78" />
+								<TypeInfo Item0="{0A7A9086-C13D-4169-A1CD-165B542F66C3}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="Ghost" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
 						</Children>
 					</Child>
 					<Child Name="explorer" Key="{52CFF2A0-E2CD-4200-BD58-A8DC9DE6EE51}" ParallelWalk="True">
@@ -453,6 +462,27 @@
 										</Children>
 									</Child>
 								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="WerFault" Key="{58B20721-F07D-4B74-A9C3-84A577CB61A7}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="WerFault" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgSmartBearTestComplete12" Key="{EB057B2D-C9BB-4A5C-864B-06A32055C28B}" ParallelWalk="True">
+								<Image FileName="-779456600" Left="0" Top="0" Right="366" Bottom="168" />
+								<TypeInfo Item0="{2F341AF5-0BF0-4694-848E-4D8BA336B8B1}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="#32770" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="SmartBear TestComplete 12" Type="5" />
+									</Property>
+								</Properties>
 							</Child>
 						</Children>
 					</Child>
@@ -1016,6 +1046,7 @@
 		</Child>
 		<Child Name="dwm" Owner="{A8AB84EA-5A8B-4A61-875C-3C9C151DA246}">
 			<Child Name="wndGhost" Owner="{AE629745-723D-479C-A747-1D7AEA3E1C8D}" />
+			<Child Name="wndGhost2" Owner="{4B3EF27F-CAB5-435E-BF98-4BFD0A58689A}" />
 		</Child>
 		<Child Name="explorer" Owner="{52CFF2A0-E2CD-4200-BD58-A8DC9DE6EE51}">
 			<Child Name="wndShell_TrayWnd" Owner="{6BA3B60C-48CA-4D95-B22C-5C6E602A34C8}">
@@ -1068,6 +1099,9 @@
 					</Child>
 				</Child>
 			</Child>
+		</Child>
+		<Child Name="WerFault" Owner="{58B20721-F07D-4B74-A9C3-84A577CB61A7}">
+			<Child Name="dlgSmartBearTestComplete12" Owner="{EB057B2D-C9BB-4A5C-864B-06A32055C28B}" />
 		</Child>
 	</LogicalNodes>
 	<TypeInfo StoreCodeCompletion="1">
@@ -2030,6 +2064,130 @@
 							<ParamDesc Flags="1" />
 						</Param0>
 						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="299822033" Key="{0A7A9086-C13D-4169-A1CD-165B542F66C3}">
+			<Data Properties="BFDACCBAEE3FF24DB7A0D191CA81CECCUFFFFFFFFFFFFFFFFV4LEZZY">
+				<FunctionDescriptions>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="2000" Type="0" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
 					</Child>
 				</FunctionDescriptions>
 			</Data>

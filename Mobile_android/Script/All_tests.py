@@ -1,5 +1,5 @@
 ﻿from Check_permissions import *
-from General_function import *
+from General_functions import *
 from List_publications import *
 from Log_copying_publications import *
 from Log_copying_music import *
@@ -35,5 +35,5 @@ def main():
     
 def test():
     oDevice = Aliases.Mobile.Device
-    oDevice.Drag(5,5, 0, 500)
+    oDevice.Drag(5,5, 300, 0)
     

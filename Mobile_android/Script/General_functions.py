@@ -5,14 +5,19 @@
     oApp = Aliases.Mobile.Device.App
     oApp.Restart()
     
-def TC_SkipRegisrtration():
-    Log.AppendFolder("TC_SkipRegisrtration")
+def viewTutorial():
+    Log.AppendFolder("viewTutorial")
+    oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
-#    oApp.sreenChooseLicenceType.Drag(5,5, 0, 500)
-#    oApp.sreenChooseLicenceType.Drag(5,5, 0, 500)
-#    oApp.sreenChooseLicenceType.Drag(67, 304, 224, 1)
-#    oApp.sreenChooseLicenceType.Drag(67, 304, 224, 1)
+    Delay(2000)
+#    oApp.Touch()
+    
+    Mobile.Device().Drag(50, 70, 30, 150, 500)
+    Delay(500)
+#    oDevice.Drag(262, 378, -274, 9)
+#    oDevice.Drag(84, 365, 243, 16)
+#    oDevice.Drag(84, 365, 243, 16)
    
     Delay(500)
-    oApp.btnSkipContinue.Touch()
+#    oApp.btnSkipContinue.Touch()
     Log.PopLogFolder()

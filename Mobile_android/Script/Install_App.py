@@ -1,9 +1,9 @@
-﻿from General_function import *
+﻿from General_functions import *
 
 def before():
     Mobile.SetCurrent("emulator-5554")
     TestedApps.CLA.Run()
-    Delay(500)
+    Delay(2000)
     viewTutorial()
     
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{302E54A8-7D5B-4593-9563-357C2734256B}" version="1140" key="{F4D0E289-7418-4FE2-9A40-F68892BE2F42}" type="Image Set" typeId="{302E54A8-7D5B-4593-9563-357C2734256B}">
+	<config nodeName="android" />
+	<testData />
+	<data>
+		<item caption="Button_Open_app_a" moniker="{6F81C438-A093-4C8E-BB76-450D0FEF2C79}" isComposite="False" simpleMode="True" currentImageIndex="0">
+			<image imageFileName="Data\Button_Open_app_a.png" initialHash="59449082" selectionLeft="50" selectionTop="572" selectionWidth="620" selectionHeight="96" initialLeft="50" initialTop="572" initialWidth="620" initialHeight="96" pixelTolerance="0" colorTolerance="0" deviceName="emulator-5554" />
+		</item>
+	</data>
+</Root>

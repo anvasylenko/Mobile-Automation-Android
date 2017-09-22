@@ -1,5 +1,6 @@
 ﻿from Read_Test_Data_From_Excel import *
 from Log_copying import *
+from Take_Photo import *
 
 
 def LogCopyingPublicationsAllTestCases():

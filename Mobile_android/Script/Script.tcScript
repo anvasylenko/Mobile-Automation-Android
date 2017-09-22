@@ -43,6 +43,24 @@
 		<child name="Take_Photo" key="{9B4D959F-DAF2-42B0-B310-75EEA965E388}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="Take_Photo.py" />
 		</child>
+		<child name="Check_permissions_tests" key="{3DE945C1-F118-4C36-858F-577317C4C640}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Check_permissions_tests.py" />
+		</child>
+		<child name="List_publications_tests" key="{57F4B643-A4B6-4DA1-94A0-1F8C3FD5EC16}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="List_publications_tests.py" />
+		</child>
+		<child name="Log_copying_music_tests" key="{C108F5FF-0504-46C6-AADD-0A46AE95038B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Log_copying_music_tests.py" />
+		</child>
+		<child name="Log_copying_publications_tests" key="{111CAA9E-CE51-4367-8ED7-1753BC3845FA}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Log_copying_publications_tests.py" />
+		</child>
+		<child name="Registration_tests" key="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Registration_tests.py" />
+		</child>
+		<child name="Select_sector_tests" key="{6A778C5A-586E-4563-9151-FBE9E3A22BF5}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Select_sector_tests.py" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Functions_for_screens" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -61,7 +79,12 @@
 			<references>
 				<ref key="{793A7C44-7FF1-4E07-883C-CE0394E38DC9}" />
 				<ref key="{1749742B-794A-4A96-A49B-F27ED501DD0D}" />
-				<ref key="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}" />
+				<ref key="{3DE945C1-F118-4C36-858F-577317C4C640}" />
+				<ref key="{57F4B643-A4B6-4DA1-94A0-1F8C3FD5EC16}" />
+				<ref key="{C108F5FF-0504-46C6-AADD-0A46AE95038B}" />
+				<ref key="{111CAA9E-CE51-4367-8ED7-1753BC3845FA}" />
+				<ref key="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}" />
+				<ref key="{6A778C5A-586E-4563-9151-FBE9E3A22BF5}" />
 			</references>
 		</folder>
 		<folder caption="Other_functions" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -69,6 +92,7 @@
 				<ref key="{C556A89F-2C7F-43A5-940B-0A0D74EC48EF}" />
 				<ref key="{876D351B-F58C-428A-A617-0DABBD8B715D}" />
 				<ref key="{9B4D959F-DAF2-42B0-B310-75EEA965E388}" />
+				<ref key="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}" />
 			</references>
 		</folder>
 	</folders>

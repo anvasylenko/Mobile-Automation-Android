@@ -1,5 +1,5 @@
 ﻿from Check_permissions import *
-from General_function import *
+from General_functions import *
 from List_publications import *
 from Log_copying_publications import *
 from Log_copying_music import *
@@ -14,7 +14,7 @@ def main():
     TestedApps.CLA.Run()
     Delay(500)
     
-    TC_SkipRegisrtration()
+    viewTutorial()
    
     SelectSector(0, "Schools")
     Registration("Registration", 6)
@@ -35,5 +35,5 @@ def main():
     
 def test():
     oDevice = Aliases.Mobile.Device
-    oDevice.Drag(5,5, 0, 500)
+    oDevice.Drag(100,100, 300, 0)
     
