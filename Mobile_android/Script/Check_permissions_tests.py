@@ -6,3 +6,4 @@ def checkPermissionAllTestCases():
     checkPermissionTest(3)
     checkPermissionTest(4)
     checkPermissionTest(5)
+    checkPermissionTest(6)							

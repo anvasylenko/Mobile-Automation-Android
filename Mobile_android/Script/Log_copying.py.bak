@@ -9,14 +9,14 @@ def LogCopying(nameSheet, TestCaseNumber):
     newMap = {}
     newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
 
-    oISBN = oApp.Find("ViewID", "txt_isbn_title" , 10)
-    oUsage = oApp.Find("ViewID", "spinner_usage" , 10)
-    oNumCopies = oApp.Find("ViewID", "txt_copies_made" , 10)
-    oFrom1 = oApp.Find("ViewID", "txt_from" , 20)
-    oTo1 = oApp.Find("ViewID", "txt_to" , 20)
-    btnAddpageRange = oApp.Find("ViewID", "btn_add_page_range" , 10)
-    oPageRange = oApp.Find("ViewID", "container_page_range" , 10)
-    ISBN = oApp.Find("ViewID", "txt_isbn_title" , 10)
+    oISBN = oApp.Find("ViewID", "txt_isbn_title", 10)
+    oUsage = oApp.Find("ViewID", "spinner_usage", 10)
+    oNumCopies = oApp.Find("ViewID", "txt_copies_made", 10)
+    oFrom1 = oApp.Find("ViewID", "txt_from", 20)
+    oTo1 = oApp.Find("ViewID", "txt_to", 20)
+    btnAddpageRange = oApp.Find("ViewID", "btn_add_page_range", 10)
+    oPageRange = oApp.Find("ViewID", "container_page_range", 10)
+    ISBN = oApp.Find("ViewID", "txt_isbn_title", 10)
 
 
 #    #Check ISBN
@@ -75,29 +75,30 @@ def LogCopying(nameSheet, TestCaseNumber):
         btnAddpageRange.Touch()
         oFifthPageRange = oPageRange.Layout("NO_ID", 5).Layout("NO_ID").Layout("NO_ID")
         oFrom5 = oFifthPageRange.EditText("txt_from")
-        oPageRange = oApp.Find("ViewID", "container_page_range" , 20)
+        oPageRange = oApp.Find("ViewID", "container_page_range", 20)
         oFifthPageRange = oPageRange.Layout("NO_ID", 5).Layout("NO_ID").Layout("NO_ID", 2)
         oTo5 = oFifthPageRange.EditText("txt_to")
         oFrom5.Keys("51")
         oTo5.Keys("52")
-	
-    if btnAddpageRange.Exists:
-        Log.Warning("Fail. Add Page Range button exists")
-    else:
-        Log.Message("Pass. Add Page Range button does not exist")
+	   
+        if btnAddpageRange.Visible:
+            Log.Warning("Fail. Add Page Range button exists")
+        else:
+            Log.Checkpoint("PASS. Add Page Range button does not exist")
         
-    btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
+
+    btnContinue = oApp.Find("ViewID", "btn_continue", 10)
     btnContinue.Touch()
     Delay(7000)
     
     if int(newMap['tc_fail_log']) == 1:
-        oUsage = oApp.Find("ViewID", "spinner_usage" , 10)
+        oUsage = oApp.Find("ViewID", "spinner_usage", 10)
         if oUsage.Exists:
-            Log.Message("PASS. Test failed as expected")
+            Log.Checkpoint("PASS. Test failed as expected")
             Delay(500)
             oDevice.PressBack()
             oDevice.PressBack()
-            txtSearch = oApp.Find("ViewID", "txt_search" , 20)
+            txtSearch = oApp.Find("ViewID", "txt_search", 20)
             if txtSearch.Exists:
                 oDevice.PressBack()
         else:
@@ -105,11 +106,12 @@ def LogCopying(nameSheet, TestCaseNumber):
     else:
         oMessageScreen = oApp.Find("ViewID", "data_submitted", 20)
         if oMessageScreen.Exists:
-            Log.Message(VarToString(oMessageScreen))
+            Log.Checkpoint(oMessageScreen.getText().toString())
             btnLogAnotherTitle = oApp.Find("ViewID", "btn_finish_button", 20)
             btnLogAnotherTitle.Touch()	   
             Delay(1000)
         else:
             Log.Warning("Successful Message does not appaered")
+		  
 
       

@@ -37,19 +37,19 @@
 			<testItem name="All_tests" key="{0FDB9627-2A00-4DF0-8329-F610D844B076}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 				<testParameters />
 				<children>
-					<testItem name="Install_App" key="{25CC1051-3946-496D-A8D5-4D0E398C7B58}" group="False" enabled="True" testMoniker="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}before" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Install_App" key="{25CC1051-3946-496D-A8D5-4D0E398C7B58}" group="False" enabled="False" testMoniker="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}before" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Registaration" key="{4C2B8EA9-BFB3-4B43-A6C2-D00D98A6554D}" group="False" enabled="True" testMoniker="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}RegistrationAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Registaration" key="{4C2B8EA9-BFB3-4B43-A6C2-D00D98A6554D}" group="False" enabled="False" testMoniker="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}RegistrationAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Check_Changing_Sector" key="{80F5510A-2C3D-4B6D-97DD-A5EDFFBFF970}" group="False" enabled="True" testMoniker="{8B9D94D0-E140-45B5-94E1-04E568B41740}CheckOptionsToSector" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Check_Changing_Sector" key="{80F5510A-2C3D-4B6D-97DD-A5EDFFBFF970}" group="False" enabled="False" testMoniker="{8B9D94D0-E140-45B5-94E1-04E568B41740}CheckOptionsToSector" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="True" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="False" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -86,17 +86,7 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="ProjectTestItem1" key="{D19EEA77-9B2B-4328-82CF-B9F6712F7236}" group="False" enabled="True" testMoniker="{D2282AD9-4397-4EDE-9C22-FE58EECFFF59}LogCopyingPublications" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
-						<testParameters>
-							<param0 name="TestCaseNumber" type="3" localVarName="" varType="3" value="8" />
-						</testParameters>
-						<children />
-					</testItem>
 				</children>
-			</testItem>
-			<testItem name="Group1" key="{89A10611-6F0D-4043-9A4D-F4021CB53634}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
-				<testParameters />
-				<children />
 			</testItem>
 		</children>
 	</testItems>
@@ -124,7 +114,7 @@
 			</data>
 		</setting>
 		<setting name="{42651A7C-4287-4C91-AE26-98CBD2EA9355}" type="1" value="False" />
-		<setting name="{A2568CC8-7E8E-42C5-A87D-B69684A1E616}" type="1" value="True" />
+		<setting name="{A2568CC8-7E8E-42C5-A87D-B69684A1E616}" type="1" value="False" />
 		<setting name="{3EADAFE2-0CD4-4B1E-A2A9-B184E94FDCC7}" type="6" rowIndex="1" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />

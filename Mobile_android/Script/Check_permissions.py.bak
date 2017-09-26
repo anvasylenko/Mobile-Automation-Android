@@ -1,52 +1,68 @@
 ﻿from Log_copying_publications import *
+from General_functions import *
 from Read_Test_Data_From_Excel import *
+from Log_copying import *
 
-
-def checkPermissionAllTestCases():
-    checkPermissionTest(1) 
-    checkPermissionTest(2)
-    checkPermissionTest(3)
-    checkPermissionTest(4)
-    checkPermissionTest(5)
-    
     
 def checkPermissionTest(TestCaseNumber):
-    Log.AppendFolder("checkPermissionTest")
+     
+    # Get parameters
+    newMap = {}
+    newMap = ReadTestDataFromExcel("Check_Permissions", TestCaseNumber)
+
+    Log.AppendFolder(VarToString(TestCaseNumber) + " - Check_Permissions: " + (newMap['tc_name']))
+    
     oApp = Aliases.Mobile.Device.App
     oDevice = Aliases.Mobile.Device
     
     btnLogCopying = oApp.ScreenWhatToDo.btnLogCopying
     btnLogCopying.Touch()
     
-    # Get parameters
-    newMap = {}
-    newMap = ReadTestDataFromExcel("Check_Permissions", TestCaseNumber)
     
-    Log.Message(newMap['tc_name'])
+    # Barcode button checking
+    if int(newMap['barcode_check']) == 1:
+        checkBarCode()
+        Log.PopLogFolder()
+        return None
+    
     
     # Set search data
     txtSearch = oApp.Find("ViewID", "txt_search", 20)
+    txtSearch.Keys("^a")
+    txtSearch.Keys("[BS]")
     txtSearch.Keys(newMap['search'])
-#    oApp.ScreenWhatToDo.txtSearch.Keys(newMap['search'])
-    btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
+    btnContinue = oApp.Find("ViewID", "btn_continue", 10)
     btnContinue.Touch()
-    Delay(3000)
+    Delay(5000)
     
     
     if int(newMap['tc_fail']) == 1:
         if txtSearch.Exists:
-            Log.Message("PASS. Test failed as expected")
+            Log.Checkpoint("PASS. Test failed as expected")
             Log.PopLogFolder()
             return None
         else:
             Log.Warning("Test is not failed as expected")
             Log.PopLogFolder()
             return None
+    else:
+         Delay(4000)
+
     
-    
+    oApp = Aliases.Mobile.Device.App
+    noResultsMessage = oApp.Find("ViewID", "txt_results", 40)
+    noResultsMessage = noResultsMessage.getText().toString()
+    Log.Message(noResultsMessage)
+     
+    if noResultsMessage == "Found no results for:":
+        Log.Warning("Found no results for:" + newMap['search'])
+        Log.PopLogFolder()            
+        return None
+	
+	   
     # if searched results more than 1
     if int(newMap['results_count']) != 1:
-        oForSearch = oApp.Find("ViewID", "layout_multiple_results" , 40)
+        oForSearch = oApp.Find("ViewID", "layout_multiple_results", 40)
         oResult = oForSearch.ListView("list_results").Layout("NO_ID", 2).Layout("root_view").TextView("txt_book_title")
         Log.Message("Searching showns more than one results")
         oResult.Touch()
@@ -57,7 +73,9 @@ def checkPermissionTest(TestCaseNumber):
             Log.Message("Single result is shown")
         else:
             Log.Warning("Single result is not shown")
-
+    
+    
+		  
     # Check data
     oTitle = oApp.Find("ViewID", "txt_book_title" , 20)
     oISBN = oApp.Find("ViewID", "txt_isbn_issn" , 20)
@@ -66,11 +84,13 @@ def checkPermissionTest(TestCaseNumber):
     oCountry = oApp.Find("ViewID", "txt_country" , 30)
     oPublisher = oApp.Find("ViewID", "txt_publisher" , 30)
     oLicence = oApp.Find("ViewID", "txt_licence" , 30)
-      
+    checkData = True
+    
     if oTitle.getText().toString() == newMap['title']:
         Log.Message ("Title is correct")
     else:
         Log.Warning("Title is not correct")
+        checkData = False
 	    
     Delay(200)	    
     if newMap['type'] == "Web Domain":
@@ -78,37 +98,42 @@ def checkPermissionTest(TestCaseNumber):
              Log.Message ("url is correct")
         else:
              Log.Message("url is not correct")
+             checkData = False
     else:
         if oISBN.getText().toString() == newMap['isbn']:
             Log.Message ("oISBN is correct")
         else:
             Log.Message("oISBN is not correct")
+            checkData = False
     
     Delay(200)	    
     if oType.getText().toString() == newMap['type']:
         Log.Message ("oType is correct")
     else:
         Log.Message("oType is not correct")
+        checkData = False
 	
     Delay(200)	   
     if oForm.getText().toString() == newMap['form']:
         Log.Message ("oForm is correct")
     else:
         Log.Message("oForm is not correct")
+        checkData = False
     
     Delay(200)	    	   
     if oCountry.getText().toString() ==  newMap['country']:
-        Log.Message (oCountry.getText().toString())
         Log.Message ("oCountry is correct")
     else:
+        Log.Message (oCountry.getText().toString())
         Log.Message("oCountry is not correct")
+        checkData = False
     
     Delay(200)	   	   
     if oPublisher.getText().toString() == newMap['publisher']:
         Log.Message ("oPublisher is correct")
-        Log.Message ("oPublisher is correct")
     else:
         Log.Message(oPublisher.getText().toString())
+        checkData = False
     
     # Check licence
     Delay(200)	
@@ -119,10 +144,10 @@ def checkPermissionTest(TestCaseNumber):
     if oLicence.getText().toString() == txtLicence:
         Log.Message ("oLicence is correct")
     else:
-        Log.Message("oLicence is not correct")
+        Log.Warning("oLicence is not correct")
 	
-    #Check Licence Usage
-    if oForm.getText().toString() == "print":
+    # Check Licence Usage
+    if oForm.getText().toString() == "Print":
         oPerm = oApp.Find("ViewID", "permissions_container", 20)
         oPhotocopying = oPerm.Layout("NO_ID").Layout("root_view").TextView("txt_name")
         oPhotocopying.Touch()
@@ -135,15 +160,21 @@ def checkPermissionTest(TestCaseNumber):
 #        oScaning.Touch()
 #        oApp.btnScreenClose.Touch()
 #        Log.Message("Scaning screen is shown")
-    elif oForm.getText().toString() == "digital":
+    elif oForm.getText().toString() == "Digital":
         oDigital = oApp.Find("ViewID", "help_icon", 20)
         oDigital.Touch()
         oApp.btnScreenClose.Touch()
         Log.Message("Digital screen is shown")
     else:
-        Log.Message("oForm is not correct")
+        Log.Warning("oForm is not correct")
+        checkData = False
+	
+   
+    if checkData == True:
+        Log.Checkpoint("PASS. All data are macthed")
     
-    #Go to Log Copying or Check another permission
+	   
+    # Go to Log Copying or Check another permission
     Delay(200)	
     btnCheckAnotherPermission = oApp.Find("ViewID", "btn_check_another", 40)
     obtnLogCopying = oApp.Find("ViewID", "btn_log", 20)
@@ -153,13 +184,14 @@ def checkPermissionTest(TestCaseNumber):
         if oApp.ScreenWhatToDo.txtSearch.Exists:
             Log.Message("Check permissions is shown. CheckAnotherPermission button works")
         else:
-            Log.Message("Check permissions is NOT shown. CheckAnotherPermission button does not work")
+            Log.Warning("Check permissions is NOT shown. CheckAnotherPermission button does not work")
     else:     
         obtnLogCopying.Touch()
-        LogCopyingPublish(5)
+        LogCopying("Check_Permissions", TestCaseNumber)
 
     Log.PopLogFolder()
     
 
 
-
+def checkPermsissdionTest():
+    checkPermissionTest(3)

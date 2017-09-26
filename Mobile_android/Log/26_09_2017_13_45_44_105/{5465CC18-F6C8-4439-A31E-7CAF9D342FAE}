@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="4"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="3"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="1"/>
+			</Node>
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="8"/>
+			</Node>
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Prp name="user" type="S" value="C4T"/>
+			<Prp name="stop date" type="D" value="43004.5832450694"/>
+			<Prp name="host" type="S" value="CLA-1213-PC"/>
+			<Prp name="start date" type="D" value="43004.573427338"/>
+			<Prp name="test" type="S" value="All_tests"/>
+			<Prp name="log status" type="I" value="0"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="43004.5780245023"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="details" type="S" value="{59C47339-0515-41BD-BC2B-0176D3AC0330}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="43004.5828234606"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Log_copying_music"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="43004.573427338"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{85FC3DA7-2683-498E-8AA8-97BBF6864F6E}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="43004.5748834144"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Check_permissions"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="43004.5828234838"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="details" type="S" value="{2A38126D-5E90-4AB7-BBFE-27E2000ABAFD}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="43004.5832450694"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="List_publications"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="start time" type="D" value="43004.5748834491"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="details" type="S" value="{769230B5-E037-4C6B-A9C2-E94488F9D9AE}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="end time" type="D" value="43004.5780244792"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="Log_copying_publications"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>

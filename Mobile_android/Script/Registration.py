@@ -3,20 +3,20 @@ from Select_Sector import *
 
 
 def Registration(nameSheet, TestCaseNumber):
-    Log.AppendFolder("Registration")
+     
+    # Get parameters
+    newMap = {}
+    newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
+        
+    Log.AppendFolder(VarToString(TestCaseNumber) + " - " + nameSheet  + " - " + (newMap['tc_name']))
     
     oApp = Aliases.Mobile.Device.App
     btnSave = oApp.btnSkipContinue
     oRegPage = Mobile.Device("*").Process("*").RootLayout("")
     oName = oApp.Find("ViewID", "txt_org_name" , 20)
     oPostcode = oApp.Find("ViewID", "txt_postcode" , 20)
-    oEmail = oApp.Find("ViewID", "txt_email" , 20)
+    oEmail = oApp.Find("ViewID", "txt_email", 20)
     
-    # Get parameters
-    newMap = {}
-    newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
-    
-    Log.Message(newMap['tc_name'])
     
     
     # Clear data before test

@@ -1,0 +1,2080 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{3F690451-6C63-4D31-B825-69BD78E26931}"/>
+			<Prp name="unit 1" type="S" value="{3DE945C1-F118-4C36-858F-577317C4C640}"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952215394"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6368883796"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '' were simulated."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 44">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="148"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 44">
+			<Prp name="date" type="D" value="43004.6373381829"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="13"/>
+			<Prp name="id" type="I" value="44"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="12"/>
+		</Node>
+		<Node name="item 38">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="142"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 31">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 49">
+			<Prp name="date" type="D" value="43004.6373454977"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="19"/>
+			<Prp name="id" type="I" value="49"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="115"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="18"/>
+		</Node>
+		<Node name="message 60">
+			<Prp name="date" type="D" value="43004.6373591088"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="35"/>
+			<Prp name="id" type="I" value="60"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="34"/>
+		</Node>
+		<Node name="message 66">
+			<Prp name="date" type="D" value="43004.6373852199"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="41"/>
+			<Prp name="id" type="I" value="66"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="142"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="40"/>
+		</Node>
+		<Node name="message 52">
+			<Prp name="date" type="D" value="43004.6373509722"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="23"/>
+			<Prp name="id" type="I" value="52"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="22"/>
+		</Node>
+		<Node name="message 74">
+			<Prp name="date" type="D" value="43004.6374055208"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="74"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Check permissions is shown. CheckAnotherPermission button works"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="183"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 19">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 39">
+			<Prp name="date" type="D" value="43004.6373078588"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="39"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Single result is not shown"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="73"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 4">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 34">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5955313079"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371982407"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="34"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 54">
+			<Prp name="date" type="D" value="43004.6373529861"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="27"/>
+			<Prp name="id" type="I" value="54"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="26"/>
+		</Node>
+		<Node name="message 47">
+			<Prp name="date" type="D" value="43004.6373420949"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="17"/>
+			<Prp name="id" type="I" value="47"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="108"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="16"/>
+		</Node>
+		<Node name="message 25">
+			<Prp name="date" type="D" value="43004.6371250463"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="25"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oLicence is correct"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="143"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 13">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 73">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5957295833"/>
+					<Prp name="image file name" type="S" value="visImage22.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;layout_no_results&quot;).Button(&quot;btn_check_another&quot;)"/>
+					<Prp name="object bottom" type="I" value="1048"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="object right" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="999"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="952"/>
+					<Prp name="line #" type="I" value="181"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6374011921"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;layout_no_results&quot;).Button(&quot;btn_check_another&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="73"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="181"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 30">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 42">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="148"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 32">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5955222801"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;)"/>
+					<Prp name="object bottom" type="I" value="1184"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object right" type="I" value="720"/>
+					<Prp name="click point y" type="I" value="615"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="48"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.637190544"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.ScreenWhatToDo.btnLogCopying&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="32"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952824653"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;)"/>
+					<Prp name="object bottom" type="I" value="1184"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object right" type="I" value="720"/>
+					<Prp name="click point y" type="I" value="615"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="48"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.636950625"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.ScreenWhatToDo.btnLogCopying&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 40">
+			<Prp name="date" type="D" value="43004.6373326042"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="7"/>
+			<Prp name="id" type="I" value="40"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="6"/>
+		</Node>
+		<Node name="item 39">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 49">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 26">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 31">
+			<Prp name="date" type="D" value="43004.6371856829"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="31"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="3 - Check_Permissions: P - search journal by isbn"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 68">
+			<Prp name="date" type="D" value="43004.6373865509"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="43"/>
+			<Prp name="id" type="I" value="68"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="148"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="42"/>
+		</Node>
+		<Node name="item 22">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 17">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="date" type="D" value="43004.6370431481"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="3"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="2"/>
+		</Node>
+		<Node name="message 65">
+			<Prp name="date" type="D" value="43004.6373824769"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="39"/>
+			<Prp name="id" type="I" value="65"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="142"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="38"/>
+		</Node>
+		<Node name="message 67">
+			<Prp name="date" type="D" value="43004.6373853588"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="67"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oLicence is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="145"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952099537"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;)"/>
+					<Prp name="object bottom" type="I" value="1184"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object right" type="I" value="720"/>
+					<Prp name="click point y" type="I" value="615"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="48"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6368781482"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.ScreenWhatToDo.btnLogCopying&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 7">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 57">
+			<Prp name="date" type="D" value="43004.6373539352"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="57"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oCountry is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="126"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="43004.6368712731"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="1 - Check_Permissions: F empty search"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 32">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 50">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="stacktext" type="S" value=""/>
+		</Node>
+		<Node name="message 36">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5955405556"/>
+					<Prp name="image file name" type="S" value="visImage19.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;btn_continue&quot;)"/>
+					<Prp name="object bottom" type="I" value="1124"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="1077"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="1032"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6372154167"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;btn_continue&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="36"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 46">
+			<Prp name="date" type="D" value="43004.637341169"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="15"/>
+			<Prp name="id" type="I" value="46"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="108"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="14"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5953004977"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6369673264"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '9781906124618' were simulated."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 15">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 16">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 64">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5957116088"/>
+					<Prp name="image file name" type="S" value="visImage21.png"/>
+					<Prp name="object name" type="S" value="Desktop"/>
+					<Prp name="object bottom" type="I" value="1280"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object right" type="I" value="720"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="line #" type="I" value="141"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6373791898"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="64"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Pressing the button Back."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="141"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 58">
+			<Prp name="date" type="D" value="43004.6373571412"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="31"/>
+			<Prp name="id" type="I" value="58"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="30"/>
+		</Node>
+		<Node name="item 41">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 48">
+			<Prp name="date" type="D" value="43004.6373421296"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="48"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oType is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="111"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 56">
+			<Prp name="date" type="D" value="43004.637353912"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="56"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value=""/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 20">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="115"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 63">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5957004977"/>
+					<Prp name="image file name" type="S" value="visImage20.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).View(&quot;toolbar&quot;).Layout(&quot;NO_ID&quot;).ImageButton(&quot;drawer_button&quot;)"/>
+					<Prp name="object bottom" type="I" value="168"/>
+					<Prp name="click point x" type="I" value="659"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="620"/>
+					<Prp name="object right" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="127"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="line #" type="I" value="139"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6373744792"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).View(&quot;toolbar&quot;).Layout(&quot;NO_ID&quot;).ImageButton(&quot;drawer_button&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="63"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="139"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 77">
+			<Prp name="date" type="D" value="43004.6374337268"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="50"/>
+			<Prp name="id" type="I" value="77"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Script execution was interrupted."/>
+			<Prp name="owner id" type="I" value="75"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="50"/>
+		</Node>
+		<Node name="message 26">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5954636458"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;layout_single_results&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;permissions_container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;root_view&quot;).TextView(&quot;txt_name&quot;)"/>
+					<Prp name="object bottom" type="I" value="936"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="120"/>
+					<Prp name="object right" type="I" value="600"/>
+					<Prp name="click point y" type="I" value="905"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="876"/>
+					<Prp name="line #" type="I" value="151"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371344676"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;layout_single_results&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;permissions_container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;root_view&quot;).TextView(&quot;txt_name&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="26"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="151"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 3">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 35">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5955373032"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="32"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6372041088"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="35"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '2173948' were simulated."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="32"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 33">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="43004.6369469907"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="2 - Check_Permissions: P - search book by issn"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 28">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 76">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5957622569"/>
+					<Prp name="image file name" type="S" value="visImage23.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;)"/>
+					<Prp name="object bottom" type="I" value="1184"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object right" type="I" value="720"/>
+					<Prp name="click point y" type="I" value="615"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="48"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6374308218"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.ScreenWhatToDo.btnLogCopying&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="76"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="75"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 6">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 43">
+			<Prp name="date" type="D" value="43004.6373371759"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="11"/>
+			<Prp name="id" type="I" value="43"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="10"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="date" type="D" value="43004.6370953819"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oCountry is correct"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="123"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 50">
+			<Prp name="date" type="D" value="43004.6373468519"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="21"/>
+			<Prp name="id" type="I" value="50"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="115"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="20"/>
+		</Node>
+		<Node name="item 25">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 47">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 59">
+			<Prp name="date" type="D" value="43004.6373580671"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="33"/>
+			<Prp name="id" type="I" value="59"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="130"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="32"/>
+		</Node>
+		<Node name="message 41">
+			<Prp name="date" type="D" value="43004.6373336111"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="9"/>
+			<Prp name="id" type="I" value="41"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="8"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="date" type="D" value="43004.637085081"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oISBN is correct"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="102"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 53">
+			<Prp name="date" type="D" value="43004.6373519792"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="25"/>
+			<Prp name="id" type="I" value="53"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="24"/>
+		</Node>
+		<Node name="item 21">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 48">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="date" type="D" value="43004.6370995602"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="BCS Learning and Development Limited "/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 30">
+			<Prp name="date" type="D" value="43004.6371654167"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="30"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Check permissions is shown. CheckAnotherPermission button works"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="183"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 46">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 11">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 37">
+			<Prp name="date" type="D" value="43004.6372794329"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="37"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Found no results for:"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 2">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="date" type="D" value="43004.6370817245"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Title is correct"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="88"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="date" type="D" value="43004.6369298611"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="PASS. Test failed as expected"/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="40"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 42">
+			<Prp name="date" type="D" value="43004.6373336574"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="42"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Title is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="90"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 36">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 70">
+			<Prp name="date" type="D" value="43004.6373881597"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="47"/>
+			<Prp name="id" type="I" value="70"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="46"/>
+		</Node>
+		<Node name="message 28">
+			<Prp name="date" type="D" value="43004.6371449768"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="28"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Photocopying screen is shown"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="153"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="87"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952913657"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6369581829"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 69">
+			<Prp name="date" type="D" value="43004.6373872338"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="45"/>
+			<Prp name="id" type="I" value="69"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="148"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="44"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="date" type="D" value="43004.6370423727"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;getText&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="0"/>
+		</Node>
+		<Node name="message 19">
+			<Prp name="date" type="D" value="43004.6370885532"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oType is correct"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="109"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 33">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.595528044"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371951157"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="33"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 18">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="115"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 27">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 40">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="142"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 24">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5954511111"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object name" type="S" value="Desktop"/>
+					<Prp name="object bottom" type="I" value="1280"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="object right" type="I" value="720"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="line #" type="I" value="141"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371183449"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="24"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Pressing the button Back."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="141"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 43">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="date" type="D" value="43004.6370431597"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value=""/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="51"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 38">
+			<Prp name="date" type="D" value="43004.6373078241"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;ScrollView&quot; method or property of an object that does not exist."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="5"/>
+			<Prp name="id" type="I" value="38"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="69"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="4"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.59521625"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6368830671"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 29">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 37">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 12">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="date" type="D" value="43004.6370683565"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Single result is shown"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="71"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 72">
+			<Prp name="date" type="D" value="43004.6373891088"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="72"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oForm is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="167"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 45">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 10">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="101"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952887037"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="30"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6369555208"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '^a' were simulated."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="30"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 5">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 24">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="122"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 23">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5954400926"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).View(&quot;toolbar&quot;).Layout(&quot;NO_ID&quot;).ImageButton(&quot;drawer_button&quot;)"/>
+					<Prp name="object bottom" type="I" value="168"/>
+					<Prp name="click point x" type="I" value="659"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="620"/>
+					<Prp name="object right" type="I" value="700"/>
+					<Prp name="click point y" type="I" value="127"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="line #" type="I" value="139"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371147801"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).View(&quot;toolbar&quot;).Layout(&quot;NO_ID&quot;).ImageButton(&quot;drawer_button&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="23"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="139"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 75">
+			<Prp name="date" type="D" value="43004.6374258796"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="75"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="4 - Check_Permissions: P - search website and log copying"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 34">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="item 9">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="item 14">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="108"/>
+			<Prp name="stacktext" type="S" value="checkPermissionTest"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5953041204"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;btn_continue&quot;)"/>
+					<Prp name="object bottom" type="I" value="1124"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="1077"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="1032"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.636977037"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;btn_continue&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 71">
+			<Prp name="date" type="D" value="43004.6373890856"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="49"/>
+			<Prp name="id" type="I" value="71"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="161"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="48"/>
+		</Node>
+		<Node name="message 45">
+			<Prp name="date" type="D" value="43004.637338206"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="45"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oISBN is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="104"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952252083"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;btn_continue&quot;)"/>
+					<Prp name="object bottom" type="I" value="1124"/>
+					<Prp name="click point x" type="I" value="359"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="1077"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="1032"/>
+					<Prp name="line #" type="I" value="34"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6368941782"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;btn_continue&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="34"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5952192477"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;)"/>
+					<Prp name="object bottom" type="I" value="599"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="object right" type="I" value="660"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="511"/>
+					<Prp name="line #" type="I" value="31"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6368860764"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;NameMapping.Mobile.Device.App.ScreenWhatToDo.txtSearch&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).ScrollView(&quot;NO_ID&quot;).Layout(&quot;linearLayout&quot;).EditText(&quot;txt_search&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The keystrokes '[BS]' were simulated."/>
+			<Prp name="owner id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="31"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 27">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5954740393"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;NO_ID&quot;).ImageButton(&quot;btn_close&quot;)"/>
+					<Prp name="object bottom" type="I" value="184"/>
+					<Prp name="click point x" type="I" value="631"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="584"/>
+					<Prp name="object right" type="I" value="680"/>
+					<Prp name="click point y" type="I" value="135"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="line #" type="I" value="152"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371443634"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Aliases.Device.App.btnScreenClose&#xA;(Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).RootLayout(&quot;&quot;).Layout(&quot;NO_ID&quot;).ImageButton(&quot;btn_close&quot;))"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="27"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="152"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 51">
+			<Prp name="date" type="D" value="43004.6373475347"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="51"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oForm is not correct"/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="118"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="item 35">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 29">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="datetime" type="D" value="43004.5954893171"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object name" type="S" value="Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;layout_single_results&quot;).Layout(&quot;firstButtonLayout&quot;).Button(&quot;btn_check_another&quot;)"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="click point x" type="I" value="313"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="40"/>
+					<Prp name="object right" type="I" value="588"/>
+					<Prp name="click point y" type="I" value="985"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="object top" type="I" value="940"/>
+					<Prp name="line #" type="I" value="181"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="43004.6371601042"/>
+			<Prp name="remarks" type="S" value="A touch at point (-1, -1).&#xA;&#xA;Tested object:&#xA;Mobile.Device(&quot;emulator-5554&quot;).Process(&quot;com.eman.clatitlesearchs&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;action_bar_root&quot;).Layout(&quot;content&quot;).View(&quot;drawer_layout&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;container&quot;).Layout(&quot;NO_ID&quot;).Layout(&quot;layout_single_results&quot;).Layout(&quot;firstButtonLayout&quot;).Button(&quot;btn_check_another&quot;)"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="29"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The Android view was touched."/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="181"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 61">
+			<Prp name="date" type="D" value="43004.6373602662"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="37"/>
+			<Prp name="id" type="I" value="61"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="36"/>
+		</Node>
+		<Node name="message 55">
+			<Prp name="date" type="D" value="43004.6373539005"/>
+			<Prp name="remarks" type="S" value="You are trying to call the &quot;toString&quot; method or property of the &quot;getText&quot; object that does not exist."/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="stack end" type="I" value="29"/>
+			<Prp name="id" type="I" value="55"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="priority" type="I" value="400"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The object does not exist. See Additional Information for details."/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="125"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="stack beginning" type="I" value="28"/>
+		</Node>
+		<Node name="item 23">
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="stacktext" type="S" value="checkPermissionAllTestCases"/>
+		</Node>
+		<Node name="message 62">
+			<Prp name="date" type="D" value="43004.6373602778"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="62"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value=""/>
+			<Prp name="owner id" type="I" value="31"/>
+			<Prp name="line no" type="I" value="133"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="date" type="D" value="43004.637091956"/>
+			<Prp name="remarks" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="oForm is correct"/>
+			<Prp name="owner id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="116"/>
+			<Prp name="link" type="S" value=""/>
+		</Node>
+		<Node name="n-0">
+			<Node name="data">
+				<Prp name="d-0" type="D" value="43004.6374337268"/>
+			</Node>
+			<Prp name="id" type="S" value="{5C4EF7C7-C2C9-43CB-85AE-66E5E6E35778}"/>
+			<Prp name="description" type="S" value=""/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="countertype" type="I" value="4"/>
+			<Prp name="color" type="I" value="0"/>
+			<Prp name="length" type="I" value="1"/>
+			<Prp name="isinteger" type="B" value="0"/>
+			<Prp name="name" type="S" value="Date&amp;Time"/>
+			<Prp name="columnindex" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+		<Prp name="perfcounterslength" type="I" value="1"/>
+	</Node>
+</Nodes>

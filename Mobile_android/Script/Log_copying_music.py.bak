@@ -1,24 +1,7 @@
 ﻿from Read_Test_Data_From_Excel import *
+from General_functions import *
 from Log_copying import *
 from Take_Photo import *
-
-
-
-def LogCopyingMusicAllTestCases():
-    LogCopyingMusic(1)
-    LogCopyingMusic(2)
-    LogCopyingMusic(3)
-    LogCopyingMusic(4)
-    LogCopyingMusic(5)
-    LogCopyingMusic(6)
-    LogCopyingMusic(7)
-    LogCopyingMusic(8)
-    LogCopyingMusic(9)
-    LogCopyingMusic(10)
-    LogCopyingMusic(11)
-    LogCopyingMusic(12)
-    LogCopyingMusic(13)
-    LogCopyingMusic(14)
     
     
 def LogCopyingMusic(TestCaseNumber):
@@ -30,8 +13,7 @@ def LogCopyingMusic(TestCaseNumber):
     
     # All this code goes to the "Log copying of music" screen under diffirent condotions
     
-    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
-    Log.Message(screenTitle.getText().toString())
+    screenTitle = oApp.Find("ViewID", "txt_title", 20) 
     if screenTitle.getText().toString() == "Log copying of music":
        oDevice.PressBack()
        Delay(500)
@@ -41,8 +23,7 @@ def LogCopyingMusic(TestCaseNumber):
         btnLogCopyingMusic.Touch()
 	   
 		 
-    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
-    Log.Message(screenTitle.getText().toString())
+    screenTitle = oApp.Find("ViewID", "txt_title", 20) 
     if screenTitle.getText().toString() != "Log copying of music":
        oDevice.PressBack()
        Delay(500)
@@ -68,13 +49,20 @@ def LogCopyingMusic(TestCaseNumber):
     txtSearch = oApp.Find("ViewID", "txt_search", 20)
     btnScanBarCode = oApp.Find("ViewID", "btn_scan", 20)
     
+    
+    # Barcode button checking
+    if int(newMap['barcode_check']) == 1:
+        checkBarCode()
+        Log.PopLogFolder()
+        return None
+    
     # Take a photo of first page
     if int(newMap['take_photo_first_page']) == 1:
         TakePhoto("first_page")
     
-    # Take a photo of ideftifier page
-    if int(newMap['take_photo_ideftifier_page']) == 1:
-        TakePhoto("ideftifier_page")
+    # Take a photo of identifier page
+    if int(newMap['take_photo_identifier_page']) == 1:
+        TakePhoto("identifier_page")
 	
 		 
     if int(newMap['first_page_cancel_photo']) == 1:
@@ -123,7 +111,6 @@ def LogCopyingMusic(TestCaseNumber):
 
     LogCopying("Log_Copying_Music", TestCaseNumber)
     
-#    oDevice.PressBack()
     Log.PopLogFolder()
     
     

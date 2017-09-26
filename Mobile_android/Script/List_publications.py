@@ -4,33 +4,29 @@ from Take_Photo import *
      
 def ListPublications(TestCaseNumber):
      
-    Log.AppendFolder("ListPublicutoions")
+    # Get parameters
+    newMap = {}
+    newMap = ReadTestDataFromExcel("List_Publications", TestCaseNumber)
+    
+    Log.AppendFolder(VarToString(TestCaseNumber) + " - List_Publications: " + (newMap['tc_name']))
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     
     
     # All this code goes to the "Log copying" screen under diffirent condotions
-    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications", 10)
     if btnListPublications.Exists:
         btnListPublications.Touch()
 	   
-    screenTitle = oApp.Find("ViewID", "txt_title" , 20) 
-    Log.Message(screenTitle.getText().toString())
+    screenTitle = oApp.Find("ViewID", "txt_title", 20)
     if screenTitle.getText().toString() != "List Publications":
        oDevice.PressBack()
        Delay(500)
 	
-    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)  
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications", 10)  
     if btnListPublications.Exists:
         btnListPublications.Touch()
 	   
-	   
-    # Get parameters
-    newMap = {}
-    newMap = ReadTestDataFromExcel("List_Publications", TestCaseNumber)
-    
-    Log.Message((newMap['tc_name']))
-    
 	
     # Set search data and press Continue button
     btnContinue = oApp.Find("ViewID", "btn_continue", 20)
@@ -82,15 +78,16 @@ def ListPublications(TestCaseNumber):
     if int(newMap['finish_and_send_yes']) == 1:
         btnFinishSend.Touch()
         Delay(200)
-        btnYes = oApp.Find("ViewID", "yes_button" , 20)
+        btnYes = oApp.Find("ViewID", "yes_button", 20)
         btnYes.Touch()
-        Delay(200)
-        txtMessage = oApp.Find("ViewID", "lbl_results_uploaded" , 20)
+        Delay(1000)
+        txtMessage = oApp.Find("ViewID", "data_submitted", 20)
+#        txtMessage = txtMessage.split()
+        Log.Message(txtMessage.getText().toString())
         if txtMessage.Exists:
             Log.Message("PASS. Finish and send works")
-            btnBack = oApp.Find("ViewID", "btn_finish_button" , 20)
+            btnBack = oApp.Find("ViewID", "btn_finish_button", 20)
             btnBack.Touch()
-           
         else:
             Log.Warning("Finish and send does not work")
             
@@ -98,11 +95,11 @@ def ListPublications(TestCaseNumber):
     if int(newMap['finish_and_send_no']) == 1:
         btnFinishSend.Touch()
         Delay(200)
-        btnNo = oApp.Find("ViewID", "no_button" , 20)
+        btnNo = oApp.Find("ViewID", "no_button", 20)
         btnNo.Touch()
         Delay(200)
         if btnFinishSend.Exists:
-            Log.Message("PASS. Finish and send No works")
+            Log.Checkpoint("PASS. Finish and send No works")
             btnSaveContinue.Touch()
         else:
             Log.Warning("Finish and send No does not work")
@@ -110,3 +107,6 @@ def ListPublications(TestCaseNumber):
 
     Log.PopLogFolder()
     
+
+
+     

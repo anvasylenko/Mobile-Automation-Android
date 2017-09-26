@@ -15,3 +15,5 @@ def LogCopyingMusicAllTestCases():
     LogCopyingMusic(12)
     LogCopyingMusic(13)
     LogCopyingMusic(14)
+    LogCopyingMusic(15)
+    LogCopyingMusic(16)
