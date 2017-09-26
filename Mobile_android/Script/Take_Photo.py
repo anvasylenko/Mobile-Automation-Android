@@ -31,6 +31,5 @@
         Delay(1000)
 	   
 	
-def test():
-    TakePhoto(7)
+
      

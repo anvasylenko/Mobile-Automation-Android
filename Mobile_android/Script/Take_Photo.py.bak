@@ -2,7 +2,7 @@
      
     # check parameters
     if not whatPage in ("first_page", "ideftifier_page"):
-        Log.Message("Input value should be 'first_page' or 'ideftifier_page'")
+        Log.Warning("Input value should be 'first_page' or 'ideftifier_page'")
      
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App

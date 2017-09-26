@@ -5,7 +5,7 @@ from Log_copying import *
 
     
 def checkPermissionTest(TestCaseNumber):
-     
+    
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Check_Permissions", TestCaseNumber)
@@ -51,12 +51,17 @@ def checkPermissionTest(TestCaseNumber):
     
     oApp = Aliases.Mobile.Device.App
     noResultsMessage = oApp.Find("ViewID", "txt_results", 40)
-    noResultsMessage = noResultsMessage.getText().toString()
-     
-    if noResultsMessage == "Found no results for:":
-        Log.Warning("Found no results for:" + newMap['search'])
-        Log.PopLogFolder()            
-        return None
+    
+    if not noResultsMessage.exists:
+        Log.Message("Data was found")
+    else:
+        noResultsMessage = noResultsMessage.getText().toString()
+        if noResultsMessage == "Found no results for:":
+            Log.Warning("Found no results for:" + newMap['search'])
+            Log.PopLogFolder()   
+            oDevice.PressBack()         
+            return None
+        
 	
 	   
     # if searched results more than 1
@@ -191,6 +196,3 @@ def checkPermissionTest(TestCaseNumber):
     Log.PopLogFolder()
     
 
-
-def checkPermsissdionTest():
-    checkPermissionTest(3)

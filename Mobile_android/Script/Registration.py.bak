@@ -7,12 +7,8 @@ def Registration(nameSheet, TestCaseNumber):
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel(nameSheet, TestCaseNumber)
-    
-
         
     Log.AppendFolder(VarToString(TestCaseNumber) + " - " + nameSheet  + " - " + (newMap['tc_name']))
-    
-    
     
     oApp = Aliases.Mobile.Device.App
     btnSave = oApp.btnSkipContinue
@@ -36,7 +32,7 @@ def Registration(nameSheet, TestCaseNumber):
     oPostcode.Keys(newMap['postcode'])
     oEmail.Keys(newMap['email'])
     btnSave.Touch()
-    Delay(1000)
+    Delay(3000)
 
     
     if newMap['warning_message'] != "pass":

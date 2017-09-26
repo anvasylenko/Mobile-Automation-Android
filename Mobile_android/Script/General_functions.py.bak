@@ -31,7 +31,7 @@ def checkBarCode():
     Delay(200)
     Picture = Mobile.Device().Desktop.Picture()
     Log.Picture(Picture, "Device screenshot")
-    Log.Checkpoint("Barcode button works")
+    Log.Checkpoint("PASS. Barcode button works")
     oDevice.PressBack()
     
     

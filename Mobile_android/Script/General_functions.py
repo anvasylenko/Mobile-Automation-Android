@@ -10,14 +10,6 @@ def viewTutorial():
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     Delay(2000)
-   
-    Mobile.Device().Drag(50, 70, 30, 150, 500)
-    Delay(500)
-#    oDevice.Drag(262, 378, -274, 9)
-#    oDevice.Drag(84, 365, 243, 16)
-#    oDevice.Drag(84, 365, 243, 16)
-   
-    Delay(500)
     oApp.btnSkipContinue.Touch()
     Log.PopLogFolder()
     

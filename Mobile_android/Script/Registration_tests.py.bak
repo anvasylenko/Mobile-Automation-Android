@@ -1,4 +1,5 @@
-﻿from Registration import *
+﻿from Select_Sector import *
+from Registration import *
 
 
 def RegistrationAllTestCases():
@@ -13,5 +14,5 @@ def RegistrationAllTestCases():
     
 def RegistrationPass():
     SelectSector(0, "Schools")
-    Registration("Registration", 6)    
+    Registration("Registration", 7)    
     

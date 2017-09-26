@@ -1,39 +1,26 @@
-﻿from Check_permissions import *
+﻿from Install_App import *
 from General_functions import *
-from List_publications import *
-from Log_copying_publications import *
-from Log_copying_music import *
-from Registration import *
-from Side_Menu import *
-from Read_Test_Data_From_Excel import *
+from Check_permissions_tests import *
+from List_publications_tests import *
+from Log_copying_music_tests import *
+from Registration_tests import *
+from Log_copying_publications_tests import *
+from Side_menu_tests import *
 from Select_Sector import *
 
 
 def main():
-    Mobile.SetCurrent("emulator-5554")
-    TestedApps.CLA.Run()
-    Delay(500)
-    
+    before()
     viewTutorial()
-   
-    SelectSector(0, "Schools")
-    Registration("Registration", 6)
-#    RegistrationAllTests() 
     
-#    TC_RestartOnRePage()
-
+    RegistrationAllTests()
     CheckOptionsToSector()
     SelectSector(1, "other")
-    SelectSector(1, "Schools")
-
     
     SideMenu()
+    restart()
+    
     checkPermissionTestAllCases()
-    
-    LogCopyingPublishAll
-    LogCopyingMusic()
-    
-def test():
-    oDevice = Aliases.Mobile.Device
-    oDevice.Drag(5,5, 300, 0)
-    
+    LogCopyingPublicationsAllTestCases()
+    LogCopyingMusicAllTestCases()
+    ListPublicationsAllTestCases()

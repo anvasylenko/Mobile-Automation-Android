@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{876D351B-F58C-428A-A617-0DABBD8B715D}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="21" kind="0" dateTime="42999.6631828704" objectName="Aliases.qemu_system_i386.wndQt5QWindowIcon.sub" objectLeft="96" objectTop="125" objectRight="441" objectBottom="739" clickPointX="154" clickPointY="492" imageFileName="tcvi192574713455727.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="42999.6631828704" objectName="Aliases.qemu_system_i386.wndQt5QWindowIcon.sub" objectLeft="96" objectTop="125" objectRight="441" objectBottom="739" clickPointX="154" clickPointY="492" imageFileName="tcvi192574713455727.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

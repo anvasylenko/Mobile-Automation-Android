@@ -37,15 +37,15 @@
 			<testItem name="All_tests" key="{0FDB9627-2A00-4DF0-8329-F610D844B076}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 				<testParameters />
 				<children>
-					<testItem name="Install_App" key="{25CC1051-3946-496D-A8D5-4D0E398C7B58}" group="False" enabled="False" testMoniker="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}before" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Install_App" key="{25CC1051-3946-496D-A8D5-4D0E398C7B58}" group="False" enabled="True" testMoniker="{EB7106BA-887D-4B9C-8026-0CF7A19D9829}before" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Registaration" key="{4C2B8EA9-BFB3-4B43-A6C2-D00D98A6554D}" group="False" enabled="False" testMoniker="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}RegistrationAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Registaration" key="{4C2B8EA9-BFB3-4B43-A6C2-D00D98A6554D}" group="False" enabled="True" testMoniker="{6E24AE7E-0E9E-4D7F-998E-063755B72D3B}RegistrationAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Check_Changing_Sector" key="{80F5510A-2C3D-4B6D-97DD-A5EDFFBFF970}" group="False" enabled="False" testMoniker="{8B9D94D0-E140-45B5-94E1-04E568B41740}CheckOptionsToSector" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Check_Changing_Sector" key="{80F5510A-2C3D-4B6D-97DD-A5EDFFBFF970}" group="False" enabled="True" testMoniker="{8B9D94D0-E140-45B5-94E1-04E568B41740}CheckOptionsToSector" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>

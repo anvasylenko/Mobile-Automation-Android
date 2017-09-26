@@ -1,9 +1,12 @@
 ﻿from Read_Test_Data_From_Excel import *
 from Registration import *
+from General_functions import *
+
 
 
 def SideMenu():
     Log.AppendFolder("SideMenu")
+
     oApp = Aliases.Mobile.Device.App
     oDevice = Aliases.Mobile.Device
     
@@ -50,19 +53,17 @@ def SideMenu():
 	
     
     # Check 'Help'
-    oDevice.Move(27, 27)
-    if not btnHelp.Exists:
-         btnMenu.Touch()
-
+    oDevice.Move(27, 27)         
     btnHelp.Touch()
     Delay(200)
     
-    text = oApp.Find("ViewID", "help_text" , 20)
+    text = oApp.Find("ViewID", "txt_title" , 20)
 	
-    if text.getText().toString() == "*mobileroyalties*":
+    if text.getText().toString() == "Help":
         Log.Message("'Help' screen is displayed")
     btnBack.Touch()
-	   
+	
+		 
 
 
     # Check 'Your details' which were set during registration
@@ -80,13 +81,13 @@ def SideMenu():
     # Change 'Your details'
     btnChangeYourDetails = oApp.Find("ViewID", "btn_change_details" , 20)
     Delay(200)
+    
     if not btnChangeYourDetails.Exists:
          btnMenu.Touch()
 	    
     btnChangeYourDetails.Touch()
     
     # All test cases for the Registration screen
-    Registration("Side_Menu", 1)
     Registration("Side_Menu", 2)
     Registration("Side_Menu", 3)    
     Registration("Side_Menu", 4)
@@ -94,11 +95,12 @@ def SideMenu():
     Registration("Side_Menu", 6)
   
     
+    # Run and check positive test case 
+    
     # Get parameters
     newMap = {}
     newMap = ReadTestDataFromExcel("Side_Menu", 7)
     
-    # Log.Message(newMap['tc_name'])
     btnMenu.Touch()
     Delay(500)
     if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == newMap['email']:
