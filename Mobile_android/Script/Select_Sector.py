@@ -17,7 +17,7 @@
         oApp.sreenChooseLicenceType.spinnerSector.Touch()
         spinnerSector = Mobile.Device("emulator-5554").Process("com.eman.clatitlesearchs").RootLayout("", 2).Layout("content").Layout("parentPanel").Layout("NO_ID").ListView("list_items")
         spinnerSector.Child(0).touch()
-        Log.Message("schools was choosen successfully")
+        Log.Checkpoint("schools was choosen successfully")
     
     else:
         oApp.sreenChooseLicenceType.spinnerLicenceType.Touch()
@@ -27,7 +27,7 @@
         oApp.sreenChooseLicenceType.spinnerSector.Touch()
         spinnerSector = Mobile.Device("emulator-5554").Process("com.eman.clatitlesearchs").RootLayout("", 2).Layout("content").Layout("parentPanel").Layout("NO_ID").ListView("list_items")
         spinnerSector.Child(2).touch()
-        Log.Message("other was choosen successfully")
+        Log.Checkpoint("other sector was choosen successfully")
     
     oApp.btnSkipContinue.Touch()
     Delay(500)
@@ -59,30 +59,30 @@ def CheckOptionsToSector():
     
     if txtLicence == "Schools":
         if btnLogCopyingMusic.Exists:
-            Log.Message("Pass. Log Copying Music is shown")
+            Log.Checkpoint("Pass. Log Copying Music is shown")
         else:
             Log.Warning("Fail. Log Copying Music is not shown")
     else:
         if btnLogCopyingMusic.Exists:
             Log.Warning("Fail. Log Copying Music is not shown")
         else:
-            Log.Message("Pass. Log Copying Music is shown")
+            Log.Checkpoint("Pass. Log Copying Music is shown")
 		  
 		  
     if btnCheckPermission.Exists:
-        Log.Message("Pass. Check Permission is shown")
+        Log.Checkpoint("Pass. Check Permission is shown")
     else:
         Log.Warning("Fail. Check Permission is not shown")
 	
 	   
     if btnLogCopying.Exists:
-        Log.Message("Pass. Log Copying is shown")
+        Log.Checkpoint("Pass. Log Copying is shown")
     else:
         Log.Warning("Fail. Log Copying is not shown")
 
 	   
     if btnListPublications.Exists:
-        Log.Message("Pass. List Publications is shown")
+        Log.Checkpoint("Pass. List Publications is shown")
     else:
         Log.Warning("Fail. List Publications is not shown")
 	   

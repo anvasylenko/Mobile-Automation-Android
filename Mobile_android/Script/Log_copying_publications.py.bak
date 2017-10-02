@@ -5,7 +5,13 @@ from General_functions import *
 
     
 def LogCopyingPublications(TestCaseNumber):
-    Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingPublish")
+         
+    # Get parameters
+    newMap = {}
+    newMap = ReadTestDataFromExcel("Log_copying_publications", TestCaseNumber)
+ 
+    Log.AppendFolder(VarToString(TestCaseNumber) + " - Log_copying_publications: " + (newMap['tc_name']))
+    
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     
@@ -26,14 +32,7 @@ def LogCopyingPublications(TestCaseNumber):
 	   
     btnContinue = oApp.Find("ViewID", "btn_continue" , 10)
     txtSearch = oApp.Find("ViewID", "txt_search" , 20)
-    
-    
-    # Get parameters
-    newMap = {}
-    newMap = ReadTestDataFromExcel("Log_copying_publications", TestCaseNumber)
-    
-    Log.Message((newMap['tc_name']))
-    
+
     
     # Barcode button checking
     if int(newMap['barcode_check']) == 1:

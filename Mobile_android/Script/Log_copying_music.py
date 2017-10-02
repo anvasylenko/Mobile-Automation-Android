@@ -16,7 +16,7 @@ def LogCopyingMusic(TestCaseNumber):
     oApp = Aliases.Mobile.Device.App
     
     
-    # All this code goes to the "Log copying of music" screen under diffirent condotions
+    # All this code goes to the "Log copying of music" screen under diffirent conditions
     
     screenTitle = oApp.Find("ViewID", "txt_title", 20) 
     if screenTitle.getText().toString() == "Log copying of music":

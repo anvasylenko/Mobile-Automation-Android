@@ -19,19 +19,6 @@ def LogCopying(nameSheet, TestCaseNumber):
     ISBN = oApp.Find("ViewID", "txt_isbn_title", 10)
 
 
-#    #Check ISBN
-#    if newMap['search'] == "":
-#        if ISBN.getText().toString() == "0000000000":
-#            Log.Message("ISBN = 0000000000 as expected")
-#        else:
-#            Log.Warning("ISBN not equal 0000000000 as expected")
-#    else:
-#        if ISBN.getText().toString() == newMap['isbn']:
-#            Log.Message ("ISBN is correct")
-#        else:
-#            Log.Warning("ISBN is NOT correct")
-
-
     # Set data
     Delay(500)   
     oUsage.TouchItem(newMap['usage'])
@@ -89,7 +76,7 @@ def LogCopying(nameSheet, TestCaseNumber):
 
     btnContinue = oApp.Find("ViewID", "btn_continue", 10)
     btnContinue.Touch()
-    Delay(7000)
+    Delay(3000)
     
     if int(newMap['tc_fail_log']) == 1:
         oUsage = oApp.Find("ViewID", "spinner_usage", 10)
@@ -104,14 +91,17 @@ def LogCopying(nameSheet, TestCaseNumber):
         else:
             Log.Warning("Log Test did not failed as expected")
     else:
+        oApp = Aliases.Mobile.Device.App
         oMessageScreen = oApp.Find("ViewID", "data_submitted", 20)
         if oMessageScreen.Exists:
-            Log.Checkpoint("PASS. " + oMessageScreen.getText().toString())
+            Log.Checkpoint(oMessageScreen.getText().toString())
             btnLogAnotherTitle = oApp.Find("ViewID", "btn_finish_button", 20)
             btnLogAnotherTitle.Touch()	   
-            Delay(1000)
+            Delay(4000)
         else:
             Log.Warning("Successful Message does not appaered")
 		  
 
+
+    
       

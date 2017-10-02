@@ -49,11 +49,11 @@
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="False" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Check_permissions" key="{AC965FB2-6EAC-410A-9BAD-135F9BD846A1}" group="False" enabled="True" testMoniker="{3DE945C1-F118-4C36-858F-577317C4C640}checkPermissionAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="Check_permissions" key="{AC965FB2-6EAC-410A-9BAD-135F9BD846A1}" group="False" enabled="True" testMoniker="{3DE945C1-F118-4C36-858F-577317C4C640}checkPermissionAllTestCases" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+					<testItem name="Side_Menu" key="{4DA3F342-AF71-4AA3-9789-12F3183E03FA}" group="False" enabled="True" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -83,6 +83,16 @@
 						<children />
 					</testItem>
 					<testItem name="Check_Changing_Sector" key="{A813D99F-C051-4DCA-90F9-80B1111BA01E}" group="False" enabled="True" testMoniker="{8B9D94D0-E140-45B5-94E1-04E568B41740}CheckOptionsToSector" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Check_permissions_Pass" key="{E4B0C3C2-D300-483B-9869-CA3D806E224E}" group="False" enabled="True" testMoniker="{3F690451-6C63-4D31-B825-69BD78E26931}checkPermissionTest" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
+						<testParameters>
+							<param0 name="TestCaseNumber" type="3" localVarName="" varType="3" value="5" />
+						</testParameters>
+						<children />
+					</testItem>
+					<testItem name="Side_Menu" key="{20393FD1-72FA-4601-ACEE-F04EE2935A4C}" group="False" enabled="True" testMoniker="{8143627D-3069-4E4B-AE6B-6A1758728A09}SideMenu" count="1" timeout="0" stopOnError="2" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>

@@ -5,8 +5,13 @@ from Take_Photo import *
     
     
 def LogCopyingMusic(TestCaseNumber):
- 
-    Log.AppendFolder(VarToString(TestCaseNumber) + " TC - LogCopyingMusic")
+
+    # Get parameters
+    newMap = {}
+    newMap = ReadTestDataFromExcel("Log_Copying_Music", TestCaseNumber)
+    
+    Log.AppendFolder(VarToString(TestCaseNumber) + " - Log_Copying_Music: " + (newMap['tc_name']))
+
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App
     
@@ -32,12 +37,6 @@ def LogCopyingMusic(TestCaseNumber):
     if btnLogCopyingMusic.Exists:
         btnLogCopyingMusic.Touch()
 	   
-
-    # Get parameters
-    newMap = {}
-    newMap = ReadTestDataFromExcel("Log_Copying_Music", TestCaseNumber)
-    
-    Log.Message(newMap['tc_name'])
     
     btnTakePhotoFirst = oApp.Find("ViewID", "btn_take_photo_first", 20)
     btnTakePhotoFirstImg = oApp.Find("ViewID", "btn_take_photo_first_img", 20)

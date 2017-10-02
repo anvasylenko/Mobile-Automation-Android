@@ -1,8 +1,8 @@
-﻿def TakePhoto(whatPage):   # values: "first_page" and "ideftifier_page"
+﻿def TakePhoto(whatPage):   # values: "first_page" and "identifier_page"
      
     # check parameters
-    if not whatPage in ("first_page", "ideftifier_page"):
-        Log.Warning("Input value should be 'first_page' or 'ideftifier_page'")
+    if not whatPage in ("first_page", "identifier_page"):
+        Log.Warning("Input value should be 'first_page' or 'identifier_page'")
      
     oDevice = Aliases.Mobile.Device
     oApp = Aliases.Mobile.Device.App

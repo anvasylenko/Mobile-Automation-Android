@@ -53,13 +53,14 @@ def checkPermissionTest(TestCaseNumber):
     noResultsMessage = oApp.Find("ViewID", "txt_results", 40)
     
     if not noResultsMessage.exists:
-        Log.Message("Data was found")
+        Log.Checkpoint("Data was found")
     else:
         noResultsMessage = noResultsMessage.getText().toString()
         if noResultsMessage == "Found no results for:":
-            Log.Warning("Found no results for:" + newMap['search'])
+            Log.Warning("Found no results for: " + newMap['search'])
             Log.PopLogFolder()   
-            oDevice.PressBack()         
+            oDevice.PressBack()  
+            Log.PopLogFolder()       
             return None
         
 	
@@ -77,6 +78,8 @@ def checkPermissionTest(TestCaseNumber):
             Log.Message("Single result is shown")
         else:
             Log.Warning("Single result is not shown")
+            Log.PopLogFolder()
+            return None
     
     
 		  
@@ -128,7 +131,7 @@ def checkPermissionTest(TestCaseNumber):
     if oCountry.getText().toString() ==  newMap['country']:
         Log.Message ("oCountry is correct")
     else:
-        Log.Message (oCountry.getText().toString())
+#        Log.Message (oCountry.getText().toString())
         Log.Message("oCountry is not correct")
         checkData = False
     
@@ -137,6 +140,7 @@ def checkPermissionTest(TestCaseNumber):
         Log.Message ("oPublisher is correct")
     else:
         Log.Message(oPublisher.getText().toString())
+        Log.Warning ("oPublisher is not correct")
         checkData = False
     
     # Check licence
@@ -169,13 +173,20 @@ def checkPermissionTest(TestCaseNumber):
         oDigital.Touch()
         oApp.btnScreenClose.Touch()
         Log.Message("Digital screen is shown")
+    elif oForm.getText().toString() == "Print & Digital":
+        oDigital = oApp.Find("ViewID", "help_icon", 20)
+        oDigital.Touch()
+        oApp.btnScreenClose.Touch()
+        Log.Message("Digital screen is shown")
     else:
         Log.Warning("oForm is not correct")
-        checkData = False
+      
 	
    
     if checkData == True:
         Log.Checkpoint("PASS. All data are macthed")
+    else:
+        Log.Warning("Fail. Not all data are macthed")
     
 	   
     # Go to Log Copying or Check another permission
@@ -195,4 +206,7 @@ def checkPermissionTest(TestCaseNumber):
 
     Log.PopLogFolder()
     
-
+    
+def test():
+    checkPermissionTest(3)
+#    LogCopyingPublications(9)

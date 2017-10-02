@@ -6,22 +6,23 @@ from General_functions import *
 
 def SideMenu():
     Log.AppendFolder("SideMenu")
+    Delay(2000)
 
     oApp = Aliases.Mobile.Device.App
     oDevice = Aliases.Mobile.Device
     
-    btnMenu = oApp.Find("ViewID", "drawer_button" , 10)
+    btnMenu = oApp.Find("ViewID", "drawer_button",  10)
     btnMenu.Touch()
     Delay(400)
     
-    btnChangeSector = oApp.Find("ViewID", "btn_change" , 20)
-    btnAboutUs = oApp.Find("ViewID", "btn_about_us" , 20)
-    btnHelp = oApp.Find("ViewID", "btn_help" , 20)
+    btnChangeSector = oApp.Find("ViewID", "btn_change", 20)
+    btnAboutUs = oApp.Find("ViewID", "btn_about_us", 20)
+    btnHelp = oApp.Find("ViewID", "btn_help", 20)
     
-    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 10).getText().toString()
-    txtOrganisation = oApp.Find("ViewID", "txt_your_organisation_value" , 10).getText().toString()
-    txtPostcode = oApp.Find("ViewID", "txt_your_postcode_value" , 10).getText().toString()
-    txtEmail = oApp.Find("ViewID", "txt_your_email_address_value" , 10).getText().toString()
+    txtLicence = oApp.Find("ViewID", "txt_your_licence_subtite" , 20).getText().toString()
+    txtOrganisation = oApp.Find("ViewID", "txt_your_organisation_value", 20).getText().toString()
+    txtPostcode = oApp.Find("ViewID", "txt_your_postcode_value" , 20).getText().toString()
+    txtEmail = oApp.Find("ViewID", "txt_your_email_address_value" , 20).getText().toString()
     
     
     # Check 'About us'
@@ -49,7 +50,7 @@ def SideMenu():
     if text.getText().toString() == "cla@cla.co.uk":
         Log.Message("'Contact' screen is displayed")
     btnBack.Touch()
-    Delay(200)
+    Delay(500)
 	
     
     # Check 'Help'
@@ -71,11 +72,15 @@ def SideMenu():
     newMap = {}
     newMap = ReadTestDataFromExcel("Side_Menu", 1)
 	
+    txtOrganisation = oApp.Find("ViewID", "txt_your_organisation_value" , 20).getText().toString()
+    txtPostcode = oApp.Find("ViewID", "txt_your_postcode_value" , 20).getText().toString()
+    txtEmail = oApp.Find("ViewID", "txt_your_email_address_value" , 20).getText().toString()
+    
     Delay(200)
-    if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == ewMap['email']:
-        Log.message("User details which were set durring registration are displayed")
+    if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == newMap['email']:
+        Log.Checkpoint("1 - User details which were set durring registration are displayed")
     else:
-        Log.Warning("User details which were set durring registration are not mached") 
+        Log.Warning("1 - User details which were set durring registration are not matched") 
 	
 	  
     # Change 'Your details'
@@ -103,11 +108,15 @@ def SideMenu():
     newMap = ReadTestDataFromExcel("Side_Menu", 7)
     
     btnMenu.Touch()
+    txtOrganisation = oApp.Find("ViewID", "txt_your_organisation_value" , 20).getText().toString()
+    txtPostcode = oApp.Find("ViewID", "txt_your_postcode_value" , 20).getText().toString()
+    txtEmail = oApp.Find("ViewID", "txt_your_email_address_value" , 20).getText().toString()
+    
     Delay(500)
     if txtOrganisation == newMap['name'] and txtPostcode == newMap['postcode'] and txtEmail == newMap['email']:
-       Log.message("User details were changed successful")
+       Log.Checkpoint("7 - User details were changed successfully")
     else:
-        Log.Warning("User details were not changed successful") 
+        Log.Warning("7 - User details were not changed successfully") 
 	
     oDevice.PressBack()
 	  

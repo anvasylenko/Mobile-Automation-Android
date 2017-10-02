@@ -32,7 +32,7 @@ def Registration(nameSheet, TestCaseNumber):
     oPostcode.Keys(newMap['postcode'])
     oEmail.Keys(newMap['email'])
     btnSave.Touch()
-    Delay(3000)
+    Delay(1000)
 
     
     if newMap['warning_message'] != "pass":
@@ -41,13 +41,13 @@ def Registration(nameSheet, TestCaseNumber):
         Log.Message(oWarningMess)
         if oWarningMess == newMap['warning_message']:
             oApp.btnClose.Touch()
-            Log.Message ("PASS. Warning message Shown for")
+            Log.Checkpoint ("PASS. Warning message Shown")
         else:
-            Log.Message("Warning message WAS NOT Shown")
+            Log.Warning("Warning message WAS NOT Shown")
             oApp.btnClose.Touch()
     elif newMap['warning_message'] == "pass":
         if oApp.ScreenWhatToDo.btnCheckPermissions.Exists:
-            Log.Message("User registrated successfully")
+            Log.Checkpoint("User registrated successfully")
         else:
             Log.Warning("User DID NOT registrated")
 	

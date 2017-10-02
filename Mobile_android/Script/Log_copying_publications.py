@@ -16,7 +16,7 @@ def LogCopyingPublications(TestCaseNumber):
     oApp = Aliases.Mobile.Device.App
     
     
-    # All this code goes to the "Log copying" screen under diffirent condotions
+    # All this code goes to the "Log copying" screen under diffirent conditions
     btnLogCopying = oApp.Find("ViewID", "dashboard_item_log_copying_printed_publications" , 20)
     if btnLogCopying.Exists:
            btnLogCopying.Touch()

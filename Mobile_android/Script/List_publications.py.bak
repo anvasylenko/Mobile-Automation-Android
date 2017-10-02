@@ -14,16 +14,16 @@ def ListPublications(TestCaseNumber):
     
     
     # All this code goes to the "Log copying" screen under diffirent condotions
-    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications", 10)
     if btnListPublications.Exists:
         btnListPublications.Touch()
 	   
-    screenTitle = oApp.Find("ViewID", "txt_title" , 20)
+    screenTitle = oApp.Find("ViewID", "txt_title", 20)
     if screenTitle.getText().toString() != "List Publications":
        oDevice.PressBack()
        Delay(500)
 	
-    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications" , 10)  
+    btnListPublications = oApp.Find("ViewID", "dashboard_item_list_publications", 10)  
     if btnListPublications.Exists:
         btnListPublications.Touch()
 	   
@@ -32,6 +32,9 @@ def ListPublications(TestCaseNumber):
     btnContinue = oApp.Find("ViewID", "btn_continue", 20)
     txtSearch = oApp.Find("ViewID", "txt_search", 20)
     
+    txtSearch = oApp.Find("ViewID", "txt_search", 20)
+    txtSearch.Keys("^a")
+    txtSearch.Keys("[BS]")
     txtSearch.Keys(newMap['search'])
     btnContinue.Touch()
     Delay(1000)
@@ -53,16 +56,19 @@ def ListPublications(TestCaseNumber):
     counter = oApp.Find("ViewID", "txt_totals", 20)
     
     if searchResultTitleIsbnIssn.getText().toString() == newMap['search']:
-       Log.Message ("Title/ISBN/ISSN is correct")
+       Log.Checkpoint ("Title/ISBN/ISSN is correct")
     else:
        Log.Warning("Title/ISBN/ISSN is not correct")
 	  
+	  
+	# code will be implemeted in the future
+#        txtMessage = oApp.Find("ViewID", "data_submitted", 20)
+#        txtMessage = txtMessage.split()  
 #    if counter.getText().toString() == newMap['counter']:         
 #       Log.Message ("Counter is correct")
 #    else:
 #       Log.Warning("Counter is not correct")
-    
-    Log.Message(counter.getText().toString())
+#    Log.Message(counter.getText().toString())
 
 	  
     if int(newMap['save_and_continue']) == 1:
@@ -70,7 +76,7 @@ def ListPublications(TestCaseNumber):
         Delay(1000)
         txtSearch = oApp.Find("ViewID", "txt_search", 20)
         if txtSearch.Exists:
-            Log.Message("PASS. Save and continue works")
+            Log.Checkpoint("PASS. Save and continue works")
         else:
             Log.Warning("Save and continue does not work")
            
@@ -82,10 +88,9 @@ def ListPublications(TestCaseNumber):
         btnYes.Touch()
         Delay(1000)
         txtMessage = oApp.Find("ViewID", "data_submitted", 20)
-#        txtMessage = txtMessage.split()
         Log.Message(txtMessage.getText().toString())
         if txtMessage.Exists:
-            Log.Message("PASS. Finish and send works")
+            Log.Checkpoint("PASS. Finish and send works")
             btnBack = oApp.Find("ViewID", "btn_finish_button", 20)
             btnBack.Touch()
         else:
