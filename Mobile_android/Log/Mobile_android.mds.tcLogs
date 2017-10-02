@@ -23,21 +23,12 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43010.6698100694"/>
+				<Prp name="datetime" type="D" value="43010.7051725579"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{A3848B66-BF2A-4E1C-A131-B87642638A91}"/>
-				<Prp name="nameofroot" type="S" value="All_tests"/>
-				<Prp name="relpath" type="S" value="02_10_2017_16_04_31_590\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="43010.6805975579"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{099D8C5D-D4EE-42C6-90DB-6DDBF621A2EC}"/>
-				<Prp name="nameofroot" type="S" value="Smoke_test"/>
-				<Prp name="relpath" type="S" value="02_10_2017_16_20_03_629\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
+				<Prp name="key" type="S" value="{3A3446FF-CD3C-4DC5-989E-FCB7E6C34597}"/>
+				<Prp name="nameofroot" type="S" value="Mobile_android"/>
+				<Prp name="relpath" type="S" value="02_10_2017_16_55_26_909\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
